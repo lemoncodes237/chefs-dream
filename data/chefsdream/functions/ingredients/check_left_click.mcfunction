@@ -1,0 +1,1 @@
+execute if predicate chefsdream:hold_pickaxe run function chefsdream:station_maker/delete_cooking_station

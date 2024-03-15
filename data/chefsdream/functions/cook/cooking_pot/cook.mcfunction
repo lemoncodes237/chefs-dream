@@ -1,0 +1,4 @@
+playsound block.fire.extinguish master @a[distance=..10] ~ ~ ~
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_potato matches 1 run give @s baked_potato
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_salt matches 1 if score @e[type=interaction,limit=1,sort=nearest] ing_noodles matches 1 run give @s cookie{Tags:["chefsdreamfood","eat_10_food"],display:{Name:'[{"text":"Ramen","italic":false}]'},CustomModelData:2370022}
+execute as @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] run function chefsdream:cook/cooking_pot/reset

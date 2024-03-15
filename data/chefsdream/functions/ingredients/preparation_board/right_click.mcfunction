@@ -1,0 +1,11 @@
+execute if predicate chefsdream:is_sneaking run return run function chefsdream:ingredients/preparation_board/shift_right_click
+
+execute if entity @e[type=interaction,tag=preparation_board,distance=..1,tag=used] run return run function chefsdream:ingredients/preparation_board/prep_right_click
+#execute unless predicate chefsdream:hold_preparation_board_valid run return 0
+
+summon item_display ~ ~-0.45 ~ {Rotation:[0f,90f],Tags:["preparation_board_display","chefsdream"]}
+data modify entity @e[type=item_display,sort=nearest,limit=1,tag=preparation_board_display,distance=..1] Rotation[0] set from entity @s Rotation[0]
+data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,limit=1,sort=nearest] item set from entity @s SelectedItem
+data merge entity @e[type=item_display,tag=preparation_board_display,distance=..1,limit=1,sort=nearest] {item:{Count:1}}
+item modify entity @s weapon.mainhand chefsdream:decrease_count
+tag @e[type=interaction,tag=preparation_board,distance=..1] add used

@@ -1,0 +1,1 @@
+execute if entity @s[nbt={SelectedItem:{tag:{Tags:["dough"]}}}] run return run function chefsdream:ingredients/cutter/make_noodles

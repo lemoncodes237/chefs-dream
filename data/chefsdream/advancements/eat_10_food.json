@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:cookie"
+            ],
+            "nbt": "{Tags:[\"eat_10_food\"]}"
+          }
+        }
+      }
+    }
+  }
+  

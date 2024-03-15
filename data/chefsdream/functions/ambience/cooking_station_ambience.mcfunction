@@ -1,0 +1,1 @@
+execute if entity @s[tag=cooking_pot] run function chefsdream:ambience/cooking_pot_ambience

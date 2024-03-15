@@ -1,0 +1,2 @@
+execute if entity @s[nbt=!{SelectedItem:{}}] run return run title @s actionbar ["","This transmutation table has ",{"score":{"name":"@e[type=interaction,distance=..1,tag=transmutation_table,limit=1,sort=nearest]","objective":"var"}}," power."]
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:copper_ingot"}}] run return run function chefsdream:ingredients/transmutation_table/add_power

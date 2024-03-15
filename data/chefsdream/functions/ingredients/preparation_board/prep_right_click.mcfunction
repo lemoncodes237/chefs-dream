@@ -1,0 +1,3 @@
+execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/preparation_board/take
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:potion",tag:{Potion:"minecraft:water"}}}] run return run function chefsdream:ingredients/preparation_board/water/water_right_click
+execute if predicate chefsdream:hold_sword run return run function chefsdream:ingredients/preparation_board/sword/sword_right_click
