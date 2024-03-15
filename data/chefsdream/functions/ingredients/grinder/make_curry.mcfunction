@@ -1,3 +1,3 @@
 item modify entity @s weapon.mainhand chefsdream:decrease_count
-give @s magenta_dye{Tags:["flour"],CustomModelData:2300001,display:{Name:'[{"text":"Flour","italic":false}]'}}
+give @s cookie{Tags:["curry_powder"],CustomModelData:2370009,display:{Name:'[{"text":"Curry Powder","italic":false}]'}}
 playsound block.grindstone.use master @a[distance=..20] ~ ~ ~

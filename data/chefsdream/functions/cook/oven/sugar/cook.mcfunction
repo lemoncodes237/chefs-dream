@@ -1,0 +1,1 @@
+function chefsdream:cook/oven/default_cook

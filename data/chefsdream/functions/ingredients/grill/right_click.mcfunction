@@ -9,3 +9,5 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:chicken"}}] run return run
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:mutton"}}] run return run function chefsdream:ingredients/grill/add_mutton
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:rabbit"}}] run return run function chefsdream:ingredients/grill/add_rabbit
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:kelp"}}] run return run function chefsdream:ingredients/grill/add_kelp
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:cod"}}] run return run function chefsdream:ingredients/grill/add_cod
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:salmon"}}] run return run function chefsdream:ingredients/grill/add_salmon

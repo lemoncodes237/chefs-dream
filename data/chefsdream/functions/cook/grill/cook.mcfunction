@@ -8,3 +8,5 @@ execute if entity @s[nbt={item:{id:"minecraft:chicken"}}] run return run data me
 execute if entity @s[nbt={item:{id:"minecraft:mutton"}}] run return run data merge entity @s {item:{id:"cooked_mutton",Count:1}}
 execute if entity @s[nbt={item:{id:"minecraft:rabbit"}}] run return run data merge entity @s {item:{id:"cooked_rabbit",Count:1}}
 execute if entity @s[nbt={item:{id:"minecraft:kelp"}}] run return run data merge entity @s {item:{id:"dried_kelp",Count:1}}
+execute if entity @s[nbt={item:{id:"minecraft:cod"}}] run return run data merge entity @s {item:{id:"cooked_cod",Count:1}}
+execute if entity @s[nbt={item:{id:"minecraft:salmon"}}] run return run data merge entity @s {item:{id:"cooked_salmon",Count:1}}
