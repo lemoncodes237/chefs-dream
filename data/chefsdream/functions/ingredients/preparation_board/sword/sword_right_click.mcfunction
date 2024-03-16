@@ -1,2 +1,2 @@
-execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{tag:{Tags:["dough"]}}}] run return run function chefsdream:ingredients/preparation_board/sword/make_noodles
+execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{components:{"minecraft:custom_data":{Tags:["dough"]}}}}] run return run function chefsdream:ingredients/preparation_board/sword/make_noodles
 execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{id:"minecraft:porkchop"}}] run return run function chefsdream:ingredients/preparation_board/sword/make_ham

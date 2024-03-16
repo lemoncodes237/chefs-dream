@@ -1,6 +1,5 @@
 tellraw @s "Ingredients in Oven:"
 
-execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_water matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_water"}}," water"]
 execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_potato matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_potato"}}," potato"]
 execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_carrot matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_carrot"}}," carrot"]
 execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_beetroot matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_beetroot"}}," beetroot"]
@@ -44,3 +43,4 @@ execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]
 execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_banana matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_banana"}}," banana"]
 execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_chocolate matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_chocolate"}}," chocolate"]
 execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_cheese matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_cheese"}}," cheese"]
+execute if score @e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1] ing_milk matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=oven,sort=nearest,limit=1]","objective":"ing_milk"}}," milk"]

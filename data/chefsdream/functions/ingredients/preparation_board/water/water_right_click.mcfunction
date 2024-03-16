@@ -1,1 +1,1 @@
-execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{tag:{Tags:["flour"]}}}] run return run function chefsdream:ingredients/preparation_board/water/make_dough
+execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{components:{"minecraft:custom_data":{Tags:["flour"]}}}}] run return run function chefsdream:ingredients/preparation_board/water/make_dough

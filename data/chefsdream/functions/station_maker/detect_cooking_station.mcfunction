@@ -1,4 +1,4 @@
-execute unless entity @s[nbt={SelectedItem:{tag:{Tags:["station_maker"]}}}] run return 0
+execute unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["station_maker"]}}}}] run return 0
 execute if block ^ ^ ^1 cauldron run return run function chefsdream:station_maker/create_cooking_pot
 execute if block ^ ^ ^1 grindstone run return run function chefsdream:station_maker/create_grinder
 execute if block ^ ^ ^1 #wooden_pressure_plates run return run function chefsdream:station_maker/create_preparation_board

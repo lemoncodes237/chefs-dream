@@ -1,1 +1,1 @@
-execute if entity @s[nbt={SelectedItem:{tag:{Tags:["dough"]}}}] run return run function chefsdream:ingredients/cutter/make_noodles
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["dough"]}}}}] run return run function chefsdream:ingredients/cutter/make_noodles

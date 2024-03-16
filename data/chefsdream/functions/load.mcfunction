@@ -35,7 +35,6 @@ scoreboard objectives add ing_flour dummy
 scoreboard objectives add ing_dough dummy
 scoreboard objectives add ing_noodles dummy
 scoreboard objectives add ing_cream_cheese dummy
-scoreboard objectives add ing_gochujang dummy
 scoreboard objectives add ing_curry_powder dummy
 scoreboard objectives add ing_sausage dummy
 scoreboard objectives add ing_ham dummy
@@ -50,6 +49,7 @@ scoreboard objectives add ing_lemon dummy
 scoreboard objectives add ing_banana dummy
 scoreboard objectives add ing_chocolate dummy
 scoreboard objectives add ing_cheese dummy
+scoreboard objectives add ing_milk dummy
 
 scoreboard objectives add start_cooking trigger
 scoreboard players enable @a start_cooking

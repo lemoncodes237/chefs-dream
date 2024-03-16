@@ -29,7 +29,6 @@ scoreboard players set @s ing_flour 0
 scoreboard players set @s ing_dough 0
 scoreboard players set @s ing_noodles 0
 scoreboard players set @s ing_cream_cheese 0
-scoreboard players set @s ing_gochujang 0
 scoreboard players set @s ing_curry_powder 0
 scoreboard players set @s ing_sausage 0
 scoreboard players set @s ing_ham 0
@@ -44,3 +43,4 @@ scoreboard players set @s ing_lemon 0
 scoreboard players set @s ing_banana 0
 scoreboard players set @s ing_chocolate 0
 scoreboard players set @s ing_cheese 0
+scoreboard players set @s ing_milk 0

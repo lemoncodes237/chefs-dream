@@ -4,9 +4,9 @@ kill @e[type=item_display,tag=mixer_display,distance=..1]
 
 # Change later
 item modify entity @s weapon.mainhand chefsdream:decrease_count
-execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_beetroot matches 1.. run give @s honey_bottle{Tags:["cooking_oil"],display:{Name:'[{"text":"Cooking Oil","italic":false}]'}}
-execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_potato matches 1.. run give @s honey_bottle{Tags:["cooking_oil"],display:{Name:'[{"text":"Cooking Oil","italic":false}]'}}
-execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_carrot matches 1.. run give @s honey_bottle{Tags:["cooking_oil"],display:{Name:'[{"text":"Cooking Oil","italic":false}]'}}
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_beetroot matches 1.. run give @s honey_bottle[custom_data={Tags:["cooking_oil"]},custom_name='[{"text":"Cooking Oil","italic":false}]']
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_potato matches 1.. run give @s honey_bottle[custom_data={Tags:["cooking_oil"]},custom_name='[{"text":"Cooking Oil","italic":false}]']
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_carrot matches 1.. run give @s honey_bottle[custom_data={Tags:["cooking_oil"]},custom_name='[{"text":"Cooking Oil","italic":false}]']
 execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_sugar matches 1.. run give @s potion
 playsound entity.generic.drink master @a[distance=..20] ~ ~ ~
 execute as @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] run function chefsdream:cook/mixer/reset
