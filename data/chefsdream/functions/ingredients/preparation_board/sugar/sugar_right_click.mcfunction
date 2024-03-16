@@ -1,0 +1,1 @@
+execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{id:"minecraft:cocoa_beans"}}] run return run function chefsdream:ingredients/preparation_board/sugar/make_chocolate
