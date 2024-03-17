@@ -1,16 +1,15 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "items": [
-              "minecraft:cookie"
-            ],
-            "nbt": "{Tags:[\"chefsdreamfood\"]}"
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cookie",
+          "predicates": {
+            "minecraft:custom_data": "{chefsdreamfood:1}"
           }
         }
       }
     }
   }
-  
+}

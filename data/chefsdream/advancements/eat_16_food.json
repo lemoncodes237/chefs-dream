@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cookie",
+            "predicates": {
+              "minecraft:custom_data": "{amt_hunger:16}"
+            }
+          }
+        }
+      }
+    }
+  }
+  
