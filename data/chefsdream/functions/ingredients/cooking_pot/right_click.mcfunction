@@ -13,4 +13,5 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:rabbit"}}] run return run 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot"}}] run return run function chefsdream:ingredients/cooking_pot/add_carrot
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["noodles"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_noodles
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_salt
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["chile_pepper"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_chile_pepper
 execute if predicate chefsdream:hold_shovel run return run function chefsdream:cook/cooking_pot/start_cooking
