@@ -50,9 +50,14 @@ scoreboard objectives add ing_banana dummy
 scoreboard objectives add ing_chocolate dummy
 scoreboard objectives add ing_cheese dummy
 scoreboard objectives add ing_milk dummy
+scoreboard objectives add ing_ketchup dummy
+scoreboard objectives add ing_mustard dummy
 
 scoreboard objectives add start_cooking trigger
 scoreboard players enable @a start_cooking
+
+scoreboard objectives add get_guide trigger
+scoreboard players enable @a get_guide
 
 scoreboard players set Twenty var 20
 scoreboard players set Ten var 10

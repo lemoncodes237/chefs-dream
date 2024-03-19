@@ -2,6 +2,9 @@ playsound block.fire.extinguish master @a[distance=..10] ~ ~ ~
 
 scoreboard players set @s check 0
 
+function chefsdream:cook/give_back_ketchup_bottles
+function chefsdream:cook/give_back_mustard_bottles
+
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_potato matches 1.. run return run function chefsdream:cook/cooking_pot/potato/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_beetroot matches 1.. run return run function chefsdream:cook/cooking_pot/beetroot/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_mushroom matches 1.. run return run function chefsdream:cook/cooking_pot/mushroom/cook

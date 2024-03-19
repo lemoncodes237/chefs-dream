@@ -46,6 +46,8 @@ execute if data entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=
 execute if data entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["banana"]}}}} run scoreboard players remove @e[type=interaction,tag=fryer,sort=nearest,limit=1,distance=..1] ing_banana 1
 execute if data entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["chocolate"]}}}} run scoreboard players remove @e[type=interaction,tag=fryer,sort=nearest,limit=1,distance=..1] ing_chocolate 1
 execute if data entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}} run scoreboard players remove @e[type=interaction,tag=fryer,sort=nearest,limit=1,distance=..1] ing_cheese 1
+execute if data entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["ketchup"]}}}} run scoreboard players remove @e[type=interaction,tag=fryer,sort=nearest,limit=1,distance=..1] ing_ketchup 1
+execute if data entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["mustard"]}}}} run scoreboard players remove @e[type=interaction,tag=fryer,sort=nearest,limit=1,distance=..1] ing_mustard 1
 
 
 data remove entity @e[type=item_display,tag=remove_fryer,sort=nearest,limit=1] item
