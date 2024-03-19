@@ -4,8 +4,6 @@
 
 Install the datapack and the required resource pack. Put the resource pack in the `resourcepack` folder in your `.minecraft` folder and put the datapack in the `datapack` folder of your world or server. After installing, run the command `/reload` in your world to load the datapack. If you get the advancement "Chef's Dream", you've successfully installed the datapack!
 
-Note: If you are using this datapack on a server, you will need to run `/reload` every time someone new joins so that they can run `/trigger start_cooking`. Alternatively, you can run `/scoreboard players enable <playername> start_cooking` and `/scoreboard players enable <playername> get_guide` so that you don't have to reload the datapack.
-
 ## Links
 
 Add here
