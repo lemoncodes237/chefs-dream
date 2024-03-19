@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_model_data": 2370015
+            }
+          },
+      "title": "Master Chef",
+      "description": "Cook 1000 foods using cooking stations - Wait why'd you cook so much huh???",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "chefsdream:chefsdream/cook_100_food",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

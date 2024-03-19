@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_model_data": 2370001
+            }
+          },
+      "title": "Novice Chef",
+      "description": "Cook 10 foods using cooking stations",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "chefsdream:chefsdream/eat_something",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

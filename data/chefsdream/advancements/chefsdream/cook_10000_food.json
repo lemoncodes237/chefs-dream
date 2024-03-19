@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_model_data":2370038
+            }
+          },
+      "title": "Mythical Chef",
+      "description": "Cook 10000 foods using cooking stations - Be honest, you cheated to get this",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "chefsdream:chefsdream/cook_1000_food",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

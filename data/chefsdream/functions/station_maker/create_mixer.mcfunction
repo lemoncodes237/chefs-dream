@@ -4,3 +4,5 @@ execute positioned ^ ^ ^1 align xyz run summon interaction ~0.5 ~-0.05 ~0.5 {wid
 scoreboard players set @e[tag=needsscoredrink] ingredients 0
 scoreboard players set @e[tag=needsscoredrink] var 0
 tag @e remove needsscoredrink
+
+advancement grant @s only chefsdream:chefsdream/getting_started

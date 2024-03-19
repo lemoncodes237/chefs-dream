@@ -59,6 +59,8 @@ scoreboard players enable @a start_cooking
 scoreboard objectives add get_guide trigger
 scoreboard players enable @a get_guide
 
+scoreboard objectives add food_cooked dummy
+
 scoreboard players set Twenty var 20
 scoreboard players set Ten var 10
 scoreboard players set @a carrot_tracker 0

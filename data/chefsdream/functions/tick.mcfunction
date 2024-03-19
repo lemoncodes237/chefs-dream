@@ -23,3 +23,11 @@ execute as @e[type=interaction,tag=plate] at @s unless block ~ ~0.1 ~ heavy_weig
 execute as @e[type=interaction,tag=preparation_board] at @s unless block ~ ~0.1 ~ #wooden_pressure_plates run function chefsdream:station_maker/delete_cooking_station
 
 execute as @a[advancements={chefsdream:eat=true}] run function chefsdream:eat/eat
+
+scoreboard players enable @a start_cooking
+scoreboard players enable @a get_guide
+
+execute as @a[advancements={chefsdream:chefsdream/cook_10_food=false}] if score @s food_cooked matches 10.. run advancement grant @s only chefsdream:chefsdream/cook_10_food
+execute as @a[advancements={chefsdream:chefsdream/cook_100_food=false}] if score @s food_cooked matches 100.. run advancement grant @s only chefsdream:chefsdream/cook_100_food
+execute as @a[advancements={chefsdream:chefsdream/cook_1000_food=false}] if score @s food_cooked matches 1000.. run advancement grant @s only chefsdream:chefsdream/cook_1000_food
+execute as @a[advancements={chefsdream:chefsdream/cook_10000_food=false}] if score @s food_cooked matches 10000.. run advancement grant @s only chefsdream:chefsdream/cook_10000_food

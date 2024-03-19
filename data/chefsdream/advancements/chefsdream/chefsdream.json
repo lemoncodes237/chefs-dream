@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cookie",
+        "components": {
+          "minecraft:custom_model_data": 2370011
+        }
+      },
+      "title": "Chef's Dream",
+      "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+      "description": "Install and load the Chef's Dream datapack",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "chefsdream:give_station_maker"
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_model_data":2370025
+            }
+          },
+        "title": "Delicious!",
+        "description": "Eat a custom food",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+      },
+      "parent": "chefsdream:chefsdream/getting_started",
+      "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cookie",
+            "predicates": {
+              "minecraft:custom_data": "{chefsdreamfood:1}"
+            }
+          }
+        }
+      }
+    }
+  }
+  
