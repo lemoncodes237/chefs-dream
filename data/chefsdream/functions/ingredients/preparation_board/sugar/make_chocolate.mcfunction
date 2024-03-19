@@ -2,3 +2,4 @@ data modify entity @e[type=item_display,tag=preparation_board_display,distance=.
 #give @s snowball{Tags:["dough"],custom_model_data:2300003,custom_name='[{"text":"Dough","italic":false}]'}}
 playsound ui.cartography_table.take_result master @a[distance=..20] ~ ~ ~
 particle electric_spark ~ ~-0.3 ~ 0.3 0.1 0.3 0 10
+item modify entity @s weapon.mainhand chefsdream:decrease_count

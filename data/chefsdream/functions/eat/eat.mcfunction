@@ -9,5 +9,6 @@ execute if entity @s[advancements={chefsdream:eat_10_food=true}] run return run 
 execute if entity @s[advancements={chefsdream:eat_12_food=true}] run return run function chefsdream:eat/eat_12_food
 execute if entity @s[advancements={chefsdream:eat_14_food=true}] run return run function chefsdream:eat/eat_14_food
 execute if entity @s[advancements={chefsdream:eat_16_food=true}] run return run function chefsdream:eat/eat_16_food
+execute if entity @s[advancements={chefsdream:eat_18_food=true}] run return run function chefsdream:eat/eat_18_food
 execute if entity @s[advancements={chefsdream:eat_20_food=true}] run return run function chefsdream:eat/eat_20_food
 execute if entity @s[advancements={chefsdream:eat_1minsat_food=true}] run return run function chefsdream:eat/eat_1minsat_food

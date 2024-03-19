@@ -4,8 +4,12 @@ execute unless block ~ ~ ~ water_cauldron[level=3] run return 0
 
 execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/cooking_pot/print_ingredients
 
+execute if predicate chefsdream:hold_shovel run return run function chefsdream:cook/cooking_pot/start_cooking
+
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:potato"}}] run return run function chefsdream:ingredients/cooking_pot/add_potato
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:beetroot"}}] run return run function chefsdream:ingredients/cooking_pot/add_beetroot
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:porkchop"}}] run return run function chefsdream:ingredients/cooking_pot/add_porkchop
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:chicken"}}] run return run function chefsdream:ingredients/cooking_pot/add_chicken
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:egg"}}] run return run function chefsdream:ingredients/cooking_pot/add_egg
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:brown_mushroom"}}] run return run function chefsdream:ingredients/cooking_pot/add_mushroom
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:red_mushroom"}}] run return run function chefsdream:ingredients/cooking_pot/add_mushroom
@@ -14,4 +18,6 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot"}}] run return run 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["noodles"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_noodles
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_salt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["chile_pepper"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_chile_pepper
-execute if predicate chefsdream:hold_shovel run return run function chefsdream:cook/cooking_pot/start_cooking
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["curry_powder"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_curry_powder
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["rice"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_rice
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["onion"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_onion
