@@ -6,9 +6,6 @@ execute if block ~ ~0.1 ~ smoker[facing=south] run setblock ~ ~0.1 ~ smoker[faci
 
 scoreboard players set @s check 0
 
-function chefsdream:cook/give_back_ketchup_bottles
-function chefsdream:cook/give_back_mustard_bottles
-
 advancement grant @s only chefsdream:chefsdream/oven
 
 scoreboard players add @s food_cooked 1

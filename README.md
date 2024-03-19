@@ -54,6 +54,9 @@ For more details, use a Cooking Station Maker on a bookshelf to get more guides,
 
 Please report bugs. For details on current bugs, please refer to the `BUGS.md` file.
 
+## Credits
+*: Datapack, wings and pizza designs
+*: All other designs
 
 ## License
 Licensed under Creative Commons By

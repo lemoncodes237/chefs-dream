@@ -6,6 +6,7 @@ scoreboard players set @s check 0
 
 function chefsdream:cook/give_back_ketchup_bottles
 function chefsdream:cook/give_back_mustard_bottles
+function chefsdream:cook/give_back_honey
 
 advancement grant @s only chefsdream:chefsdream/fryer
 

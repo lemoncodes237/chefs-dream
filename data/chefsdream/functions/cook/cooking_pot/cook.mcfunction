@@ -2,9 +2,6 @@ playsound block.fire.extinguish master @a[distance=..10] ~ ~ ~
 
 scoreboard players set @s check 0
 
-function chefsdream:cook/give_back_ketchup_bottles
-function chefsdream:cook/give_back_mustard_bottles
-
 advancement grant @s only chefsdream:chefsdream/cooking_pot
 
 scoreboard players add @s food_cooked 1
