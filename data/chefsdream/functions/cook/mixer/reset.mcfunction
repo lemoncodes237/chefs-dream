@@ -46,3 +46,4 @@ scoreboard players set @s ing_cheese 0
 scoreboard players set @s ing_milk 0
 scoreboard players set @s ing_ketchup 0
 scoreboard players set @s ing_mustard 0
+scoreboard players set @s ing_orange 0

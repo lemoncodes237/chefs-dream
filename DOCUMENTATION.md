@@ -55,6 +55,12 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Milk
 - Ketchup
 - Mustard
+- Orange
+
+## Custom Data
+The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `custom_model_data` component; see the texture pack for the codes for each food.
+
+ For ingredients, a `Tag` must be added in the `custom_data` component that states the name of the ingredient so the datapack can easily discern between ingredients. For example, a lemon must have a `Tag:["lemon"]` inside its `custom_data`. For ingredients that are in default Minecraft, this is unnecessary. 
 
 ## Functions
 
@@ -94,6 +100,8 @@ The grill is special as the food is not directly given to the player after it ha
 The `chefsdream:eat` directory deals with giving the correct amount of hunger bars/saturation to the player after they eat a custom food. This works through advancements; whenever a food with the `custom_data` `chefsdream:1` is detected, the `eat` advancement is given, which then calls the `eat` function in this directory. Then, it checks what additional advancement was granted to the player (there is one per hunger amount/saturation) and calls the function that gives the player that amount of hunger/saturation effect. The detected advancements should always be revoked by functions in this directory.
 
 To ensure that the eating mechanic works correctly, all custom foods that should grant more than 2 hunger needs to have the `chefsdream:1` `custom_data` as well as the `custom_data` `amt_hunger` set to the number of hunger that should be given. For saturation effects, the value is given in seconds; for example `amt_hunger:60` corresponds to giving the saturation effect for 60 seconds.
+
+The standard is different for custom drinks. As these are potions, the amount of hunger to be given is inserted into the potion directly via the saturation effect. No `custom_data` is needed for drinks unless they are to be used as ingredients in some other recipe. Please see one of the leaf nodes for the `cook` branches for the mixer to see the format for getting a custom drink.
 
 ### ingredients
 The `chefsdream:ingredients` directory deals with adding ingredients and interacting with cooking stations that do not directly cook (for example, grinders and plates). They mostly handle clicks (right and left) that occur on the cooking stations.

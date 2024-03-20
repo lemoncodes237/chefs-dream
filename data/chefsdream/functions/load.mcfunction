@@ -52,6 +52,7 @@ scoreboard objectives add ing_cheese dummy
 scoreboard objectives add ing_milk dummy
 scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
+scoreboard objectives add ing_orange dummy
 
 scoreboard objectives add start_cooking trigger
 scoreboard players enable @a start_cooking

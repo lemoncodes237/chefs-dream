@@ -8,6 +8,12 @@ Install the datapack and the required resource pack. Put the resource pack in th
 
 Add here
 
+Datapack Download: *
+
+Required Resourcepack Download: *
+
+The datapack on this Github page contains the most recent code, but they may not be part of an official update yet. This means that it may have bugs that have not yet been checked, so it is recommended you get the version from one of the links above. But feel free to download directly from Github if you would like - it shouldn't be too buggy.
+
 ## Recipes
 For a full list of recipes, use a Cooking Station Maker on a bookshelf (more details in the "Starting Guide" section below) or refer to the wiki on the Github.
 

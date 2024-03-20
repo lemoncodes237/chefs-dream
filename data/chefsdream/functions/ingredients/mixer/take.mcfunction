@@ -48,6 +48,7 @@ execute if data entity @e[type=item_display,tag=remove_mixer,sort=nearest,limit=
 execute if data entity @e[type=item_display,tag=remove_mixer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}} run scoreboard players remove @e[type=interaction,tag=mixer,sort=nearest,limit=1,distance=..1] ing_cheese 1
 execute if data entity @e[type=item_display,tag=remove_mixer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["ketchup"]}}}} run scoreboard players remove @e[type=interaction,tag=mixer,sort=nearest,limit=1,distance=..1] ing_ketchup 1
 execute if data entity @e[type=item_display,tag=remove_mixer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["mustard"]}}}} run scoreboard players remove @e[type=interaction,tag=mixer,sort=nearest,limit=1,distance=..1] ing_mustard 1
+execute if data entity @e[type=item_display,tag=remove_mixer,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["orange"]}}}} run scoreboard players remove @e[type=interaction,tag=mixer,sort=nearest,limit=1,distance=..1] ing_orange 1
 
 data remove entity @e[type=item_display,tag=remove_mixer,sort=nearest,limit=1] item
 kill @e[type=item_display,tag=remove_mixer,sort=nearest,limit=1]

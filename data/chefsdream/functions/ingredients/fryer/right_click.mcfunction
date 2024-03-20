@@ -27,3 +27,7 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["strawberry"]}}}}] run return run function chefsdream:ingredients/fryer/add_strawberry
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["chile_pepper"]}}}}] run return run function chefsdream:ingredients/fryer/add_chile_pepper
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["onion"]}}}}] run return run function chefsdream:ingredients/fryer/add_onion
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["garlic"]}}}}] run return run function chefsdream:ingredients/fryer/add_garlic
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["lettuce"]}}}}] run return run function chefsdream:ingredients/fryer/add_lettuce
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["tomato"]}}}}] run return run function chefsdream:ingredients/fryer/add_tomato
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}}] run return run function chefsdream:ingredients/fryer/add_cheese
