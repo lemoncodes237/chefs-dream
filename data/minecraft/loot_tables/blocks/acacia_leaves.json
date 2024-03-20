@@ -145,6 +145,11 @@
                   "minecraft:custom_name": "[{\"text\":\"Orange\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["orange"]
+                  },
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation_modifier": 2.4,
+                    "can_always_eat": true
                   }
                 }
               },

@@ -22,8 +22,6 @@ execute as @e if score @s start_cooking matches 1.. run function chefsdream:give
 execute as @e[type=interaction,tag=plate] at @s unless block ~ ~0.1 ~ heavy_weighted_pressure_plate run function chefsdream:station_maker/delete_cooking_station
 execute as @e[type=interaction,tag=preparation_board] at @s unless block ~ ~0.1 ~ #wooden_pressure_plates run function chefsdream:station_maker/delete_cooking_station
 
-execute as @a[advancements={chefsdream:eat=true}] run function chefsdream:eat/eat
-
 scoreboard players enable @a start_cooking
 scoreboard players enable @a get_guide
 

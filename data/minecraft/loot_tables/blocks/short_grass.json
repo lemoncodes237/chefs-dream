@@ -61,6 +61,11 @@
                   "minecraft:custom_name": "[{\"text\":\"Onion\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["onion"]
+                  },
+                  "minecraft:food": {
+                    "nutrition": 2,
+                    "saturation_modifier": 2.4,
+                    "can_always_eat": true
                   }
                 }
               }
@@ -117,6 +122,11 @@
                       "minecraft:custom_name": "[{\"text\":\"Lettuce\",\"italic\":false}]",
                       "minecraft:custom_data": {
                         "Tags": ["lettuce"]
+                      },
+                      "minecraft:food": {
+                        "nutrition": 2,
+                        "saturation_modifier": 2.4,
+                        "can_always_eat": true
                       }
                     }
                   }
@@ -173,6 +183,11 @@
                       "minecraft:custom_name": "[{\"text\":\"Chile Pepper\",\"italic\":false}]",
                       "minecraft:custom_data": {
                         "Tags": ["chile_pepper"]
+                      },
+                      "minecraft:food": {
+                        "nutrition": 2,
+                        "saturation_modifier": 2.4,
+                        "can_always_eat": true
                       }
                     }
                   }
