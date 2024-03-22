@@ -34,13 +34,15 @@ Each cooking station has an associated station block. To create a cooking statio
 
 Using a Cooking Station Maker on a bookshelf will replace it with a chiseled bookshelf containing 6 books that can serve as guides. Use these books to learn how to get every food in the datapack.
 
+Some cooking stations (cooking pot, fryer, grill) require a heat source below the station. A heat source can a fire, campfire, or magma block.
+
 Currently, the datapack has the following cooking stations:
 
-- Cooking Pot: Created from a Cauldron. You must have a campfire or a fire below a cooking pot for it to function. A water bucket must be used to fill the pot with water before adding ingredients. Right click on a cooking pot with an empty hand to see what ingredients have been added. Once you’ve put in your ingredients, right click the pot with a shovel to cook.
+- Cooking Pot: Created from a Cauldron. You must have a heat source below a cooking pot for it to function. A water bucket must be used to fill the pot with water before adding ingredients. Right click on a cooking pot with an empty hand to see what ingredients have been added. Once you’ve put in your ingredients, right click the pot with a shovel to cook.
 
 - Mixer: Created from a Brewing Stand. You must first add water to a mixer via water bottles. After adding your ingredients, right click with a glass bottle to get your result. Notably, mixing a potato, carrot, or beetroot will create cooking oil, which is required for fryers.
 
-- Fryer: Created from a Hopper. You must have a campfire or a fire below a fryer to cook with it. A cooking oil (created from a mixer) must be used on the fryer before adding ingredients. Right click the fryer with a shovel to cook.
+- Fryer: Created from a Hopper. You must have a heat source below a fryer to cook with it. A cooking oil (created from a mixer) must be used on the fryer before adding ingredients. Right click the fryer with a shovel to cook.
 
 - Oven: Created from a Smoker. Right click on an oven with an empty hand to see what ingredients are in it. Once all the ingredients have been put in, right click the oven with a flint and steel to cook.
 
@@ -50,7 +52,7 @@ Currently, the datapack has the following cooking stations:
 
 - Dish: Created from an Iron Pressure Plate. Place any item on the plate, then use an empty hand to get it back. After use, it must be washed with a water bottle or sponge to be used again.
 
-- Grill: Created from an Iron Trapdoor (must be bottom half). Put raw meat or fish (or some other things) on the grill after placing a campfire or a fire below it to cook it.
+- Grill: Created from an Iron Trapdoor (must be bottom half). Put raw meat or fish (or some other things) on the grill after placing a heat source below it to cook it.
 
 New vegetables and fruits can be obtained by breaking grasses, ferns, leaves, or sweet berry bushes. All other ingredients are obtained through one of the cooking stations above.
 

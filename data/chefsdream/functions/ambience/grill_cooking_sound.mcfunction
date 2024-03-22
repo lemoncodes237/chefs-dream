@@ -1,4 +1,4 @@
-execute unless block ~ ~-0.7 ~ #campfires unless block ~ ~-0.7 ~ #fire run return run function chefsdream:cook/grill/reset
+execute unless block ~ ~-0.7 ~ #chefsdream:heat_sources run return run function chefsdream:cook/grill/reset
 
 playsound block.fire.extinguish master @a[distance=..20] ~ ~ ~
 particle smoke ~ ~0.3 ~ 0.3 0.1 0.3 0 10

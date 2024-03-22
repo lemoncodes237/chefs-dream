@@ -1,2 +1,1 @@
-execute if block ~ ~ ~ water_cauldron[level=3] if block ~ ~-1 ~ #fire run particle bubble_pop ~ ~1 ~ 0.25 0.2 0.25 0 1
-execute if block ~ ~ ~ water_cauldron[level=3] if block ~ ~-1 ~ #campfires run particle bubble_pop ~ ~1 ~ 0.25 0.2 0.25 0 1
+execute if block ~ ~ ~ water_cauldron[level=3] if block ~ ~-1 ~ #chefsdream:heat_sources run particle bubble_pop ~ ~1 ~ 0.25 0.2 0.25 0 1
