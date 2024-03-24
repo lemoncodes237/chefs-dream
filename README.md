@@ -50,6 +50,8 @@ Currently, the datapack has the following cooking stations:
 
 - Preparation Board: Created from a Wooden Pressure Plate. Place an item on the board and then use another item on it to create new ingredients.
 
+- Barrel: Created from a Barrel. Add ingredients into the barrel then use a shovel to seal it. After enough time has passed, right click on the barrel to get the results. Unlike other cooking stations, a barrel allows you to craft in bulk. (For example, adding 15 salt and 16 milk to a barrel and sealing it wil result in 15 cheese.)
+
 - Dish: Created from an Iron Pressure Plate. Place any item on the plate, then use an empty hand to get it back. After use, it must be washed with a water bottle or sponge to be used again.
 
 - Grill: Created from an Iron Trapdoor (must be bottom half). Put raw meat or fish (or some other things) on the grill after placing a heat source below it to cook it.

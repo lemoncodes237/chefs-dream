@@ -13,7 +13,6 @@ execute as @e[type=interaction,tag=in_cooking] if entity @s[tag=cooking_pot] at 
 execute as @e[type=interaction,tag=in_cooking] if entity @s[tag=fryer] at @s if score @s tick_time = Tick tick_time on target run function chefsdream:ambience/fryer_cooking_sound
 execute as @e[type=interaction,tag=in_cooking] if entity @s[tag=oven] at @s if score @s tick_time = Tick tick_time on target run function chefsdream:ambience/oven_cooking_sound
 
-
 execute as @e[type=interaction,tag=cooking_station,tag=!in_cooking] run data remove entity @s interaction
 execute as @e[type=interaction,tag=cooking_station] run data remove entity @s attack
 

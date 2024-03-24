@@ -96,6 +96,11 @@ At the top of any `cook` function in a branch, the ingredient score of the cooki
 
 The grill is special as the food is not directly given to the player after it has finished cooking. Instead, the `cook` function simply turns the food on the grill to its cooked version and keeps it there.
 
+
+#### barrel
+
+The barrel is also special as cooking is done when it is sealed and the results can be taken once enough time has passed. The `cook` function checks to make sure enough time has passed and then gives the results if so. When the barrel is sealed, the `seal` function finds the recipe corresponding to the ingredients in the barrel and then seals it for a certain amount of time depending on what is being crafted.
+
 ### ingredients
 The `chefsdream:ingredients` directory deals with adding ingredients and interacting with cooking stations that do not directly cook (for example, grinders and plates). They mostly handle clicks (right and left) that occur on the cooking stations.
 

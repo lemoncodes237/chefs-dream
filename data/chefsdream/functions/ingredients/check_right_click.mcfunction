@@ -1,10 +1,11 @@
 execute if entity @e[type=interaction,tag=cooking_pot,distance=..1] run return run function chefsdream:ingredients/cooking_pot/right_click
 execute if entity @e[type=interaction,tag=grinder,distance=..1] run return run function chefsdream:ingredients/grinder/right_click
 execute if entity @e[type=interaction,tag=preparation_board,distance=..1] run return run function chefsdream:ingredients/preparation_board/right_click
-execute if entity @e[type=interaction,tag=cutter,distance=..1] run return run function chefsdream:ingredients/cutter/right_click
+#execute if entity @e[type=interaction,tag=cutter,distance=..1] run return run function chefsdream:ingredients/cutter/right_click
 execute if entity @e[type=interaction,tag=grill,distance=..1] run return run function chefsdream:ingredients/grill/right_click
 execute if entity @e[type=interaction,tag=fryer,distance=..1] run return run function chefsdream:ingredients/fryer/right_click
 execute if entity @e[type=interaction,tag=plate,distance=..1] run return run function chefsdream:ingredients/plate/right_click
-execute if entity @e[type=interaction,tag=transmutation_table,distance=..1] run return run function chefsdream:ingredients/transmutation_table/right_click
+#execute if entity @e[type=interaction,tag=transmutation_table,distance=..1] run return run function chefsdream:ingredients/transmutation_table/right_click
 execute if entity @e[type=interaction,tag=mixer,distance=..1] run return run function chefsdream:ingredients/mixer/right_click
 execute if entity @e[type=interaction,tag=oven,distance=..1] run return run function chefsdream:ingredients/oven/right_click
+execute if entity @e[type=interaction,tag=barrel,distance=..1] run return run function chefsdream:ingredients/barrel/right_click
