@@ -44,7 +44,6 @@ scoreboard objectives add ing_onion dummy
 scoreboard objectives add ing_garlic dummy
 scoreboard objectives add ing_rice dummy
 scoreboard objectives add ing_chile_pepper dummy
-scoreboard objectives add ing_strawberry dummy
 scoreboard objectives add ing_lemon dummy
 scoreboard objectives add ing_banana dummy
 scoreboard objectives add ing_chocolate dummy

@@ -28,7 +28,6 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Apple
 - Melon
 - Pumpkin
-- Sweet_Berries
 - Glow_Berries
 - Chorus_Fruit
 - Sugar
@@ -47,7 +46,7 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Garlic
 - Rice
 - Chile_Pepper
-- Strawberry
+- Sweet_Berries
 - Lemon
 - Banana
 - Chocolate

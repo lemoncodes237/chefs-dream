@@ -1,6 +1,6 @@
 scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_dough
 
-execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_strawberry matches 1.. run return run function chefsdream:cook/fryer/sugar/dough/strawberry/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sweet_berries matches 1.. run return run function chefsdream:cook/fryer/sugar/dough/sweet_berries/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_lemon matches 1.. run return run function chefsdream:cook/fryer/sugar/dough/lemon/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_chocolate matches 1.. run return run function chefsdream:cook/fryer/sugar/dough/chocolate/cook
 
