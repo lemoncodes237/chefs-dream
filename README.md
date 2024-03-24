@@ -28,11 +28,11 @@ After you loaded up the datapack, use this command to get the Cooking Station Ma
 
 If that doesn’t work, manually get it with the following command:
 
-`/give @s carrot_on_a_stick{Tags:[“station_maker”]}`
+`/give @s carrot_on_a_stick[custom_name='[{"text":"Cooking Station Maker","italic":false}]',custom_data={Tags:["station_maker"]}]`
 
 Each cooking station has an associated station block. To create a cooking station, crouch right click with a Cooking Station Maker while looking at a station block directly in front of it. To revert a cooking station back to a regular Minecraft block, use a pickaxe. 
 
-Using a Cooking Station Maker on a bookshelf will replace it with a chiseled bookshelf containing 6 books that can serve as guides. Use these books to learn how to get every food in the datapack.
+Using a Cooking Station Maker on a chiseled bookshelf will fill it with 6 guide books. Use these books to learn how to get every food in the datapack.
 
 Some cooking stations (cooking pot, fryer, grill) require a heat source below the station. A heat source can a fire, campfire, or magma block.
 

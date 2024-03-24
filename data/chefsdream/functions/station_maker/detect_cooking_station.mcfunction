@@ -10,3 +10,4 @@ execute if block ^ ^ ^1 heavy_weighted_pressure_plate run return run function ch
 execute if block ^ ^ ^1 brewing_stand run return run function chefsdream:station_maker/create_mixer
 execute if block ^ ^ ^1 smoker run return run function chefsdream:station_maker/create_oven
 execute if block ^ ^ ^1 barrel run return run function chefsdream:station_maker/create_barrel
+execute if block ^ ^ ^1 chiseled_bookshelf run return run function chefsdream:station_maker/create_guide_shelf
