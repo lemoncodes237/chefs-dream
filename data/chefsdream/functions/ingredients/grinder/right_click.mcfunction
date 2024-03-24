@@ -1,3 +1,5 @@
+execute unless items entity @s weapon.mainhand #chefsdream:grindables run return 0
+
 execute if predicate chefsdream:is_sneaking run return run function chefsdream:ingredients/grinder/shift_right_click
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:wheat"}}] run return run function chefsdream:ingredients/grinder/make_flour
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:quartz"}}] run return run function chefsdream:ingredients/grinder/make_salt
