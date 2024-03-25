@@ -2,6 +2,8 @@ execute if entity @e[type=interaction,tag=plate,distance=..1,tag=dirty] run retu
 execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/plate/take
 execute if entity @e[type=interaction,tag=plate,distance=..1,tag=used] run return run title @s actionbar "The plate already has food on it!"
 
+execute unless items entity @s weapon.mainhand #chefsdream:plate_items run return 0
+
 summon item_display ~ ~-0.45 ~ {Rotation:[0f,90f],Tags:["plate_display","chefsdream"]}
 data modify entity @e[type=item_display,tag=plate_display,distance=..1,limit=1,sort=nearest] Rotation[0] set from entity @s Rotation[0]
 data modify entity @e[type=item_display,tag=plate_display,distance=..1,limit=1,sort=nearest] item set from entity @s SelectedItem

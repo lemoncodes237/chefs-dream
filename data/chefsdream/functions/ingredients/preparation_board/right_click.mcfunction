@@ -1,7 +1,6 @@
-execute if predicate chefsdream:is_sneaking run return run function chefsdream:ingredients/preparation_board/shift_right_click
-
 execute if entity @e[type=interaction,tag=preparation_board,distance=..1,tag=used] run return run function chefsdream:ingredients/preparation_board/prep_right_click
-#execute unless predicate chefsdream:hold_preparation_board_valid run return 0
+
+execute unless items entity @s weapon.mainhand #chefsdream:prep_board_items run return 0
 
 execute if entity @s[nbt=!{SelectedItem:{}}] run return 0
 summon item_display ~ ~-0.45 ~ {Rotation:[0f,90f],Tags:["preparation_board_display","chefsdream"]}
