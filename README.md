@@ -62,7 +62,7 @@ For more details, use a Cooking Station Maker on a bookshelf to get more guides,
 
 ## Bugs
 
-Please report bugs. For details on current bugs, please refer to the `BUGS.md` file.
+Please report bugs. For details on current bugs, please refer to the [bugs](https://github.com/lemoncodes237/chefs-dream/blob/main/BUGS.md) file.
 
 ## Credits
 Datapack created by *
