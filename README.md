@@ -34,7 +34,7 @@ Each cooking station has an associated station block. To create a cooking statio
 
 Using a Cooking Station Maker on a chiseled bookshelf will fill it with 6 guide books. Use these books to learn how to get every food in the datapack.
 
-Some cooking stations (cooking pot, fryer, grill) require a heat source below the station. A heat source can a fire, campfire, or magma block.
+Some cooking stations (cooking pot, fryer, grill) require a heat source below the station. A heat source can be a fire, campfire, or magma block.
 
 Currently, the datapack has the following cooking stations:
 
