@@ -1,3 +1,4 @@
+playsound block.fire.extinguish master @a[distance=..20] ~ ~ ~ 0.5 0.5
 scoreboard players add @e[type=interaction,limit=1,sort=nearest,tag=fryer] ingredients 1
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=fryer] ingredients matches 1 run return run function chefsdream:ingredients/fryer/components/add_component_1
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=fryer] ingredients matches 2 run return run function chefsdream:ingredients/fryer/components/add_component_2
