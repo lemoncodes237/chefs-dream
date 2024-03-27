@@ -70,8 +70,4 @@ Datapack created by *
 Resourcepack created by *
 
 ## License
-Licensed under Creative Commons By
-
-Players are allowed to use, modify, and share the datapack as long as credit is provided. This includes commercial uses. Please see the link below for the license.
-
-https://creativecommons.org/licenses/by/4.0/
+The required resource pack modifies some textures from the Croptopia mod under the MIT License.
