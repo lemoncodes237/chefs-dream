@@ -30,6 +30,8 @@ If that doesn’t work, manually get it with the following command:
 
 `/give @s carrot_on_a_stick[custom_name='[{"text":"Cooking Station Maker","italic":false}]',custom_data={Tags:["station_maker"]}]`
 
+Note that the trigger commands can be run by players **even if they are not opped.**
+
 Each cooking station has an associated station block. To create a cooking station, crouch right click with a Cooking Station Maker while looking at a station block directly in front of it. To revert a cooking station back to a regular Minecraft block, use a pickaxe. 
 
 Using a Cooking Station Maker on a chiseled bookshelf will fill it with 6 guide books. Use these books to learn how to get every food in the datapack.
