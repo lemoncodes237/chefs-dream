@@ -1,4 +1,4 @@
-execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/mixer/take
+execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/take
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:water"}}}}] run return run function chefsdream:ingredients/mixer/add_water
 
