@@ -3,3 +3,4 @@ scoreboard players set @e[type=interaction,tag=preparation_board,distance=..1,ta
 tag @e[type=interaction,tag=preparation_board,distance=..1,tag=sushi,limit=1] remove sushi
 tag @e[type=interaction,tag=preparation_board,distance=..1,tag=used,limit=1] remove used
 give @s dried_kelp
+playsound block.grass.break master @a[distance=..10] ~ ~ ~

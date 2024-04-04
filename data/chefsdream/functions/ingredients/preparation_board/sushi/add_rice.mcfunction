@@ -6,4 +6,4 @@ item modify entity @s weapon.mainhand chefsdream:decrease_count
 scoreboard players add @e[type=interaction,tag=preparation_board,distance=..1] ingredients 1
 scoreboard players add @e[type=interaction,tag=preparation_board,distance=..1] ing_rice 1
 
-playsound block.wool.break master @a[distance=..10] ~ ~ ~
+playsound block.wool.place master @a[distance=..10] ~ ~ ~
