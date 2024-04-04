@@ -1,6 +1,6 @@
 execute if entity @e[type=interaction,tag=fryer,tag=in_cooking,distance=..1] run return 0
 
-execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/fryer/take
+execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/take
 
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cooking_oil"]}}}}] run return run function chefsdream:ingredients/fryer/add_cooking_oil
 execute unless entity @e[type=interaction,tag=fryer,sort=nearest,distance=..1,limit=1,tag=oiled] run return run title @s actionbar "You must add oil to the fryer first!"
