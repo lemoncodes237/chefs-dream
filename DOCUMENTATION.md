@@ -45,7 +45,7 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Onion
 - Garlic
 - Rice
-- Chile_Pepper
+- Paprika
 - Sweet_Berries
 - Lemon
 - Banana

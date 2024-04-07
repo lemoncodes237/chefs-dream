@@ -37,7 +37,7 @@ scoreboard players set @s ing_lettuce 0
 scoreboard players set @s ing_onion 0
 scoreboard players set @s ing_garlic 0
 scoreboard players set @s ing_rice 0
-scoreboard players set @s ing_chile_pepper 0
+scoreboard players set @s ing_paprika 0
 scoreboard players set @s ing_strawberry 0
 scoreboard players set @s ing_lemon 0
 scoreboard players set @s ing_banana 0

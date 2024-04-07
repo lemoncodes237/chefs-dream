@@ -1,1 +1,0 @@
-#execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{components:{"minecraft:custom_data":{Tags:["lettuce"]}}}}] run return run function chefsdream:ingredients/preparation_board/chile_pepper/make_kimchi
