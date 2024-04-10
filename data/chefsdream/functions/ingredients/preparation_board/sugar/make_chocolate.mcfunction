@@ -1,4 +1,4 @@
-data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,sort=nearest,limit=1] item set value {id:"minecraft:cookie",count:1,components:{"minecraft:custom_data":{Tags:["chocolate"],chefsdreamfood:1},food:{nutrition:2,saturation_modifier:4,can_always_eat:1},custom_model_data:2370045,custom_name:'[{"text":"Chocolate","italic":false}]'}}
+data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,sort=nearest,limit=1] item set value {id:"minecraft:cookie",count:1,components:{"minecraft:custom_data":{Tags:["chocolate"],chefsdreamfood:1},food:{nutrition:2,saturation:4,can_always_eat:1},custom_model_data:2370045,custom_name:'[{"text":"Chocolate","italic":false}]'}}
 #give @s snowball{Tags:["dough"],custom_model_data:2300003,custom_name='[{"text":"Dough","italic":false}]'}}
 playsound ui.cartography_table.take_result master @a[distance=..20] ~ ~ ~
 particle electric_spark ~ ~-0.3 ~ 0.3 0.1 0.3 0 10

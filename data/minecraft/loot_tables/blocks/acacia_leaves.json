@@ -148,7 +148,7 @@
                   },
                   "minecraft:food": {
                     "nutrition": 2,
-                    "saturation_modifier": 2.4,
+                    "saturation": 2.4,
                     "can_always_eat": true
                   }
                 }
