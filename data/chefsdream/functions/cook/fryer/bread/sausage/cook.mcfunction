@@ -2,7 +2,8 @@ scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=
 
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_ketchup matches 1.. run return run function chefsdream:cook/fryer/bread/sausage/ketchup/cook
 
-# Finished
+# Finished, check for condiments
+scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_mustard
 execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ingredients run return run function chefsdream:cook/fryer/default_cook
 
 # Correct recipe - Hotdog
