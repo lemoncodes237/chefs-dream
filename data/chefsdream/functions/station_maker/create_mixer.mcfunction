@@ -5,4 +5,6 @@ scoreboard players set @e[tag=needsscoredrink] ingredients 0
 scoreboard players set @e[tag=needsscoredrink] var 0
 tag @e remove needsscoredrink
 
+execute positioned ^ ^ ^1 align xyz positioned ~0.5 ~ ~0.5 as @e[type=interaction,distance=..1,sort=nearest,limit=1,tag=mixer] run function chefsdream:cook/reset
+
 advancement grant @s only chefsdream:chefsdream/getting_started
