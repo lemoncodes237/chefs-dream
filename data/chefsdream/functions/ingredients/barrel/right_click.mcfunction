@@ -5,6 +5,8 @@ execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:
 execute if predicate chefsdream:hold_shovel run return run function chefsdream:cook/barrel/seal
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:milk_bucket"}}] run return run function chefsdream:ingredients/barrel/add_milk
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:cocoa_beans"}}] run return run function chefsdream:ingredients/barrel/add_cocoa_beans
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:sugar"}}] run return run function chefsdream:ingredients/barrel/add_sugar
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/barrel/add_salt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["paprika"]}}}}] run return run function chefsdream:ingredients/barrel/add_paprika
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["lettuce"]}}}}] run return run function chefsdream:ingredients/barrel/add_lettuce

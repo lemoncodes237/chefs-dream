@@ -55,6 +55,7 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Ketchup
 - Mustard
 - Orange
+- Cocoa Beans
 
 ## Custom Data
 The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `custom_model_data` component; see the texture pack for the codes for each food.
