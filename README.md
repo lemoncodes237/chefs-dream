@@ -67,9 +67,9 @@ For more details, use a Cooking Station Maker on a bookshelf to get more guides,
 Please report bugs. For details on current bugs, please refer to the [bugs](https://github.com/lemoncodes237/chefs-dream/blob/main/BUGS.md) file.
 
 ## Credits
-Datapack created by *
+Datapack created by YJMinecraft
 
-Resourcepack created by *
+Resourcepack created by masterliv531
 
 ## License
-The required resource pack modifies some textures from the Croptopia mod under the MIT License.
+The required resource pack utilizes some textures from the Croptopia mod under the MIT License.
