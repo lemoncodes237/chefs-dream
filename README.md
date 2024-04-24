@@ -8,7 +8,7 @@ Install the datapack and the required resource pack. Put the resource pack in th
 
 Datapack Download: https://www.mediafire.com/file/kf0x2rcvdrh5kzs/chefs-dream.zip/file
 
-Required Resourcepack Download: https://www.mediafire.com/file/ocrid7oevq47tm9/ChefsDreamPack.zip/file
+Required Resourcepack Download: https://www.mediafire.com/file/qun6o852vnzw9za/ChefsDreamPack.zip/file
 
 The datapack on this Github page contains the most recent code, but they may not be part of an official update yet. This means that it may have bugs that have not yet been checked, so it is recommended you get the version from one of the links above. But feel free to download directly from Github if you would like - it shouldn't be too buggy.
 
