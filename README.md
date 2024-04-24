@@ -6,8 +6,6 @@ Install the datapack and the required resource pack. Put the resource pack in th
 
 ## Links
 
-Add here
-
 Datapack Download: https://www.mediafire.com/file/kf0x2rcvdrh5kzs/chefs-dream.zip/file
 
 Required Resourcepack Download: https://www.mediafire.com/file/ocrid7oevq47tm9/ChefsDreamPack.zip/file
