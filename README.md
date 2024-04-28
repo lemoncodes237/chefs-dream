@@ -26,7 +26,7 @@ After you loaded up the datapack, use this command to get the Cooking Station Ma
 
 If that doesn’t work, manually get it with the following command:
 
-`/give @s carrot_on_a_stick[custom_name='[{"text":"Cooking Station Maker","italic":false}]',custom_data={Tags:["station_maker"]}]`
+`/give @s carrot_on_a_stick[custom_name='[{"text":"Cooking Station Maker","italic":false}]',custom_data={Tags:["station_maker"]},custom_model_data=2370000]`
 
 Note that the trigger commands can be run by players **even if they are not opped.**
 

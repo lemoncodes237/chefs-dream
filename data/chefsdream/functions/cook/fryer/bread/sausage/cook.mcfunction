@@ -1,5 +1,6 @@
 scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sausage
 
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_tomato matches 1.. run return run function chefsdream:cook/fryer/bread/sausage/tomato/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_ketchup matches 1.. run return run function chefsdream:cook/fryer/bread/sausage/ketchup/cook
 
 # Finished, check for condiments
