@@ -13,6 +13,8 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:porkchop"}}] run return ru
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:chicken"}}] run return run function chefsdream:ingredients/oven/add_chicken
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:red_mushroom"}}] run return run function chefsdream:ingredients/oven/add_mushroom
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:brown_mushroom"}}] run return run function chefsdream:ingredients/oven/add_mushroom
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:sweet_berries"}}] run return run function chefsdream:ingredients/oven/add_sweet_berries
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:honey_bottle"}}] run return run function chefsdream:ingredients/oven/add_honey
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["dough"]}}}}] run return run function chefsdream:ingredients/oven/add_dough
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["tomato"]}}}}] run return run function chefsdream:ingredients/oven/add_tomato
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}}] run return run function chefsdream:ingredients/oven/add_cheese
@@ -20,4 +22,6 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["ham"]}}}}] run return run function chefsdream:ingredients/oven/add_ham
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["onion"]}}}}] run return run function chefsdream:ingredients/oven/add_onion
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["sausage"]}}}}] run return run function chefsdream:ingredients/oven/add_sausage
-
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["banana"]}}}}] run return run function chefsdream:ingredients/oven/add_banana
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/oven/add_salt
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["orange"]}}}}] run return run function chefsdream:ingredients/oven/add_orange
