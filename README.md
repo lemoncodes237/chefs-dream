@@ -70,4 +70,4 @@ Datapack created by YJMinecraft
 Resourcepack created by masterliv531
 
 ## License
-The required resource pack utilizes some textures from the Croptopia mod under the MIT License.
+The required resource pack utilizes some textures from the Croptopia mod and Farmer's Delight mod under the MIT License.
