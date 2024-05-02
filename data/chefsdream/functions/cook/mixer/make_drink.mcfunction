@@ -21,7 +21,11 @@ execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1
 execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_carrot matches 1.. run return run function chefsdream:cook/mixer/carrot/cook
 execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_beetroot matches 1.. run return run function chefsdream:cook/mixer/beetroot/cook
 execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_apple matches 1.. run return run function chefsdream:cook/mixer/apple/cook
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_melon matches 1.. run return run function chefsdream:cook/mixer/melon/cook
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_glow_berries matches 1.. run return run function chefsdream:cook/mixer/glow_berries/cook
 execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_sugar matches 1.. run return run function chefsdream:cook/mixer/sugar/cook
 execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_salt matches 1.. run return run function chefsdream:cook/mixer/salt/cook
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_chocolate matches 1.. run return run function chefsdream:cook/mixer/chocolate/cook
+execute if score @e[type=interaction,tag=mixer,sort=nearest,distance=..1,limit=1] ing_cocoa_beans matches 1.. run return run function chefsdream:cook/mixer/cocoa_beans/cook
 
 function chefsdream:cook/mixer/default_cook

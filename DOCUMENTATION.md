@@ -57,6 +57,14 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Orange
 - Cocoa Beans
 
+### Adding Ingredients
+When adding a new ingredient, it should be added to the bottom of the list above. Moreover, the following files will require additions:
+
+- `ingredients/take.mcfunction`: This function is triggered every time an ingredient is removed from a cooking station
+- `ingredients/cooking_pot/print_ingredients.mcfunction`, `ingredients/oven/print_ingredients.mcfunction`, `ingredients/barrel/print_ingredients.mcfunction`: These functions are used to print ingredients present.
+- `cook/reset.mcfunction`: This function is triggered every time cooking is done to reset the scoreboard objectives.
+- `load.mcfunction`: This function loads up the scoreboard objective for the ingredients.
+
 ## Custom Data
 The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `custom_model_data` component; see the texture pack for the codes for each food.
 
