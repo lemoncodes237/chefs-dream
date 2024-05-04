@@ -6,7 +6,9 @@ Install the datapack and the required resource pack. Put the resource pack in th
 
 ## Links
 
-Datapack Download: https://www.mediafire.com/file/8nwamj07m12twm7/chefs-dream.zip/file
+Plaet Minecraft Link: 
+
+Datapack Download: https://www.mediafire.com/file/kytcaa2i4dfvl7h/chefs-dream.zip/file
 
 Required Resourcepack Download: https://www.mediafire.com/file/fk5eoly4b0yp9f2/ChefsDreamPack.zip/file
 
