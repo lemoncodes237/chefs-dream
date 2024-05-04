@@ -19,7 +19,7 @@
       }
     },
     "rewards": {
-      "function": "chefsdream:give_station_maker"
+      "function": "chefsdream:give_maker_and_guide"
     },
     "sends_telemetry_event": true
   }

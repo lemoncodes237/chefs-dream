@@ -73,7 +73,7 @@
                 "conditions": [
                     {
                         "condition": "minecraft:random_chance",
-                        "chance": 0.03
+                        "chance": 0.08
                     },
                     {
                         "condition": "minecraft:inverted",
@@ -134,7 +134,7 @@
                 "conditions": [
                     {
                         "condition": "minecraft:random_chance",
-                        "chance": 0.03
+                        "chance": 0.08
                     },
                     {
                         "condition": "minecraft:inverted",

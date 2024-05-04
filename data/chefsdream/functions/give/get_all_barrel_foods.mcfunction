@@ -1,0 +1,3 @@
+give @s cookie[custom_data={chefsdream:1,Tags:["chocolate"]},food={nutrition:3,saturation:6,can_always_eat:1},custom_name='[{"text":"Chocolate","italic":false}]',custom_model_data=2370045]
+give @s cookie[custom_data={chefsdream:1,Tags:["kimchi"]},food={nutrition:6,saturation:12,can_always_eat:1},custom_name='[{"text":"Kimchi","italic":false}]',custom_model_data=2370014]
+give @s cookie[custom_data={chefsdream:1,Tags:["cheese"]},food={nutrition:2,saturation:4,can_always_eat:1},custom_name='[{"text":"Cheese","italic":false}]',custom_model_data=2370046]
