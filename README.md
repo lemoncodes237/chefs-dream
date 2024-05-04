@@ -58,7 +58,7 @@ Currently, the datapack has the following cooking stations:
 
 - Grill: Created from an Iron Trapdoor (must be bottom half). Put raw meat or fish (or some other things) on the grill after placing a heat source below it to cook it.
 
-New vegetables and fruits can be obtained by breaking grasses, ferns, leaves, or sweet berry bushes. All other ingredients are obtained through one of the cooking stations above.
+New vegetables and fruits can be obtained by breaking grasses, ferns, or leaves. All other ingredients are obtained through one of the cooking stations above.
 
 For more details, use a Cooking Station Maker on a bookshelf to get more guides, or reference the [wiki](https://github.com/lemoncodes237/chefs-dream/wiki) on the [github page](https://github.com/lemoncodes237/chefs-dream). 
 
