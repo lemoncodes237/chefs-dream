@@ -9,3 +9,4 @@ execute if entity @e[type=interaction,tag=plate,distance=..1] run return run fun
 execute if entity @e[type=interaction,tag=mixer,distance=..1] run return run function chefsdream:ingredients/mixer/right_click
 execute if entity @e[type=interaction,tag=oven,distance=..1] run return run function chefsdream:ingredients/oven/right_click
 execute if entity @e[type=interaction,tag=barrel,distance=..1] run return run function chefsdream:ingredients/barrel/right_click
+execute if entity @e[type=interaction,tag=ice_cream_machine,distance=..1] run return run function chefsdream:ingredients/ice_cream_machine/right_click

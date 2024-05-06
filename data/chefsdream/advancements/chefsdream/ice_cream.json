@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+          "trigger": "minecraft:consume_item",
+          "conditions": {
+            "item": {
+              "items": "minecraft:cookie",
+              "predicates": {
+                "minecraft:custom_data": "{icecream:1}"
+              }
+            }
+          }
+        }
+    },
+    "rewards": {
+      "function": "chefsdream:reset_ice_cream"
+    }
+  }
+  

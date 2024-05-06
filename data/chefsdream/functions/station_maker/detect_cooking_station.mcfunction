@@ -11,3 +11,4 @@ execute if block ^ ^ ^1 brewing_stand run return run function chefsdream:station
 execute if block ^ ^ ^1 smoker run return run function chefsdream:station_maker/create_oven
 execute if block ^ ^ ^1 barrel run return run function chefsdream:station_maker/create_barrel
 execute if block ^ ^ ^1 chiseled_bookshelf run return run function chefsdream:station_maker/create_guide_shelf
+execute if block ^ ^ ^1 daylight_detector run return run function chefsdream:station_maker/create_ice_cream_machine
