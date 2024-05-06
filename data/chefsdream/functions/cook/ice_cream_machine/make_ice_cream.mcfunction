@@ -19,6 +19,7 @@ item modify entity @s weapon.mainhand chefsdream:decrease_count
 
 scoreboard players add @s food_cooked 1
 
+execute if score @e[type=interaction,tag=ice_cream_machine,sort=nearest,distance=..1,limit=1] ing_melon matches 1.. run return run function chefsdream:cook/ice_cream_machine/melon/cook
 execute if score @e[type=interaction,tag=ice_cream_machine,sort=nearest,distance=..1,limit=1] ing_glow_berries matches 1.. run return run function chefsdream:cook/ice_cream_machine/glow_berries/cook
 execute if score @e[type=interaction,tag=ice_cream_machine,sort=nearest,distance=..1,limit=1] ing_sugar matches 1.. run return run function chefsdream:cook/ice_cream_machine/sugar/cook
 
