@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:magenta_dye",
+            "components": {
+              "minecraft:custom_model_data": 2300009
+            }
+          },
+      "title": "Frying Time!",
+      "description": "Make cooking oil",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "chefsdream:chefsdream/mixer",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
