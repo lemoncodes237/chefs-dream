@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:custom_model_data": 2370100
+            }
+          },
+      "title": "Philly Filling",
+      "description": "Make a Philly roll",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "chefsdream:chefsdream/sushi",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
