@@ -8,9 +8,9 @@ Install the datapack and the required resource pack. Put the resource pack in th
 
 Plaet Minecraft Link: https://www.planetminecraft.com/data-pack/chef-s-dream-interactive-cooking/
 
-Datapack Download: https://www.mediafire.com/file/3ka5ra3jvpeezn8/chefs-dream.zip/file
+Datapack Download: https://www.mediafire.com/file/4oeq1uaftcnkgxr/chefs-dream.zip/file
 
-Required Resourcepack Download: https://www.mediafire.com/file/5rfqpzsa9o5vv7s/ChefsDreamPack.zip/file
+Required Resourcepack Download: https://www.mediafire.com/file/57jf4njz4ac82x8/ChefsDreamPack.zip/file
 
 The datapack on this Github page contains the most recent code, but they may not be part of an official update yet. This means that it may have bugs that have not yet been checked, so it is recommended you get the version from one of the links above. But feel free to download directly from Github if you would like - it shouldn't be too buggy.
 
@@ -50,7 +50,7 @@ Currently, the datapack has the following cooking stations:
 
 - Grinder: Created from a Grindstone. Right click with an item to grind it. Notably, grinding wheat gives you flour and grinding flint or quartz gives you salt.
 
-- Preparation Board: Created from a Wooden Pressure Plate. Place an item on the board and then use another item on it to create new ingredients.
+- Preparation Board: Created from a Wooden Pressure Plate. Place an item on the board and then use another item on it to create new ingredients. You can also make sushi with a preparation board; look at the [wiki page](https://github.com/lemoncodes237/chefs-dream/wiki/Sushi) for it to learn more.
 
 - Barrel: Created from a Barrel. Add ingredients into the barrel then use a shovel to seal it. After enough time has passed, right click on the barrel to get the results. Unlike other cooking stations, a barrel allows you to craft in bulk. (For example, adding 15 salt and 16 milk to a barrel and sealing it wil result in 15 cheese.)
 

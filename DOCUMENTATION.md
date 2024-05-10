@@ -57,6 +57,8 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Orange
 - Cocoa Beans
 
+The only exception to this rule is with sushi making; in that case, the meats and fish go first in the order listed. Then, all the other ingredients follow in their regular orderings. This is to try to minimize the number of default sushi that gets made from invalid recipes.
+
 ### Adding Ingredients
 When adding a new ingredient, it should be added to the bottom of the list above. Moreover, the following files will require additions:
 
