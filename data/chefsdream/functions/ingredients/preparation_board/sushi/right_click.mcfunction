@@ -11,3 +11,4 @@ execute if items entity @s weapon.mainhand cod run return run function chefsdrea
 execute if items entity @s weapon.mainhand salmon run return run function chefsdream:ingredients/preparation_board/sushi/add_salmon
 execute if items entity @s weapon.mainhand pufferfish run return run function chefsdream:ingredients/preparation_board/sushi/add_pufferfish
 execute if items entity @s weapon.mainhand tropical_fish run return run function chefsdream:ingredients/preparation_board/sushi/add_tropical_fish
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["lettuce"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_lettuce

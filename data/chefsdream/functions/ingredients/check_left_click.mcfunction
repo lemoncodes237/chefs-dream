@@ -1,2 +1,2 @@
 execute if predicate chefsdream:hold_pickaxe run return run function chefsdream:station_maker/delete_cooking_station
-execute if entity @e[type=interaction,distance=..1,sort=nearest,limit=1,tag=sushi,tag=preparation_board] run function chefsdream:cook/sushi/cook
+execute if entity @s[nbt=!{SelectedItem:{}}] if entity @e[type=interaction,distance=..1,sort=nearest,limit=1,tag=sushi,tag=preparation_board] run function chefsdream:cook/sushi/cook
