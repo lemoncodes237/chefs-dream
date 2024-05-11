@@ -16,6 +16,8 @@
 
 - Added three new advancements
 
+- Changed the texture of paprika
+
 ## v1.1: The Ice Cream Update
 
 5/7/2024
