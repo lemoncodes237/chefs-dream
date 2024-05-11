@@ -4,15 +4,15 @@
 
 5/11/2024
 
-- Added the ability to make sushi on a preparation board.
-    - To make sushi, right-click on a preparation board with a dried kelp, steamed rice (which is made by boiling rice in a cooking pot), and at most three ingredients, then left-click with an empty hand.
+- Added the ability to make sushi on a preparation board
+    - To make sushi, right-click on a preparation board with a dried kelp, steamed rice (which is made by boiling rice in a cooking pot), and at most three ingredients, then left-click with an empty hand
     - Sushi recipes are not shown in an in-game cookbook, but can be found on the [wiki page](https://github.com/lemoncodes237/chefs-dream/wiki/Sushi)
 
 - Added ten different sushi rolls
 
 - Added cream cheese, which can be made by adding milk and sugar to a barrel
 
-- Updated the cookbooks to reflect on the cream cheese recipe
+- Added cream cheese recipe to the Ingredients Cookbook
 
 - Added three new advancements
 
