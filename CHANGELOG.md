@@ -1,6 +1,22 @@
 # Chef's Dream Changelog
 
-## v1.1.0: The Ice Cream Update
+## v1.2: The Sushi Update
+
+5/11/2024
+
+- Added the ability to make sushi on a preparation board.
+    - To make sushi, right-click on a preparation board with a dried kelp, steamed rice (which is made by boiling rice in a cooking pot), and at most three ingredients, then left-click with an empty hand.
+    - Sushi recipes are not shown in an in-game cookbook, but can be found on the [wiki page](https://github.com/lemoncodes237/chefs-dream/wiki/Sushi)
+
+- Added ten different sushi rolls
+
+- Added cream cheese, which can be made by adding milk and sugar to a barrel
+
+- Updated the cookbooks to reflect on the cream cheese recipe
+
+- Added three new advancements
+
+## v1.1: The Ice Cream Update
 
 5/7/2024
 
@@ -10,7 +26,7 @@
 
 - Added four new advancements
 
-## v1.0.0: Official Release
+## v1.0: Official Release
 
 5/4/2024
 

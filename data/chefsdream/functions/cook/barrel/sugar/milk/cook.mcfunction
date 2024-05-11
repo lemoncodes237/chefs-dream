@@ -11,6 +11,6 @@ scoreboard players operation @e[type=interaction,distance=..1,limit=1,sort=neare
 execute as @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] if score @s var >= @s ing_sugar run scoreboard players operation @s var = @s ing_sugar
 
 title @s actionbar ["","Barrel Sealed. Result: ",{"score":{"name":"@e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel]","objective":"var"}}," cream cheese."]
-scoreboard players set Add universal_time 10
+scoreboard players set Add universal_time 300
 
 return run function chefsdream:cook/barrel/successful_seal
