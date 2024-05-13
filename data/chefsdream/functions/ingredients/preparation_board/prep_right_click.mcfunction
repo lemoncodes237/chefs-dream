@@ -1,4 +1,5 @@
 execute if entity @e[type=interaction,tag=preparation_board,distance=..1,tag=sushi,tag=used] run return run function chefsdream:ingredients/preparation_board/sushi/right_click
+execute if entity @e[type=interaction,tag=preparation_board,distance=..1,tag=sandwich,tag=used] run return run function chefsdream:ingredients/preparation_board/sandwich/right_click
 
 execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/preparation_board/take
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:water"}}}}] run return run function chefsdream:ingredients/preparation_board/water/right_click

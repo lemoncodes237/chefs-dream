@@ -7,6 +7,9 @@ execute if entity @s[nbt=!{SelectedItem:{}}] run return 0
 execute if items entity @s weapon.mainhand minecraft:dried_kelp run return run function chefsdream:ingredients/preparation_board/sushi/start_sushi
 
 summon item_display ~ ~-0.45 ~ {Rotation:[0f,90f],Tags:["preparation_board_display","chefsdream"]}
+
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["bread_slice"]}] run function chefsdream:ingredients/preparation_board/sandwich/start_sandwich
+
 data modify entity @e[type=item_display,sort=nearest,limit=1,tag=preparation_board_display,distance=..1] Rotation[0] set from entity @s Rotation[0]
 data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,limit=1,sort=nearest] item set from entity @s SelectedItem
 data merge entity @e[type=item_display,tag=preparation_board_display,distance=..1,limit=1,sort=nearest] {item:{count:1}}
