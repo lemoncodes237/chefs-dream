@@ -2,7 +2,7 @@ scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=
 
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_cheese matches 1.. run return run function chefsdream:cook/fryer/bread/beef/tomato/lettuce/cheese/cook
 
-# Finished - you can put condiments + onions on it
+# Finished - you can put condiments on it
 scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_ketchup
 scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_mustard
 execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ingredients run return run function chefsdream:cook/fryer/default_cook
