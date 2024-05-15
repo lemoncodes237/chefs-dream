@@ -60,7 +60,7 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 The only exception to this rule is with sushi making; in that case, the meats and fish go first in the order listed. Then, all the other ingredients follow in their regular orderings. This is to try to minimize the number of default sushi that gets made from invalid recipes.
 
 ### Adding Ingredients
-When adding a new ingredient, it should be added to the bottom of the list above. Moreover, the following files will require additions:
+When adding a new ingredient, it should be added to the list above. Moreover, the following files will require additions:
 
 - `ingredients/take.mcfunction`: This function is triggered every time an ingredient is removed from a cooking station
 - `ingredients/cooking_pot/print_ingredients.mcfunction`, `ingredients/oven/print_ingredients.mcfunction`, `ingredients/barrel/print_ingredients.mcfunction`: These functions are used to print ingredients present.
@@ -70,7 +70,7 @@ When adding a new ingredient, it should be added to the bottom of the list above
 ## Custom Data
 The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `custom_model_data` component; see the texture pack for the codes for each food.
 
- For ingredients, a `Tag` must be added in the `custom_data` component that states the name of the ingredient so the datapack can easily discern between ingredients. For example, a lemon must have a `Tag:["lemon"]` inside its `custom_data`. For ingredients that are in default Minecraft, this is unnecessary. 
+ For ingredients, a `Tags` must be added in the `custom_data` component that states the name of the ingredient so the datapack can easily discern between ingredients. For example, a lemon must have a `Tags:["lemon"]` inside its `custom_data`. For ingredients that are in default Minecraft, this is unnecessary. 
 
 ## Functions
 
