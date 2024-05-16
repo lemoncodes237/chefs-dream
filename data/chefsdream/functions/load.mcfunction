@@ -53,6 +53,7 @@ scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
 scoreboard objectives add ing_orange dummy
 scoreboard objectives add ing_cocoa_beans dummy
+scoreboard objectives add ing_sea_pickle dummy
 
 scoreboard objectives add start_cooking trigger
 scoreboard players enable @a start_cooking
