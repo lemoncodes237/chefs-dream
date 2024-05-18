@@ -8,9 +8,9 @@ Install the datapack and the required resource pack. Put the resource pack in th
 
 Planet Minecraft Link: https://www.planetminecraft.com/data-pack/chef-s-dream-interactive-cooking/
 
-Datapack Download: https://www.mediafire.com/file/yazu5a1reajv2xp/chefs-dream.zip/file
+Datapack Download: https://www.mediafire.com/file/fq8rdtfpgkoxg7d/chefs-dream.zip/file
 
-Required Resourcepack Download: https://www.mediafire.com/file/0smtpnsc54m46yp/ChefsDreamPack.zip/file
+Required Resourcepack Download: https://www.mediafire.com/file/gjnaowd4jl5hr3v/ChefsDreamPack.zip/file
 
 The datapack on this Github page contains the most recent code, but they may not be part of an official update yet. This means that it may have bugs that have not yet been checked, so it is recommended you get the version from one of the links above. But feel free to download directly from Github if you would like - it shouldn't be too buggy.
 
