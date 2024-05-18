@@ -8,14 +8,14 @@
     - To make sandwiches, right-click on a preparation board with a bread slice and up to seven ingredients then right-click with another bread slice
     - Sandwich recipes are not shown in an in-game cookbook, but can be found on the [wiki page](https://github.com/lemoncodes237/chefs-dream/wiki/Sandwiches)
 
-- Added seven different sandwiches
-
 - Added the bread slice, which can be made by cutting bread on a preparation board
     - Each bread grants five bread slices
 
-- Changed the recipes of Philly Roll and Spicy Salmon Roll to require sea pickles instead of lettuce
+- Added seven different sandwiches
 
 - Moved Hamburger and Cheeseburger recipes from the Fryer to the Sandwich system
+
+- Changed the recipes of Philly Roll and Spicy Salmon Roll to require sea pickles instead of lettuce
 
 - Technical Change: Moved ketchup and mustard to the bottom of ingredient check list
 
