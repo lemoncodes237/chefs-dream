@@ -55,6 +55,7 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Orange
 - Cocoa Beans
 - Sea Pickles
+- Bacon
 - Ketchup
 - Mustard
 

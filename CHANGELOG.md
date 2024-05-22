@@ -1,5 +1,15 @@
 # Chef's Dream Changelog
 
+## v1.4: The Breakfast and Burgers Update
+
+Future Date
+
+- Added the pancake, chocolate pancake, and sweet berry pancake
+
+- Added bacon, which can be obtained by putting porkchop on a preparation board and right-clicking it with salt
+
+- Added the ability to cook bacon and sausage on the fryer or the grill
+
 ## v1.3: The Sandwich Update
 
 5/18/2024
