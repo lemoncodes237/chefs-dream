@@ -1,0 +1,1 @@
+execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{id:"minecraft:porkchop"}}] run return run function chefsdream:ingredients/preparation_board/salt/make_bacon

@@ -40,3 +40,4 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}}] run return run function chefsdream:ingredients/fryer/add_cheese
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["ham"]}}}}] run return run function chefsdream:ingredients/fryer/add_ham
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["rice"]}}}}] run return run function chefsdream:ingredients/fryer/add_rice
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["bacon"]}}}}] run return run function chefsdream:ingredients/fryer/add_bacon

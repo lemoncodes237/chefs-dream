@@ -11,3 +11,5 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:rabbit"}}] run return run 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:kelp"}}] run return run function chefsdream:ingredients/grill/add_kelp
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:cod"}}] run return run function chefsdream:ingredients/grill/add_cod
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:salmon"}}] run return run function chefsdream:ingredients/grill/add_salmon
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["bacon"]}] run return run function chefsdream:ingredients/grill/add_bacon
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["sausage"]}] run return run function chefsdream:ingredients/grill/add_sausage

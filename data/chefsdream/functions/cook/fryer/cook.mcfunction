@@ -19,5 +19,7 @@ execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_apple matches 1.. run return run function chefsdream:cook/fryer/apple/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sugar matches 1.. run return run function chefsdream:cook/fryer/sugar/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_salt matches 1.. run return run function chefsdream:cook/fryer/salt/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sausage matches 1.. run return run function chefsdream:cook/fryer/sausage/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_bacon matches 1.. run return run function chefsdream:cook/fryer/bacon/cook
 
 function chefsdream:cook/fryer/default_cook

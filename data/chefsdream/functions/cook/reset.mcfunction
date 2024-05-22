@@ -49,3 +49,4 @@ scoreboard players set @s ing_mustard 0
 scoreboard players set @s ing_orange 0
 scoreboard players set @s ing_cocoa_beans 0
 scoreboard players set @s ing_sea_pickle 0
+scoreboard players set @s ing_bacon 0
