@@ -9,6 +9,6 @@ tag @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] add yogurt
 scoreboard players operation @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] var = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] ing_milk
 
 title @s actionbar ["","Barrel Sealed. Result: ",{"score":{"name":"@e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel]","objective":"var"}}," yogurt."]
-scoreboard players set Add universal_time 5
+scoreboard players set Add universal_time 180
 
 return run function chefsdream:cook/barrel/successful_seal
