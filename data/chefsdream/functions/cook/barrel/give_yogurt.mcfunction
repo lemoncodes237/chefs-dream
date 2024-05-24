@@ -1,1 +1,5 @@
 execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=yogurt] run return run function chefsdream:cook/barrel/give_regular_yogurt
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=sweet_berry_yogurt] run return run function chefsdream:cook/barrel/give_sweet_berry_yogurt
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=lemon_yogurt] run return run function chefsdream:cook/barrel/give_lemon_yogurt
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=orange_yogurt] run return run function chefsdream:cook/barrel/give_orange_yogurt
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=glow_berry_yogurt] run return run function chefsdream:cook/barrel/give_glow_berry_yogurt

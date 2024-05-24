@@ -1,5 +1,7 @@
 scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=oven] ing_cheese
 
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=oven] ing_bacon matches 1.. run return run function chefsdream:cook/oven/dough/tomato/cheese/bacon/cook
+
 # Finished
 execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=oven] ingredients run return run function chefsdream:cook/oven/default_cook
 

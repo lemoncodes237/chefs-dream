@@ -25,3 +25,4 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["banana"]}}}}] run return run function chefsdream:ingredients/oven/add_banana
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/oven/add_salt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["orange"]}}}}] run return run function chefsdream:ingredients/oven/add_orange
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["bacon"]}}}}] run return run function chefsdream:ingredients/oven/add_bacon

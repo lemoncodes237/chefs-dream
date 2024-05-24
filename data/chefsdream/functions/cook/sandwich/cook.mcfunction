@@ -13,6 +13,7 @@ function chefsdream:cook/give_back_honey
 #advancement grant @s only chefsdream:chefsdream/sandwich
 
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_carrot matches 1.. run return run function chefsdream:cook/sandwich/carrot/cook
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_mushroom matches 1.. run return run function chefsdream:cook/sandwich/mushroom/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_beef matches 1.. run return run function chefsdream:cook/sandwich/beef/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_chicken matches 1.. run return run function chefsdream:cook/sandwich/chicken/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_egg matches 1.. run return run function chefsdream:cook/sandwich/egg/cook

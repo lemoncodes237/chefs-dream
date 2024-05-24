@@ -4,11 +4,24 @@
 
 Future Date
 
-- Added the pancake, chocolate pancake, and sweet berry pancake
+- Added the pancake, chocolate pancake, sweet berry pancake, hash brown, scrambled eggs, and bacon and eggs
 
 - Added bacon, which can be obtained by putting porkchop on a preparation board and right-clicking it with salt
 
 - Added the ability to cook bacon and sausage on the fryer or the grill
+
+- Added five flavors of yogurt, which can all be made with a barrel
+
+- Added eight different types of burgers
+    - The Hamburger and the Cheeseburger have been renamed to the Deluxe Hamburger and the Deluxe Cheeseburger, respectively
+
+- Added the new recipes into the cookbooks
+
+## v1.3.1
+
+5/22/2024
+
+- Fixed BUG 1 and BUG 2
 
 ## v1.3: The Sandwich Update
 
