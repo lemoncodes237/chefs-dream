@@ -44,9 +44,10 @@ scoreboard players set @s ing_banana 0
 scoreboard players set @s ing_chocolate 0
 scoreboard players set @s ing_cheese 0
 scoreboard players set @s ing_milk 0
-scoreboard players set @s ing_ketchup 0
-scoreboard players set @s ing_mustard 0
 scoreboard players set @s ing_orange 0
 scoreboard players set @s ing_cocoa_beans 0
 scoreboard players set @s ing_sea_pickle 0
 scoreboard players set @s ing_bacon 0
+scoreboard players set @s ing_kimchi 0
+scoreboard players set @s ing_ketchup 0
+scoreboard players set @s ing_mustard 0

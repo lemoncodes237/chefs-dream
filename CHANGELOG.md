@@ -15,6 +15,8 @@ Future Date
 - Added eight different types of burgers
     - The Hamburger and the Cheeseburger have been renamed to the Deluxe Hamburger and the Deluxe Cheeseburger, respectively
 
+- Added the BLT Sandwich and the Kimchi Cheese Sandwich
+
 - Added the new recipes into the cookbooks
 
 ## v1.3.1

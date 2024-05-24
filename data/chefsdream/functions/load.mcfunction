@@ -53,6 +53,7 @@ scoreboard objectives add ing_orange dummy
 scoreboard objectives add ing_cocoa_beans dummy
 scoreboard objectives add ing_sea_pickle dummy
 scoreboard objectives add ing_bacon dummy
+scoreboard objectives add ing_kimchi dummy
 scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
 

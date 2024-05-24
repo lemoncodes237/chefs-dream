@@ -18,3 +18,4 @@ execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["
 execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["cooked_bacon"]}] run return run function chefsdream:ingredients/preparation_board/sandwich/add_bacon
 execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["ketchup"]}] run return run function chefsdream:ingredients/preparation_board/sandwich/add_ketchup
 execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["mustard"]}] run return run function chefsdream:ingredients/preparation_board/sandwich/add_mustard
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["kimchi"]}] run return run function chefsdream:ingredients/preparation_board/sandwich/add_kimchi

@@ -10,7 +10,7 @@ function chefsdream:cook/give_back_ketchup_bottles
 function chefsdream:cook/give_back_mustard_bottles
 function chefsdream:cook/give_back_honey
 
-#advancement grant @s only chefsdream:chefsdream/sandwich
+advancement grant @s only chefsdream:chefsdream/sandwich
 
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_carrot matches 1.. run return run function chefsdream:cook/sandwich/carrot/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_mushroom matches 1.. run return run function chefsdream:cook/sandwich/mushroom/cook
@@ -19,6 +19,7 @@ execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_egg matches 1.. run return run function chefsdream:cook/sandwich/egg/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_ham matches 1.. run return run function chefsdream:cook/sandwich/ham/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_tomato matches 1.. run return run function chefsdream:cook/sandwich/tomato/cook
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=sandwich,distance=..1] ing_cheese matches 1.. run return run function chefsdream:cook/sandwich/cheese/cook
 
 function chefsdream:cook/sandwich/default_cook
 
