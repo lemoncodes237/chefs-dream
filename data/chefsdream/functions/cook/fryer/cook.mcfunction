@@ -14,6 +14,8 @@ scoreboard players add @s food_cooked 1
 
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_potato matches 1.. run return run function chefsdream:cook/fryer/potato/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_bread matches 1.. run return run function chefsdream:cook/fryer/bread/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_mushroom matches 1.. run return run function chefsdream:cook/fryer/mushroom/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_beef matches 1.. run return run function chefsdream:cook/fryer/beef/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_chicken matches 1.. run return run function chefsdream:cook/fryer/chicken/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_egg matches 1.. run return run function chefsdream:cook/fryer/egg/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_apple matches 1.. run return run function chefsdream:cook/fryer/apple/cook

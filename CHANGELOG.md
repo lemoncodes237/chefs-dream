@@ -4,9 +4,13 @@
 
 Future Date
 
-- Added the pancake, chocolate pancake, sweet berry pancake, hash brown, scrambled eggs, and bacon and eggs
+- Added the pancake, chocolate pancake, sweet berry pancake, hash brown, waffle, and French toast
 
 - Added bacon, which can be obtained by putting porkchop on a preparation board and right-clicking it with salt
+
+- Added six different types of omelette
+
+- Added the boiled egg, scrambled egg, and bacon and eggs
 
 - Added the ability to cook bacon and sausage on the fryer or the grill
 
@@ -17,7 +21,15 @@ Future Date
 
 - Added the BLT Sandwich and the Kimchi Cheese Sandwich
 
+- Added the bacon pizza
+
+- Added the mocha and cappuccino
+
+- Added the orange donut
+
 - Added the new recipes into the cookbooks
+
+- Added three new advancements
 
 ## v1.3.1
 
