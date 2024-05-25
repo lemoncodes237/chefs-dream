@@ -2,7 +2,7 @@
 
 ## v1.4: The Breakfast and Burgers Update
 
-Future Date
+5/25/2024
 
 - Added 34 new foods and 2 new drinks!
 
