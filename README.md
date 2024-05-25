@@ -15,7 +15,7 @@ Required Resourcepack Download: https://www.mediafire.com/file/gjnaowd4jl5hr3v/C
 The datapack on this Github page contains the most recent code, but they may not be part of an official update yet. This means that it may have bugs that have not yet been checked, so it is recommended you get the version from one of the links above. But feel free to download directly from Github if you would like - it shouldn't be too buggy.
 
 ## Recipes
-For a full list of recipes, use a Cooking Station Maker on a bookshelf (more details in the "Starting Guide" section below) or refer to the [wiki](https://github.com/lemoncodes237/chefs-dream/wiki) on the Github.
+For a full list of recipes, use a Cooking Station Maker on a chiseled bookshelf (more details in the "Starting Guide" section below) or refer to the [wiki](https://github.com/lemoncodes237/chefs-dream/wiki) on the Github.
 
 ## Starting Guide
 Use this command to get this Starting Guide in game:
@@ -62,7 +62,7 @@ Currently, the datapack has the following cooking stations:
 
 New vegetables and fruits can be obtained by breaking grasses, ferns, or leaves. All other ingredients are obtained through one of the cooking stations above.
 
-For more details, use a Cooking Station Maker on a bookshelf to get more guides, or reference the [wiki](https://github.com/lemoncodes237/chefs-dream/wiki) on the [github page](https://github.com/lemoncodes237/chefs-dream). 
+For more details, use a Cooking Station Maker on a chiseled bookshelf to get more guides, or reference the [wiki](https://github.com/lemoncodes237/chefs-dream/wiki) on the [github page](https://github.com/lemoncodes237/chefs-dream). 
 
 ## Bugs
 
