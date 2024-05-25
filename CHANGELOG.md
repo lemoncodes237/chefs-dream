@@ -4,6 +4,8 @@
 
 Future Date
 
+- Added 34 new foods and 2 new drinks!
+
 - Added the pancake, chocolate pancake, sweet berry pancake, hash brown, waffle, and French toast
 
 - Added bacon, which can be obtained by putting porkchop on a preparation board and right-clicking it with salt
@@ -27,7 +29,7 @@ Future Date
 
 - Added the orange donut
 
-- Added the new recipes into the cookbooks
+- Completely revamped the in-game cookbooks; they now include recipes for all custom foods in the game and have tables of contents
 
 - Added three new advancements
 
