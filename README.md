@@ -71,7 +71,7 @@ Please report bugs. For details on current bugs, please refer to the [bugs](http
 ## Credits
 Datapack created by YJMinecraft
 
-Resourcepack created by masterliv531
+Resourcepack created by masterliv531 and YJMinecraft
 
 ## License
 The required resource pack utilizes some textures from the Croptopia mod and Farmer's Delight mod under the MIT License.
