@@ -54,7 +54,7 @@ Currently, the datapack has the following cooking stations:
 
 - Barrel: Created from a Barrel. Add ingredients into the barrel then use a shovel to seal it. After enough time has passed, right click on the barrel to get the results. Unlike other cooking stations, a barrel allows you to craft in bulk. (For example, adding 15 salt and 16 milk to a barrel and sealing it wil result in 15 cheese.)
 
-- Ice Cream Machine: Created from a Daylight Detector. You must add snowballs and milk to the ice cream machine before you can make ice cream using a bowl. There is no ice cream cookbook, but all the recipes can be found on the wiki page [here](https://github.com/lemoncodes237/chefs-dream/wiki/Ice-Cream-Machine).
+- Ice Cream Machine: Created from a Daylight Detector. You must add snowballs and milk to the ice cream machine before you can make ice cream using a bowl.
 
 - Dish: Created from an Iron Pressure Plate. Place any item on the plate, then use an empty hand to get it back. After use, it must be washed with a water bottle or sponge to be used again.
 
