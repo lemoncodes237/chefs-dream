@@ -1,3 +1,4 @@
+execute if entity @e[type=interaction,tag=plate,distance=..1,tag=!dirty,tag=!used] if entity @s[nbt=!{SelectedItem:{}}] run return 0
 execute if entity @e[type=interaction,tag=plate,distance=..1,tag=dirty] run return run function chefsdream:ingredients/plate/dirty_right_click
 execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/plate/take
 execute if entity @e[type=interaction,tag=plate,distance=..1,tag=used] run return run title @s actionbar "The plate already has food on it!"
