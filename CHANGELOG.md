@@ -4,7 +4,7 @@
 
 6/1/2024
 
-- Fixed BUG 3
+- Fixed BUG 3 and BUG 4
 
 - Added two new advancements
 

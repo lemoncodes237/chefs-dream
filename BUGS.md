@@ -33,3 +33,13 @@ Destroying an empty grill spawns a cobblestone entity above
 Affected Versions: v1.0 - v1.4
 
 Fixed: v1.4.1
+
+--------------------------------
+
+### BUG 4
+
+Right clicking on an unused plate with an empty hand makes it dirty
+
+Affected Versions: v1.0 - v1.4
+
+Fixed: v1.4.1
