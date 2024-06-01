@@ -2,7 +2,7 @@
 
 ## Current Bugs
 
-None.
+None
 
 ## Fixed Bugs
 
@@ -23,3 +23,13 @@ Creating cream cheese with a barrel makes it keep the `cream_cheese` tag and cre
 Affected Versions: v1.0 - v1.3
 
 Fixed: v1.3.1
+
+--------------------------------
+
+### BUG 3
+
+Destroying an empty grill spawns a cobblestone entity above
+
+Affected Versions: v1.0 - v1.4
+
+Fixed: v1.4.1
