@@ -1,5 +1,13 @@
 # Chef's Dream Changelog
 
+## v1.4.1
+
+6/1/2024
+
+- Fixed BUG 3
+
+- Added two new advancements
+
 ## v1.4: The Breakfast and Burgers Update
 
 5/25/2024

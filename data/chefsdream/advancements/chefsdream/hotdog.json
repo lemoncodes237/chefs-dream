@@ -3,17 +3,16 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370019
+              "minecraft:custom_model_data": 2370001
             }
           },
-      "title": "Experienced Chef",
-      "description": "Cook 100 foods using cooking stations",
-      "frame": "goal",
+      "title": "Hot Diggity Dog",
+      "description": "Make a garnished hotdog",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "chefsdream:chefsdream/cook_10_food",
+    "parent": "chefsdream:chefsdream/fryer",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"
