@@ -1,5 +1,15 @@
 # Chef's Dream Changelog
 
+## v2.0
+
+Some date
+
+- Compatibility with 1.21
+
+- Made a legacy version for 1.20.5 and 1.20.6
+
+- Fixed a misspelling in the in-game cookbook
+
 ## v1.4.1
 
 6/1/2024
