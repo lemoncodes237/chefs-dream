@@ -2,7 +2,7 @@
 
 ## v2.0
 
-Some date
+6/13/2024
 
 - Now compatible with 1.21
 
