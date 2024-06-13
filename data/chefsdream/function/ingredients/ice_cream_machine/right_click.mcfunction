@@ -12,6 +12,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:glow_berries"}}] run retur
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:melon_slice"}}] run return run function chefsdream:ingredients/ice_cream_machine/add_melon
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:apple"}}] run return run function chefsdream:ingredients/ice_cream_machine/add_apple
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:cocoa_beans"}}] run return run function chefsdream:ingredients/ice_cream_machine/add_cocoa_beans
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:chorus_fruit"}}] run return run function chefsdream:ingredients/ice_cream_machine/add_chorus_fruit
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["chocolate"]}}}}] run return run function chefsdream:ingredients/ice_cream_machine/add_chocolate
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["lemon"]}}}}] run return run function chefsdream:ingredients/ice_cream_machine/add_lemon
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["banana"]}}}}] run return run function chefsdream:ingredients/ice_cream_machine/add_banana

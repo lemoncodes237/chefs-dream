@@ -4,11 +4,19 @@
 
 Some date
 
-- Compatibility with 1.21
+- Now compatible with 1.21
 
 - Made a legacy version for 1.20.5 and 1.20.6
 
 - Fixed a misspelling in the in-game cookbook
+
+- Doubled drop rates for onions and lettuce from grasses
+
+- Increased drop rates for lemons, bananas, and oranges
+
+- Tall grasses and tall ferns now drop custom vegetables
+
+- Added chorus fruit ice cream
 
 ## v1.4.1
 

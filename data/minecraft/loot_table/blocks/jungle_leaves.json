@@ -10,7 +10,7 @@
             "children": [
               {
                 "type": "minecraft:item",
-                "name": "minecraft:birch_leaves",
+                "name": "minecraft:jungle_leaves",
                 "conditions": [
                   {
                     "condition": "minecraft:any_of",
@@ -42,7 +42,7 @@
               },
               {
                 "type": "minecraft:item",
-                "name": "minecraft:birch_sapling",
+                "name": "minecraft:jungle_sapling",
                 "conditions": [
                   {
                     "condition": "minecraft:survives_explosion"
@@ -51,9 +51,10 @@
                     "condition": "minecraft:table_bonus",
                     "enchantment": "minecraft:fortune",
                     "chances": [
-                      0.05,
-                      0.0625,
-                      0.083333336,
+                      0.025,
+                      0.027777778,
+                      0.03125,
+                      0.041666668,
                       0.1
                     ]
                   }
@@ -141,10 +142,10 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 2370055,
-                  "minecraft:custom_name": "[{\"text\":\"Lemon\",\"italic\":false}]",
+                  "minecraft:custom_model_data": 2370054,
+                  "minecraft:custom_name": "[{\"text\":\"Banana\",\"italic\":false}]",
                   "minecraft:custom_data": {
-                    "Tags": ["lemon"]
+                    "Tags": ["banana"]
                   },
                   "minecraft:food": {
                     "nutrition": 2,
@@ -162,8 +163,7 @@
                 "condition": "minecraft:table_bonus",
                 "enchantment": "minecraft:fortune",
                 "chances": [
-                  0.01,
-                  0.02,
+                  0.025,
                   0.03,
                   0.04,
                   0.05
@@ -203,8 +203,8 @@
                 }
             }
         ]
-      }
+    }
     ],
-    "random_sequence": "minecraft:blocks/birch_leaves"
+    "random_sequence": "minecraft:blocks/jungle_leaves"
   }
   
