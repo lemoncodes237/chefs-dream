@@ -42,3 +42,5 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["rice"]}}}}] run return run function chefsdream:ingredients/fryer/add_rice
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["bacon"]}}}}] run return run function chefsdream:ingredients/fryer/add_bacon
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["orange"]}}}}] run return run function chefsdream:ingredients/fryer/add_orange
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["soy_sauce"]}}}}] run return run function chefsdream:ingredients/fryer/add_soy_sauce
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["gochujang"]}}}}] run return run function chefsdream:ingredients/fryer/add_gochujang

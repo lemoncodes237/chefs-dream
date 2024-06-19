@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Chef's Dream vBETA","bold":true,"color":"dark_aqua"},"\n",{"text":"Datapack by YJMinecraft","color":"yellow"},"\n",{"text":"Resourcepack by masterliv531","color":"aqua"}]
+tellraw @a ["",{"text":"Chef's Dream v2.1","bold":true,"color":"dark_aqua"},"\n",{"text":"Datapack by YJMinecraft","color":"yellow"},"\n",{"text":"Resourcepack by masterliv531 and YJMinecraft","color":"aqua"}]
 scoreboard objectives add tick_time dummy
 scoreboard objectives add universal_time dummy
 scoreboard objectives add var dummy
@@ -54,6 +54,11 @@ scoreboard objectives add ing_cocoa_beans dummy
 scoreboard objectives add ing_sea_pickle dummy
 scoreboard objectives add ing_bacon dummy
 scoreboard objectives add ing_kimchi dummy
+scoreboard objectives add ing_beans dummy
+scoreboard objectives add ing_soy_sauce dummy
+scoreboard objectives add ing_tofu dummy
+scoreboard objectives add ing_gochujang dummy
+scoreboard objectives add ing_yogurt dummy
 scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
 

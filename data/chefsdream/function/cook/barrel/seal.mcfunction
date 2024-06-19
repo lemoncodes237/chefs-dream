@@ -8,5 +8,6 @@ execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barre
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] ing_sweet_berries matches 1.. run return run function chefsdream:cook/barrel/sweet_berries/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] ing_lemon matches 1.. run return run function chefsdream:cook/barrel/lemon/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] ing_milk matches 1.. run return run function chefsdream:cook/barrel/milk/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] ing_beans matches 1.. run return run function chefsdream:cook/barrel/beans/cook
 
 function chefsdream:cook/barrel/default_cook

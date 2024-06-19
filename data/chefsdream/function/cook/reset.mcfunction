@@ -49,5 +49,10 @@ scoreboard players set @s ing_cocoa_beans 0
 scoreboard players set @s ing_sea_pickle 0
 scoreboard players set @s ing_bacon 0
 scoreboard players set @s ing_kimchi 0
+scoreboard players set @s ing_beans 0
+scoreboard players set @s ing_soy_sauce 0
+scoreboard players set @s ing_tofu 0
+scoreboard players set @s ing_gochujang 0
+scoreboard players set @s ing_yogurt 0
 scoreboard players set @s ing_ketchup 0
 scoreboard players set @s ing_mustard 0

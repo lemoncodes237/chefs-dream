@@ -65,10 +65,10 @@ The only exception to this rule is with sushi making; in that case, the meats an
 ### Adding Ingredients
 When adding a new ingredient, it should be added to the list above. Moreover, the following files will require additions:
 
+- `load.mcfunction`: This function loads up the scoreboard objective for the ingredients.
 - `ingredients/take.mcfunction`: This function is triggered every time an ingredient is removed from a cooking station
 - `ingredients/cooking_pot/print_ingredients.mcfunction`, `ingredients/oven/print_ingredients.mcfunction`, `ingredients/barrel/print_ingredients.mcfunction`: These functions are used to print ingredients present.
 - `cook/reset.mcfunction`: This function is triggered every time cooking is done to reset the scoreboard objectives.
-- `load.mcfunction`: This function loads up the scoreboard objective for the ingredients.
 
 ## Custom Data
 The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `custom_model_data` component; see the texture pack for the codes for each food.
