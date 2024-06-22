@@ -1,10 +1,10 @@
 # Chef's Dream Changelog
 
-## v2.1
+## v2.1: The Asian Foods Update
 
 6/22/2024
 
-- Added ___ new foods, most of them being Asian foods
+- Added 50 new foods, most of them being Asian foods
 
     - Added beans, which are dropped from grass
 
