@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cookie",
+            "predicates": {
+              "minecraft:custom_data": "{fortunecookie:1}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "chefsdream:fun/give_fortune"
+    }
+  }
+  

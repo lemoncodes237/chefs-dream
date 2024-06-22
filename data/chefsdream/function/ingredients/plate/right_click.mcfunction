@@ -1,4 +1,5 @@
 execute if entity @e[type=interaction,tag=plate,distance=..1,tag=!dirty,tag=!used] if entity @s[nbt=!{SelectedItem:{}}] run return 0
+# Plates can't become dirty anymore, but just in case you have some dirty plates you wanna clean, I'm leaving this code in for now.
 execute if entity @e[type=interaction,tag=plate,distance=..1,tag=dirty] run return run function chefsdream:ingredients/plate/dirty_right_click
 execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:ingredients/plate/take
 execute if entity @e[type=interaction,tag=plate,distance=..1,tag=used] run return run title @s actionbar "The plate already has food on it!"

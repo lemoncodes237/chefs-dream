@@ -20,5 +20,6 @@ execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distan
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_salt matches 1.. run return run function chefsdream:cook/cooking_pot/salt/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_curry_powder matches 1.. run return run function chefsdream:cook/cooking_pot/curry_powder/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_rice matches 1.. run return run function chefsdream:cook/cooking_pot/rice/cook
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ing_tofu matches 1.. run return run function chefsdream:cook/cooking_pot/tofu/cook
 
 function chefsdream:cook/cooking_pot/default_cook

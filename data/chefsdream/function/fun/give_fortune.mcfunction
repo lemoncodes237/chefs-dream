@@ -1,0 +1,15 @@
+advancement grant @s only chefsdream:chefsdream/fortune_cookie
+advancement revoke @s only chefsdream:chefsdream/fortune_cookie_check
+
+execute store result score Random var run random value 0..9
+
+execute if score Random var matches 0 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will get so lost that you will need to use F3 in order to get home! Or if you have keepInventory, you might just use /kill, i dunno","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 1 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will make another fortune cookie to see what other fortune you get! ... You do realize that defeats the purpose, right?","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 2 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will eventually log out of Minecraft and go do something else! Seriously though, you should. Minecraft is not life.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 3 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will wake up from your sleep tomorrow! Unless it's past midnight, in which case, you will wake up from your sleep today!","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 4 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will read English! Oh look you just did. See? Fortune cookies never lie.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 5 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will give this datapack a diamond on Planet Minecraft! ... Please? It'd be super helpful!","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 6 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will wash your hands! You really should though, have you noticed how sweaty your hand has gotten from it being on your mouse? Like seriously. Poor mouse.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 7 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will see the light! Unless you have really long blonde hair, in which case I'll be your Eugene.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 8 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will drink water! Stay hydrated!","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 9 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will fix your posture right now! I really should too...","italic":true,"color":"dark_aqua"}]

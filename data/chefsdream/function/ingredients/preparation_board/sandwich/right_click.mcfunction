@@ -8,6 +8,8 @@ execute if items entity @s weapon.mainhand carrot run return run function chefsd
 execute if items entity @s weapon.mainhand cooked_beef run return run function chefsdream:ingredients/preparation_board/sandwich/add_beef
 execute if items entity @s weapon.mainhand cooked_chicken run return run function chefsdream:ingredients/preparation_board/sandwich/add_chicken
 execute if items entity @s weapon.mainhand brown_mushroom run return run function chefsdream:ingredients/preparation_board/sandwich/add_mushroom
+execute if items entity @s weapon.mainhand cooked_porkchop run return run function chefsdream:ingredients/preparation_board/sandwich/add_porkchop
+execute if items entity @s weapon.mainhand sea_pickle run return run function chefsdream:ingredients/preparation_board/sandwich/add_sea_pickle
 execute if items entity @s weapon.mainhand red_mushroom run return run function chefsdream:ingredients/preparation_board/sandwich/add_mushroom
 execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["lettuce"]}] run return run function chefsdream:ingredients/preparation_board/sandwich/add_lettuce
 execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["tomato"]}] run return run function chefsdream:ingredients/preparation_board/sandwich/add_tomato

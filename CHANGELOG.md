@@ -1,5 +1,27 @@
 # Chef's Dream Changelog
 
+## v2.1
+
+6/22/2024
+
+- Added ___ new foods, most of them being Asian foods
+
+    - Added beans, which are dropped from grass
+
+    - Added tofu, soy sauce, and gochujang, which are made from barrels
+
+    - Added fried rice, dumplings, and steamed tofu
+
+    - Added 11 Korean foods, 10 Chinese foods, 7 Japanese foods, 10 Indian foods, 5 Vietnamese foods, and 3 Thai foods
+
+    - One of the Chinese foods, the Fortune Cookie, will give a random fortune every time it is eaten. There are currently 10 fortunes
+
+- Added a new advancement for eating a fortune cookie
+
+- The message on `/reload` now displays the correct version
+
+- Plates no longer become dirty.
+
 ## v2.0
 
 6/13/2024
