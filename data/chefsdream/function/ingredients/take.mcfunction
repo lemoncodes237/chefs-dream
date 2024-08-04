@@ -58,6 +58,8 @@ execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,dist
 execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["tofu"]}}}} run scoreboard players remove @e[type=interaction,tag=chefsdream,sort=nearest,limit=1,distance=..1] ing_tofu 1
 execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["gochujang"]}}}} run scoreboard players remove @e[type=interaction,tag=chefsdream,sort=nearest,limit=1,distance=..1] ing_gochujang 1
 execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["yogurt"]}}}} run scoreboard players remove @e[type=interaction,tag=chefsdream,sort=nearest,limit=1,distance=..1] ing_yogurt 1
+execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["bread_slice"]}}}} run scoreboard players remove @e[type=interaction,tag=chefsdream,sort=nearest,limit=1,distance=..1] ing_bread 1
+execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,distance=..1] {item:{components:{"minecraft:custom_data":{Tags:["tortilla"]}}}} run scoreboard players remove @e[type=interaction,tag=chefsdream,sort=nearest,limit=1,distance=..1] ing_bread 1
 
 # Cooked variants
 execute if data entity @e[type=item_display,tag=remove,sort=nearest,limit=1,distance=..1] {item:{id:"minecraft:cooked_beef"}} run scoreboard players remove @e[type=interaction,tag=chefsdream,sort=nearest,limit=1,distance=..1] ing_beef 1
