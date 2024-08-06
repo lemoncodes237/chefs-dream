@@ -43,3 +43,16 @@ Right clicking on an unused plate with an empty hand makes it dirty
 Affected Versions: v1.0 - v1.4
 
 Fixed: v1.4.1
+
+--------------------------------
+
+### BUG 5
+
+Removing a grilled porkchop from a sandwich does not decrement the `ing_porkchop` score from the sandwich
+
+Affected Versions: v2.1
+
+Fixed: v2.2
+
+
+

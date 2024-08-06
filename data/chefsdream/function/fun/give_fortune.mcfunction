@@ -1,7 +1,7 @@
 advancement grant @s only chefsdream:chefsdream/fortune_cookie
 advancement revoke @s only chefsdream:chefsdream/fortune_cookie_check
 
-execute store result score Random var run random value 0..9
+execute store result score Random var run random value 0..19
 
 execute if score Random var matches 0 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will get so lost that you will need to use F3 in order to get home! Or if you have keepInventory, you might just use /kill, i dunno","italic":true,"color":"dark_aqua"}]
 execute if score Random var matches 1 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will make another fortune cookie to see what other fortune you get! ... You do realize that defeats the purpose, right?","italic":true,"color":"dark_aqua"}]
@@ -13,3 +13,14 @@ execute if score Random var matches 6 run return run tellraw @s ["",{"text":"The
 execute if score Random var matches 7 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will see the light! Unless you have really long blonde hair, in which case I'll be your Eugene.","italic":true,"color":"dark_aqua"}]
 execute if score Random var matches 8 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will drink water! Stay hydrated!","italic":true,"color":"dark_aqua"}]
 execute if score Random var matches 9 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will fix your posture right now! I really should too...","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 10 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will download the Chef's Dream datapack! Oh wait, you already did... well that's awkward.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 11 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will find that this datapack has a LOT of foods. A LOT. Like a LOT a LOT.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 12 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will open your windows to let some fresh air in. I'm serious, you should consider doing it if the air in your room hasn't been that good.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 13 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will wear a coat during the next winter. Unless you stay home and play video games all day, in which case you should really consider going outside and touching grass.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 14 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will turn the lights off before you sleep. If you're scared of the dark, then maybe this is wrong, but I still feel like it'll be true eventually.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 15 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will become a trillionaire! In your DREAMS LOL GET REKT *Plays horn* OHHHHHHHHHH","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 16 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will go to an art museum some day and have no idea what the art you're looking at means. Have you ever experienced that? I sure have.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 17 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will read this fortune. HA! Called it!","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 18 run return run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will roll your eyes at this joke I'm about to make. A phone must be so acidic... because it has pH one!!!","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 19 run tellraw @s ["",{"text":"The fortune reads: ","italic":true,"color":"white"},{"text":"You will get an advancement! Unless you got it already, in which case well, this is awkward.","italic":true,"color":"dark_aqua"}]
+execute if score Random var matches 19 run return run advancement grant @s only chefsdream:chefsdream/get_an_advancement_fortune

@@ -1,5 +1,22 @@
 # Chef's Dream Changelog
 
+## v2.2: The Taco Update
+
+8/6/2024
+
+- Added the tortilla, which is acquired by putting dough on a fryer
+
+- Added the ability to make tacos on a preparation board
+    - To make a taco, put a tortilla on a preparation board, put up to five ingredients on the tortilla, then left click on it with an empty hand
+
+- Added seven different types of tacos
+
+- Added ten new fortunes to the fortune cookie
+
+- Added three new advancements
+
+- Fixed BUG 5
+
 ## v2.1: The Asian Foods Update
 
 6/22/2024
