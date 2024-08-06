@@ -50,7 +50,7 @@ Currently, the datapack has the following cooking stations:
 
 - Grinder: Created from a Grindstone. Right click with an item to grind it. Notably, grinding wheat gives you flour and grinding flint or quartz gives you salt.
 
-- Preparation Board: Created from a Wooden Pressure Plate. Place an item on the board and then use another item on it to create new ingredients. You can also make sushi and sandwiches with a preparation board; look at the [sushi](https://github.com/lemoncodes237/chefs-dream/wiki/Sushi) and [sandwich](https://github.com/lemoncodes237/chefs-dream/wiki/Sandwiches) wiki pages to learn more.
+- Preparation Board: Created from a Wooden Pressure Plate. Place an item on the board and then use another item on it to create new ingredients. You can also make sushi, sandwiches, and tacos with a preparation board; look at the [sushi](https://github.com/lemoncodes237/chefs-dream/wiki/Sushi), [sandwich](https://github.com/lemoncodes237/chefs-dream/wiki/Sandwiches), and [taco](https://github.com/lemoncodes237/chefs-dream/wiki/Tacos) wiki pages to learn more.
 
 - Barrel: Created from a Barrel. Add ingredients into the barrel then use a shovel to seal it. After enough time has passed, right click on the barrel to get the results. Unlike other cooking stations, a barrel allows you to craft in bulk. (For example, adding 15 salt and 16 milk to a barrel and sealing it wil result in 15 cheese.)
 
