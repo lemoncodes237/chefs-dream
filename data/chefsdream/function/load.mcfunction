@@ -59,6 +59,10 @@ scoreboard objectives add ing_soy_sauce dummy
 scoreboard objectives add ing_tofu dummy
 scoreboard objectives add ing_gochujang dummy
 scoreboard objectives add ing_yogurt dummy
+scoreboard objectives add ing_mango dummy
+scoreboard objectives add ing_ice_cream dummy
+scoreboard objectives add ing_boba dummy
+scoreboard objectives add ing_leaves dummy
 scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
 
