@@ -1,5 +1,13 @@
 # Chef's Dream Changelog
 
+## v2.3: The Drinks Update
+
+8/24/2024
+
+- The give commands now give all the foods they are supposed to
+
+- The Sweet Berry Banana Smoothie now gives Haste I and Absorption I instead of Speed II
+
 ## v2.2: The Taco Update
 
 8/6/2024

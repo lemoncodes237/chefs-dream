@@ -70,5 +70,17 @@ Affected Versions: v2.1
 
 Fixed: v2.2
 
+--------------------------------
+
+### BUG 8
+
+Mocha does not give the coffee advancement
+
+Affected Versions: v1.4 - v2.2
+
+Fixed: v2.3
+
+
+
 
 

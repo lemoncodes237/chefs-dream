@@ -10,3 +10,5 @@ execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barr
 execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=soy_sauce] run return run function chefsdream:cook/barrel/give_soy_sauce
 execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=tofu] run return run function chefsdream:cook/barrel/give_tofu
 execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=gochujang] run return run function chefsdream:cook/barrel/give_gochujang
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=beer] run return run function chefsdream:cook/barrel/give_beer
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=wine] run return run function chefsdream:cook/barrel/give_wine

@@ -1,9 +1,10 @@
 tellraw @s "Ingredients in Barrel:"
 
+execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_water matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_water"}}," water"]
 execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_potato matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_potato"}}," potato"]
 execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_carrot matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_carrot"}}," carrot"]
 execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_beetroot matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_beetroot"}}," beetroot"]
-execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_bread matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_bread"}}," bread"]
+execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_bread matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_bread"}}," wheat"]
 execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_mushroom matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_mushroom"}}," mushroom"]
 execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_porkchop matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_porkchop"}}," porkchop"]
 execute if score @e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1] ing_beef matches 1.. run tellraw @s ["",{"score":{"name":"@e[type=interaction,distance=..1,tag=barrel,sort=nearest,limit=1]","objective":"ing_beef"}}," beef"]
