@@ -54,5 +54,9 @@ scoreboard players set @s ing_soy_sauce 0
 scoreboard players set @s ing_tofu 0
 scoreboard players set @s ing_gochujang 0
 scoreboard players set @s ing_yogurt 0
+scoreboard players set @s ing_mango 0
+scoreboard players set @s ing_ice_cream 0
+scoreboard players set @s ing_boba 0
+scoreboard players set @s ing_leaves 0
 scoreboard players set @s ing_ketchup 0
 scoreboard players set @s ing_mustard 0

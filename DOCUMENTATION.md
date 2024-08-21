@@ -57,6 +57,10 @@ Hence, to ensure correctness, it is vital that this specific order is obeyed in 
 - Sea Pickles
 - Bacon
 - Kimchi
+- Mango
+- Ice Cream
+- Boba
+- Leaves
 - Ketchup
 - Mustard
 

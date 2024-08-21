@@ -60,6 +60,7 @@ scoreboard objectives add ing_tofu dummy
 scoreboard objectives add ing_gochujang dummy
 scoreboard objectives add ing_yogurt dummy
 scoreboard objectives add ing_mango dummy
+# ing_ice_cream is only for vanilla ice cream, not other types.
 scoreboard objectives add ing_ice_cream dummy
 scoreboard objectives add ing_boba dummy
 scoreboard objectives add ing_leaves dummy

@@ -15,9 +15,13 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:sweet_berries"}}] run retu
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:cocoa_beans"}}] run return run function chefsdream:ingredients/mixer/add_cocoa_beans
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:melon_slice"}}] run return run function chefsdream:ingredients/mixer/add_melon
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:glow_berries"}}] run return run function chefsdream:ingredients/mixer/add_glow_berries
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:milk_bucket"}}] run return run function chefsdream:ingredients/mixer/add_milk
+execute if items entity @s weapon.mainhand #minecraft:leaves run return run function chefsdream:ingredients/mixer/add_leaves
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["tomato"]}}}}] run return run function chefsdream:ingredients/mixer/add_tomato
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/mixer/add_salt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["lemon"]}}}}] run return run function chefsdream:ingredients/mixer/add_lemon
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["orange"]}}}}] run return run function chefsdream:ingredients/mixer/add_orange
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["banana"]}}}}] run return run function chefsdream:ingredients/mixer/add_banana
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["chocolate"]}}}}] run return run function chefsdream:ingredients/mixer/add_chocolate
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["mango"]}}}}] run return run function chefsdream:ingredients/mixer/add_mango
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["boba"]}}}}] run return run function chefsdream:ingredients/mixer/add_boba
