@@ -8,6 +8,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:sugar_cane"}}] run return 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:beetroot_seeds"}}] run return run function chefsdream:ingredients/grinder/make_rice
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:nether_wart"}}] run return run function chefsdream:ingredients/grinder/make_paprika
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:crimson_roots"}}] run return run function chefsdream:ingredients/grinder/make_paprika
+execute if items entity @s weapon.mainhand #saplings run return run function chefsdream:ingredients/grinder/make_boba
 
 # Yes I know this isn't how curry is made. I know it's from Turmeric. There's no Turmeric in Minecraft. Deal with it.
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:dandelion"}}] run return run function chefsdream:ingredients/grinder/make_curry

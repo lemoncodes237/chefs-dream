@@ -7,7 +7,8 @@
       "minecraft:dandelion",
       "minecraft:beetroot_seeds",
       "minecraft:nether_wart",
-      "minecraft:crimson_roots"
+      "minecraft:crimson_roots",
+      "#minecraft:saplings"
     ]
   }
   
