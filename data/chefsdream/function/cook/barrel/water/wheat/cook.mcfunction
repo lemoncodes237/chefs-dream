@@ -5,6 +5,7 @@ execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=ne
 
 # Correct recipe - Beer
 tag @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] add beer
+tag @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] add drinks
 scoreboard players operation @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] var = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] ing_water
 execute as @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] if score @s var >= @s ing_bread run scoreboard players operation @s var = @s ing_bread
 

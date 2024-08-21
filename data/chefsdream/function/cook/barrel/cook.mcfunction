@@ -1,7 +1,6 @@
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel] universal_time > Time universal_time run return run function chefsdream:cook/barrel/time_left
 
-execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=beer] store result score 1CanGo var run function chefsdream:cook/barrel/drink_check
-execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=wine] store result score 1CanGo var run function chefsdream:cook/barrel/drink_check
+execute if entity @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=barrel,tag=drinks] store result score 1CanGo var run function chefsdream:cook/barrel/drink_check
 
 execute if score 1CanGo var matches -1 run return 0
 
