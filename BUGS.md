@@ -2,7 +2,23 @@
 
 ## Current Bugs
 
-None
+### BUG 6
+
+Beans are not given on the custom command to give all vegetables
+
+Affected Versions: v2.1 - v2.2
+
+--------------------------------
+
+### BUG 7
+
+Preparation board, plates, and grills don't work with Lunar Client
+
+https://discord.com/channels/1254004041994862593/1254004073372454963/1274098956011573362
+
+Affected Version: v1.0 - v2.2
+
+Status: Unsure how to fix
 
 ## Fixed Bugs
 
