@@ -39,3 +39,4 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["beans"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_beans
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["yogurt"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_yogurt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_cheese
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["mango"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_mango

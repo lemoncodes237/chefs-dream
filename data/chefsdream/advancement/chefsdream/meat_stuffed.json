@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cooked_beef"
+          },
+        "title": "Carnivore",
+        "description": "Eat the meat stuffed taco. I... don't... feel... so... good...",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+      },
+      "parent": "chefsdream:chefsdream/taco",
+      "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cookie",
+            "predicates": {
+              "minecraft:custom_data": "{meatstuffed:1}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "chefsdream:fun/give_ad"
+    }
+  }
+  

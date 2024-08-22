@@ -26,11 +26,17 @@
     - Added the Waffle Cone, which can be acquired by cutting a Waffle on a preparation board with a sword
     - Added the ability to make ice cream cones by right-clicking on the ice cream machine with a waffle cone rather than a bowl
 
-- Added Mango Cod Roll, 
+- Added Mango Cod Roll, Mango Habanero Taco, Meat Stuffed Taco, and Mango Sticky Rice
+
+- Added more advancements
 
 - The give commands are fixed so that they give all the foods they are supposed to
 
 - The Sweet Berry Banana Smoothie now gives Haste I and Absorption I instead of Speed II
+    - This does not affect Sweet Berry Banana Smoothies that were created before this update
+
+- Burnt Food can now be eaten and gives the Wither effect
+    - This does not affect Burnt Food that was created before this update
 
 ## v2.2: The Taco Update
 

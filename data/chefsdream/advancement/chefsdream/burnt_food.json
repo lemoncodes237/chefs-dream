@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:black_dye"
+          },
+        "title": "Regret",
+        "description": "Eat burnt food",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+      },
+      "parent": "chefsdream:chefsdream/eat_something",
+      "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:black_dye",
+            "predicates": {
+              "minecraft:custom_data": "{burnt:1}"
+            }
+          }
+        }
+      }
+    }
+  }
+  
