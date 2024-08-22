@@ -3,3 +3,4 @@ execute if entity @e[type=item_display,tag=preparation_board_display,distance=..
 execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{id:"minecraft:beef"}}] run return run function chefsdream:ingredients/preparation_board/sword/make_sausage
 execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{id:"minecraft:poisonous_potato"}}] run return run function chefsdream:ingredients/preparation_board/sword/make_potato
 execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{id:"minecraft:bread"}}] run return run function chefsdream:ingredients/preparation_board/sword/make_bread_slices
+execute if entity @e[type=item_display,tag=preparation_board_display,distance=..1,nbt={item:{components:{"minecraft:custom_data":{Tags:["waffle"]}}}}] run return run function chefsdream:ingredients/preparation_board/sword/make_waffle_cones

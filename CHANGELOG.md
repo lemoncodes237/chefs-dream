@@ -4,7 +4,31 @@
 
 8/24/2024
 
-- The give commands now give all the foods they are supposed to
+- Added mangoes, which drop from dark oak leaves
+    - Dark oak leaves will now no longer drop apples when this datapack is enabled
+
+- Added boba, which can be acquired by grinding saplings
+
+- Added 26 new drinks
+    - Added Mango Smoothie
+    - Added Tea, Sweet Tea, and Citron Tea
+    - Added 7 different types of boba tea
+    - Added 2 different types of lemonade
+    - Added 3 different types of flavored milk
+    - Added 4 different types of milkshakes
+    - Added 2 different types of lassi
+    - Added Beer and Wine, which are made from barrels
+    - Added Root Beer
+    - Added Sikhye
+
+- Added more ice cream
+    - Added Mango Ice Cream, Tropical Ice Cream, and Berry Glazed Ice Cream
+    - Added the Waffle Cone, which can be acquired by cutting a Waffle on a preparation board with a sword
+    - Added the ability to make ice cream cones by right-clicking on the ice cream machine with a waffle cone rather than a bowl
+
+- Added Mango Cod Roll, 
+
+- The give commands are fixed so that they give all the foods they are supposed to
 
 - The Sweet Berry Banana Smoothie now gives Haste I and Absorption I instead of Speed II
 

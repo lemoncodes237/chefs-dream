@@ -16,3 +16,4 @@ execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["
 execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["paprika"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_paprika
 execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["cream_cheese"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_cream_cheese
 execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["ham"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_ham
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["mango"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_mango
