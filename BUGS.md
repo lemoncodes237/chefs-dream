@@ -8,7 +8,7 @@ Preparation board, plates, and grills don't work with Lunar Client
 
 https://discord.com/channels/1254004041994862593/1254004073372454963/1274098956011573362
 
-Affected Version: v1.0 - v2.2
+Affected Versions: v1.0 - v2.3
 
 Status: Unsure how to fix
 
