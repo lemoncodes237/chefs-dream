@@ -2,14 +2,6 @@
 
 ## Current Bugs
 
-### BUG 6
-
-Beans are not given on the custom command to give all vegetables
-
-Affected Versions: v2.1 - v2.2
-
---------------------------------
-
 ### BUG 7
 
 Preparation board, plates, and grills don't work with Lunar Client
@@ -19,6 +11,16 @@ https://discord.com/channels/1254004041994862593/1254004073372454963/12740989560
 Affected Version: v1.0 - v2.2
 
 Status: Unsure how to fix
+
+--------------------------------
+
+### BUG 9
+
+Making ice cream using a waffle cone sometimes gives the bowl version rather than the cup version.
+
+Affected Versions: v2.3
+
+Status: Unsure of how to replicate, it works most of the time. If anyone figures out how to replicate this, please message me!
 
 ## Fixed Bugs
 
@@ -72,6 +74,16 @@ Fixed: v2.2
 
 --------------------------------
 
+### BUG 6
+
+Beans are not given on the custom command to give all vegetables
+
+Affected Versions: v2.1 - v2.2
+
+Fixed: v2.3
+
+--------------------------------
+
 ### BUG 8
 
 Mocha does not give the coffee advancement
@@ -79,7 +91,6 @@ Mocha does not give the coffee advancement
 Affected Versions: v1.4 - v2.2
 
 Fixed: v2.3
-
 
 
 
