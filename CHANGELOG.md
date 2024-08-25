@@ -1,5 +1,15 @@
 # Chef's Dream Changelog
 
+## v2.3.2
+
+Date
+
+- Fixed BUG 11
+
+- Added commands to make it easier to destroy buggy cooking stations or to uninstall the pack
+    - Added the command `/function chefsdream:destroy_stations` to destroy all cooking stations in a 10 block radius from where it is executed
+    - Added the command `/function chefsdream:destroy_all_stations` to destroy all cooking stations in loaded chunks. Note that this cannot delete cooking stations in unloaded chunks
+
 ## v2.3.1: Urgent Bug Fix
 
 8/25/2024

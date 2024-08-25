@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=chefsdream] at @s run function chefsdream:station_maker/force_delete

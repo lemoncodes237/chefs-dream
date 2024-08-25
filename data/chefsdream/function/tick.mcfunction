@@ -19,8 +19,16 @@ execute as @e[type=interaction,tag=cooking_station] run data remove entity @s at
 execute as @e if score @s start_cooking matches 1.. run function chefsdream:give_station_maker
 execute as @e if score @s get_guide matches 1.. run function chefsdream:give_guide
 
-execute as @e[type=interaction,tag=plate] at @s unless block ~ ~0.1 ~ heavy_weighted_pressure_plate run function chefsdream:station_maker/delete_cooking_station
-execute as @e[type=interaction,tag=preparation_board] at @s unless block ~ ~0.1 ~ #wooden_pressure_plates run function chefsdream:station_maker/delete_cooking_station
+execute as @e[type=interaction,tag=plate] at @s unless block ~ ~0.1 ~ heavy_weighted_pressure_plate run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=preparation_board] at @s unless block ~ ~0.1 ~ #wooden_pressure_plates run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=cooking_pot] at @s unless block ~ ~0.1 ~ cauldron unless block ~ ~0.1 ~ water_cauldron run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=fryer] at @s unless block ~ ~0.1 ~ hopper run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=barrel] at @s unless block ~ ~0.1 ~ barrel run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=mixer] at @s unless block ~ ~0.1 ~ brewing_stand run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=ice_cream_machine] at @s unless block ~ ~0.1 ~ daylight_detector run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=oven] at @s unless block ~ ~0.1 ~ smoker run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=grinder] at @s unless block ~ ~0.1 ~ grindstone run function chefsdream:station_maker/force_delete
+execute as @e[type=interaction,tag=grill] at @s unless block ~ ~0.1 ~ iron_trapdoor[half=bottom] run function chefsdream:station_maker/force_delete
 
 scoreboard players enable @a start_cooking
 scoreboard players enable @a get_guide
