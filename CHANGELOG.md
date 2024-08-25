@@ -1,8 +1,14 @@
 # Chef's Dream Changelog
 
+## v2.3.1: Urgent Bug Fix
+
+8/25/2024
+
+- Fixed BUG 10
+
 ## v2.3: The Drinks Update
 
-8/24/2024
+8/23/2024
 
 - Added mangoes, which drop from dark oak leaves
     - Dark oak leaves will now no longer drop apples when this datapack is enabled
