@@ -22,6 +22,14 @@ Affected Versions: v2.3
 
 Status: Unsure of how to replicate, it works most of the time. If anyone figures out how to replicate this, please message me!
 
+--------------------------------
+
+### BUG 19
+
+A wrong recipe in a cooking pot causes the pot to endlessly cook
+
+Affected Versions: v2.3
+
 ## Fixed Bugs
 
 ### BUG 1
