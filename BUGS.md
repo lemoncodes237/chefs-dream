@@ -8,7 +8,7 @@ Preparation board, plates, and grills don't work with Lunar Client
 
 https://discord.com/channels/1254004041994862593/1254004073372454963/1274098956011573362
 
-Affected Versions: v1.0 - v2.3
+Affected Versions: v1.0 - v2.3.1
 
 Status: Unsure how to fix
 
@@ -18,9 +18,17 @@ Status: Unsure how to fix
 
 Making ice cream using a waffle cone sometimes gives the bowl version rather than the cup version.
 
-Affected Versions: v2.3
+Affected Versions: v2.3 - v2.3.1
 
 Status: Unsure of how to replicate, it works most of the time. If anyone figures out how to replicate this, please message me!
+
+--------------------------------
+
+### BUG 11
+
+Blowing up cooking station blocks with a TNT still keeps the cooking station.
+
+Affected Versions: v1.0 - v2.3.1
 
 ## Fixed Bugs
 
