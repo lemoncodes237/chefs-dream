@@ -30,6 +30,14 @@ Blowing up cooking station blocks with a TNT still keeps the cooking station.
 
 Affected Versions: v1.0 - v2.3.1
 
+--------------------------------
+
+### BUG 12
+
+The give all fruits commands gives "Ango" instead of Mango
+
+Affected Versions: v2.3 - v2.3.1
+
 ## Fixed Bugs
 
 ### BUG 1
