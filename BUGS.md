@@ -38,6 +38,14 @@ The give all fruits command gives "Ango" instead of Mango
 
 Affected Versions: v2.3 - v2.3.1
 
+--------------------------------
+
+### BUG 13
+
+Fruits cannot drop when broken with Fortune tools
+
+Affected Versions: v2.0 - v2.3.1
+
 ## Fixed Bugs
 
 ### BUG 1
