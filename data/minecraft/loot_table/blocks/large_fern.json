@@ -154,8 +154,14 @@
               ],
               "conditions": [
                   {
-                      "condition": "minecraft:random_chance",
-                      "chance": 0.08
+                    "condition": "minecraft:table_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "chances": [
+                      0.08,
+                      0.15,
+                      0.2,
+                      0.25
+                    ]
                   },
                   {
                       "condition": "minecraft:inverted",
@@ -174,7 +180,7 @@
                               "predicates": {
                               "minecraft:enchantments": [
                                   {
-                                  "enchantment": "minecraft:silk_touch",
+                                  "enchantments": "minecraft:silk_touch",
                                   "levels": {
                                       "min": 1
                                   }
@@ -215,8 +221,14 @@
               ],
               "conditions": [
                   {
-                      "condition": "minecraft:random_chance",
-                      "chance": 0.08
+                    "condition": "minecraft:table_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "chances": [
+                      0.08,
+                      0.15,
+                      0.2,
+                      0.25
+                    ]
                   },
                   {
                       "condition": "minecraft:inverted",
@@ -235,7 +247,7 @@
                               "predicates": {
                               "minecraft:enchantments": [
                                   {
-                                  "enchantment": "minecraft:silk_touch",
+                                  "enchantments": "minecraft:silk_touch",
                                   "levels": {
                                       "min": 1
                                   }
