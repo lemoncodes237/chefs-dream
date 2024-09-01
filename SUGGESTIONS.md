@@ -2,7 +2,11 @@
 
 ## Suggestions
 
-None active!
+CHEF 3
+
+Add banana split as an ice cream flavor
+
+Thank you @Anka on Discord!
 
 
 ## Accepted Suggestions
