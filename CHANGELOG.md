@@ -1,14 +1,20 @@
 # Chef's Dream Changelog
 
-## v2.3.2
+## v2.3.2: QoL and Bug Fixes
 
 Date
 
-- Fixed BUG 11
+- Fixed BUG 11, BUG 12, and BUG 13
 
 - Added commands to make it easier to destroy buggy cooking stations or to uninstall the pack
     - Added the command `/function chefsdream:destroy_stations` to destroy all cooking stations in a 10 block radius from where it is executed
     - Added the command `/function chefsdream:destroy_all_stations` to destroy all cooking stations in loaded chunks. Note that this cannot delete cooking stations in unloaded chunks
+
+- Heavily buffed fruits and vegetable drop rates
+    - Fruits now drop with a 5% chance. With a Fortune III tool, this is buffed to 12.5% (1/8).
+    - The normal vegetable drop rates did not change, but they now heavily increase when a Fortune tool is used on grasses/ferns. With a Fortune III tool, the fern vegetables each has a 25% chance of dropping, and the grass vegetables each has a 10% chance of dropping.
+
+- Added five more fortunes to the fortune cookie
 
 ## v2.3.1: Urgent Bug Fix
 
