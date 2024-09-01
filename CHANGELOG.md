@@ -2,7 +2,7 @@
 
 ## v2.3.2: QoL and Bug Fixes
 
-Date
+9/1/2024
 
 - Fixed BUG 11, BUG 12, and BUG 13
 

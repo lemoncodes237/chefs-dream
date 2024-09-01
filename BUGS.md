@@ -22,6 +22,16 @@ Affected Versions: v2.3 - v2.3.1
 
 Status: Unsure of how to replicate, it works most of the time. If anyone figures out how to replicate this, please message me!
 
+--------------------------------
+
+### BUG 14
+
+The give commanded foods are slightly different from naturally dropped foods.
+
+Affected Versions: v1.0 - v2.3.2
+
+Note: This does not impact play as much since this is supposed to be a survival datapack and both foods are compatible with recipes, but it will be fixed in the next update.
+
 ## Fixed Bugs
 
 ### BUG 1
