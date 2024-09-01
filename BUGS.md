@@ -22,30 +22,6 @@ Affected Versions: v2.3 - v2.3.1
 
 Status: Unsure of how to replicate, it works most of the time. If anyone figures out how to replicate this, please message me!
 
---------------------------------
-
-### BUG 11
-
-Blowing up cooking station blocks with a TNT still keeps the cooking station.
-
-Affected Versions: v1.0 - v2.3.1
-
---------------------------------
-
-### BUG 12
-
-The give all fruits command gives "Ango" instead of Mango
-
-Affected Versions: v2.3 - v2.3.1
-
---------------------------------
-
-### BUG 13
-
-Fruits cannot drop when broken with Fortune tools
-
-Affected Versions: v2.0 - v2.3.1
-
 ## Fixed Bugs
 
 ### BUG 1
@@ -125,5 +101,35 @@ A wrong recipe in a cooking pot causes the pot to endlessly cook
 Affected Versions: v2.3
 
 Fixed: v2.3.1
+
+--------------------------------
+
+### BUG 11
+
+Blowing up cooking station blocks with a TNT still keeps the cooking station.
+
+Affected Versions: v1.0 - v2.3.1
+
+Fixed: v2.3.2
+
+--------------------------------
+
+### BUG 12
+
+The give all fruits command gives "Ango" instead of Mango
+
+Affected Versions: v2.3 - v2.3.1
+
+Fixed: v2.3.2
+
+--------------------------------
+
+### BUG 13
+
+Fruits cannot drop when broken with Fortune tools
+
+Affected Versions: v2.0 - v2.3.1
+
+Fixed v2.3.2
 
 
