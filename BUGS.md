@@ -32,6 +32,14 @@ Affected Versions: v1.0 - v2.3.2
 
 Note: This does not impact play as much since this is supposed to be a survival datapack and both foods are compatible with recipes, but it will be fixed in the next update.
 
+--------------------------------
+
+### BUG 15
+
+Some foods (ex. Steamed Eggs) do not give the Delicious! advancement.
+
+Affected Versions: v1.0 - v2.3.2
+
 ## Fixed Bugs
 
 ### BUG 1
