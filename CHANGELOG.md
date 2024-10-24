@@ -1,5 +1,16 @@
 # Chef's Dream Changelog
 
+## v3.0: 1.21.2 Support
+
+Some Date
+
+- Made the datapack compatible with Minecraft 1.21.2
+    - The legacy version for 1.21 and 1.21.1 will be linked in the description on PMC
+
+- Fixed BUG 14 and BUG 15
+
+- Drinks are now stackable up to 64
+
 ## v2.3.2: QoL and Bug Fixes
 
 9/1/2024

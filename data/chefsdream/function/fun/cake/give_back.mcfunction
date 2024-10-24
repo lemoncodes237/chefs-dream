@@ -1,0 +1,3 @@
+execute if entity @s[tag=cake] run give @a[tag=chefsdream_cake_maker,sort=nearest,limit=1] item_frame[entity_data={id:"item_frame",Invisible:1b,Tags:["chefsdreamcake","cake"]},custom_data={chefsdreamcake:1}] 1
+execute if entity @s[tag=cake] run clear @a[tag=chefsdream_cake_maker,sort=nearest,limit=1] item_frame[entity_data={id:"item_frame",Invisible:1b,Tags:["chefsdreamcake","cake"]},custom_data={chefsdreamcake:1}] 1
+execute if entity @s[tag=cake] run return run give @a[tag=chefsdream_cake_maker,sort=nearest,limit=1] item_frame[entity_data={id:"item_frame",Invisible:1b,Tags:["chefsdreamcake","cake"]},custom_data={chefsdreamcake:1}] 1

@@ -37,3 +37,6 @@ execute as @a[advancements={chefsdream:chefsdream/cook_10_food=false}] if score 
 execute as @a[advancements={chefsdream:chefsdream/cook_100_food=false}] if score @s food_cooked matches 100.. run advancement grant @s only chefsdream:chefsdream/cook_100_food
 execute as @a[advancements={chefsdream:chefsdream/cook_1000_food=false}] if score @s food_cooked matches 1000.. run advancement grant @s only chefsdream:chefsdream/cook_1000_food
 execute as @a[advancements={chefsdream:chefsdream/cook_10000_food=false}] if score @s food_cooked matches 10000.. run advancement grant @s only chefsdream:chefsdream/cook_10000_food
+
+# Cake
+execute as @e[tag=chefsdream_placedcake] at @s run function chefsdream:fun/cake/cake_check

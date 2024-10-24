@@ -67,6 +67,9 @@ scoreboard objectives add ing_leaves dummy
 scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
 
+# Used for cakes
+scoreboard objectives add chefsdreambites dummy
+
 scoreboard objectives add start_cooking trigger
 scoreboard players enable @a start_cooking
 
