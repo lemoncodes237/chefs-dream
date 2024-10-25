@@ -1,15 +1,31 @@
 # Chef's Dream Changelog
 
-## v3.0: 1.21.2 Support
+## v3.0: The Baking Update
 
 Some Date
 
-- Made the datapack compatible with Minecraft 1.21.2
+- Made the datapack compatible with Minecraft 1.21.3
     - The legacy version for 1.21 and 1.21.1 will be linked in the description on PMC
 
-- Fixed BUG 14 and BUG 15
+- Fixed BUG 13, 14, and 15
 
 - Drinks are now stackable up to 64
+
+- Added 30 new pastries
+    - Added 2 different types of cookies
+    - Added 5 different types of macarons
+    - Added 2 cupcakes and 1 muffin
+    - Added 3 different types of pies
+    - Added 2 different types of donuts
+    - Added sweet crepe, baguette, biscuit, croissant, and chocolate croissant
+    - Added lemon loaf, egg tart, mini danish, pound cake, and soboro bread
+
+- Added 5 cakes, which can be placed like regular cakes
+
+- Added Banana Split Ice Cream
+
+- Added a new advancement
+
 
 ## v2.3.2: QoL and Bug Fixes
 
