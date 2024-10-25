@@ -11,6 +11,7 @@ advancement grant @s only chefsdream:chefsdream/oven
 scoreboard players add @s food_cooked 1
 
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_potato matches 1.. run return run function chefsdream:cook/oven/potato/cook
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_carrot matches 1.. run return run function chefsdream:cook/oven/carrot/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_mushroom matches 1.. run return run function chefsdream:cook/oven/mushroom/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_porkchop matches 1.. run return run function chefsdream:cook/oven/porkchop/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_chicken matches 1.. run return run function chefsdream:cook/oven/chicken/cook
