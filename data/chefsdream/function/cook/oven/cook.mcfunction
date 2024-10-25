@@ -17,6 +17,7 @@ execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1]
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_egg matches 1.. run return run function chefsdream:cook/oven/egg/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_pumpkin matches 1.. run return run function chefsdream:cook/oven/pumpkin/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_sugar matches 1.. run return run function chefsdream:cook/oven/sugar/cook
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_salt matches 1.. run return run function chefsdream:cook/oven/salt/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] ing_dough matches 1.. run return run function chefsdream:cook/oven/dough/cook
 
 function chefsdream:cook/oven/default_cook
