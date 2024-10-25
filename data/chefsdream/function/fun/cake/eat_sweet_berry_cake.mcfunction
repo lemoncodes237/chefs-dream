@@ -1,0 +1,9 @@
+execute on target run effect give @s saturation 1 2 true
+
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=1}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323022}}}
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=2}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323023}}}
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=3}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323024}}}
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=4}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323025}}}
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=5}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323026}}}
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=6}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323027}}}
+execute as @s[tag=chefsdream_sweet_berry_cake,scores={chefsdreambites=7..}] at @s run function chefsdream:fun/cake/delete

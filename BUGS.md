@@ -12,38 +12,6 @@ Affected Versions: v1.0 - v3.0
 
 Status: Unsure how to fix
 
---------------------------------
-
-### BUG 9
-
-Making vanilla ice cream using a waffle cone gives the bowl version
-
-Affected Versions: v2.3 - v2.3.2
-
-Fixed: v3.0
-
---------------------------------
-
-### BUG 14
-
-The give commanded foods are slightly different from naturally dropped foods.
-
-Affected Versions: v1.0 - v2.3.2
-
-Note: This does not impact play as much since this is supposed to be a survival datapack and both foods are compatible with recipes, but it will be fixed in the next update.
-
-Fixed: v3.0
-
---------------------------------
-
-### BUG 15
-
-Some foods (ex. Steamed Eggs) do not give the Delicious! advancement.
-
-Affected Versions: v1.0 - v2.3.2
-
-Fixed: v3.0
-
 ## Fixed Bugs
 
 ### BUG 1
@@ -153,5 +121,37 @@ Fruits cannot drop when broken with Fortune tools
 Affected Versions: v2.0 - v2.3.1
 
 Fixed v2.3.2
+
+--------------------------------
+
+### BUG 9
+
+Making vanilla ice cream using a waffle cone gives the bowl version
+
+Affected Versions: v2.3 - v2.3.2
+
+Fixed: v3.0
+
+--------------------------------
+
+### BUG 14
+
+The give commanded foods are slightly different from naturally dropped foods.
+
+Affected Versions: v1.0 - v2.3.2
+
+Note: This does not impact play as much since this is supposed to be a survival datapack and both foods are compatible with recipes, but it will be fixed in the next update.
+
+Fixed: v3.0
+
+--------------------------------
+
+### BUG 15
+
+Some foods (ex. Steamed Eggs) do not give the Delicious! advancement.
+
+Affected Versions: v1.0 - v2.3.2
+
+Fixed: v3.0
 
 

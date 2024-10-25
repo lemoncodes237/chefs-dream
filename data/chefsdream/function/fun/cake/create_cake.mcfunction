@@ -12,4 +12,13 @@ execute as @s[tag=cd_chocolate_cake_frame] run summon item_display ~0.5 ~0.5 ~0.
 execute as @s[tag=cd_carrot_cake_frame] run summon interaction ~0.5 ~ ~0.5 {width:1.0f,height:0.5f,response:1b,Tags:["chefsdream_placedcake","chefsdream_carrot_cake"]}
 execute as @s[tag=cd_carrot_cake_frame] run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["chefsdreamcakedisplay"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323011}}}
 
+execute as @s[tag=cd_sweet_berry_cake_frame] run summon interaction ~0.5 ~ ~0.5 {width:1.0f,height:0.5f,response:1b,Tags:["chefsdream_placedcake","chefsdream_sweet_berry_cake"]}
+execute as @s[tag=cd_sweet_berry_cake_frame] run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["chefsdreamcakedisplay"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323021}}}
+
+execute as @s[tag=cd_red_velvet_cake_frame] run summon interaction ~0.5 ~ ~0.5 {width:1.0f,height:0.5f,response:1b,Tags:["chefsdream_placedcake","chefsdream_red_velvet_cake"]}
+execute as @s[tag=cd_red_velvet_cake_frame] run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["chefsdreamcakedisplay"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323031}}}
+
+execute as @s[tag=cd_cheesecake_frame] run summon interaction ~0.5 ~ ~0.5 {width:1.0f,height:0.5f,response:1b,Tags:["chefsdream_placedcake","chefsdream_cheesecake"]}
+execute as @s[tag=cd_cheesecake_frame] run summon item_display ~0.5 ~0.5 ~0.5 {Tags:["chefsdreamcakedisplay"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:command_block",count:1,components:{"minecraft:custom_model_data":2323041}}}
+
 kill @s

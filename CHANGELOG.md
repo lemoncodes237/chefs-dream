@@ -24,7 +24,7 @@ Some Date
 
 - Added Banana Split Ice Cream
 
-- Added a new advancement
+- Added three new advancements
 
 
 ## v2.3.2: QoL and Bug Fixes

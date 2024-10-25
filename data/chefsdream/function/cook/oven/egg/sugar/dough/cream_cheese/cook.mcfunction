@@ -7,6 +7,7 @@ execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=ne
 execute unless score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=oven] ing_cream_cheese matches 3.. run return run function chefsdream:cook/oven/default_cook
 execute unless score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=oven] ing_sugar matches 2.. run return run function chefsdream:cook/oven/default_cook
 
+advancement grant @s only chefsdream:chefsdream/cake
 # Correct recipe - Cheesecake
 give @s item_frame[custom_name='[{"text":"Cheesecake","italic":false}]',custom_model_data=3737005,entity_data={id:"item_frame",Invisible:1b,Tags:["chefsdreamcake","cd_cheesecake_frame"]},custom_data={chefsdreamcake:1}] 1
 
