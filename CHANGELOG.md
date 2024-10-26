@@ -2,12 +2,10 @@
 
 ## v3.0: The Baking Update
 
-Some Date
+10/25/2024
 
 - Made the datapack compatible with Minecraft 1.21.3
     - The legacy version for 1.21 and 1.21.1 will be linked in the description on PMC
-
-- Fixed BUG 13, 14, and 15
 
 - Drinks are now stackable up to 64
 
@@ -25,6 +23,8 @@ Some Date
 - Added Banana Split Ice Cream
 
 - Added three new advancements
+
+- Fixed BUG 9, 14, and 15
 
 
 ## v2.3.2: QoL and Bug Fixes
