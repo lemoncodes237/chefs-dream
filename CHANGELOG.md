@@ -1,5 +1,12 @@
 # Chef's Dream Changelog
 
+## v3.1: Whee Update
+
+10/30/2024
+
+- Fixed BUG 16
+    - This comes at the cost of stopping two cooking stations from being stacked on each other. In other words, you cannot have a barrel and another barrel right on top of it.
+
 ## v3.0: The Baking Update
 
 10/25/2024
