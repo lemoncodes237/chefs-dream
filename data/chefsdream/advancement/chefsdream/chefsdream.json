@@ -3,7 +3,7 @@
       "icon": {
         "id": "minecraft:cookie",
         "components": {
-          "minecraft:custom_model_data": 2370011
+          "minecraft:item_model": "chefsdream:ham"
         }
       },
       "title": "Chef's Dream",

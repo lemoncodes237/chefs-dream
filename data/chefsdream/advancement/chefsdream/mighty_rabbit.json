@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370202
+              "minecraft:item_model": "chefsdream:mighty_rabbit_taco"
             }
           },
       "title": "Go Go Baron Bunny!",

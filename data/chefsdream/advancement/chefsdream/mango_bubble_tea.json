@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:potion",
             "components": {
-              "minecraft:custom_model_data": 2337017,
+              "minecraft:item_model": "chefsdream:mango_bubble_tea",
               "minecraft:potion_contents": {"custom_color":16777215}
             }
           },

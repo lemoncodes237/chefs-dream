@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370254
+              "minecraft:item_model": "chefsdream:banana_split_ice_cream"
             }
           },
       "title": "I Won't Split This",

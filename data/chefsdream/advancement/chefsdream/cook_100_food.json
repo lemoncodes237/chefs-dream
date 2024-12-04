@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370019
+              "minecraft:item_model": "chefsdream:onion_pizza"
             }
           },
       "title": "Experienced Chef",

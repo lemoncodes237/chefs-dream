@@ -75,7 +75,7 @@ When adding a new ingredient, it should be added to the list above. Moreover, th
 - `cook/reset.mcfunction`: This function is triggered every time cooking is done to reset the scoreboard objectives.
 
 ## Custom Data
-The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `custom_model_data` component; see the texture pack for the codes for each food.
+The foods, drinks, and uneatable ingredients in this datapack are retextured cookies, potions, and magenta dyes, respectively. The custom texture is applied through the `item_model` component; see the texture pack for the codes for each food.
 
  For ingredients, a `Tags` must be added in the `custom_data` component that states the name of the ingredient so the datapack can easily discern between ingredients. For example, a lemon must have a `Tags:["lemon"]` inside its `custom_data`. For ingredients that are in default Minecraft, this is unnecessary. 
 

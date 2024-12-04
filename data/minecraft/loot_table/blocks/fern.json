@@ -57,7 +57,7 @@
                   {
                     "function": "minecraft:set_components",
                     "components": {
-                      "minecraft:custom_model_data": 2370048,
+                      "minecraft:item_model": "chefsdream:tomato",
                       "minecraft:custom_name": "[{\"text\":\"Tomato\",\"italic\":false}]",
                       "minecraft:custom_data": {
                         "Tags": ["tomato"]
@@ -124,7 +124,7 @@
                   {
                     "function": "minecraft:set_components",
                     "components": {
-                      "minecraft:custom_model_data": 2370050,
+                      "minecraft:item_model": "chefsdream:garlic",
                       "minecraft:custom_name": "[{\"text\":\"Garlic\",\"italic\":false}]",
                       "minecraft:custom_data": {
                         "Tags": ["garlic"]

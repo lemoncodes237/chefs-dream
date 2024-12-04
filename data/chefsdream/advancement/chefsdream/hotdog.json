@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370001
+              "minecraft:item_model": "chefsdream:hotdog"
             }
           },
       "title": "Hot Diggity Dog",

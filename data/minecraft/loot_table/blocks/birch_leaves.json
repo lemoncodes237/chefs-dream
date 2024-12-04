@@ -141,7 +141,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 2370055,
+                  "minecraft:item_model": "chefsdream:lemon",
                   "minecraft:custom_name": "[{\"text\":\"Lemon\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["lemon"]

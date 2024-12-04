@@ -4,6 +4,6 @@ scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=
 execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=cooking_pot] ingredients run return run function chefsdream:cook/cooking_pot/default_cook
 
 # Correct recipe - Vegetable Pho
-give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:14,saturation:28,can_always_eat:1},custom_name='[{"text":"Vegetable Pho","italic":false}]',custom_model_data=2370185]
+give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:14,saturation:28,can_always_eat:1},custom_name='[{"text":"Vegetable Pho","italic":false}]',item_model="chefsdream:vegetable_pho"]
 
 execute as @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] run function chefsdream:cook/cooking_pot/reset

@@ -3,7 +3,7 @@
       "icon": {
         "id": "minecraft:carrot_on_a_stick",
         "components": {
-          "minecraft:custom_model_data":2370001
+          "minecraft:item_model": "chefsdream:station_maker"
         }
       },
       "title": "Chef's Beginnings",

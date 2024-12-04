@@ -1,3 +1,3 @@
-data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,sort=nearest,limit=1] item set value {id:"minecraft:cookie",count:1,components:{"minecraft:custom_data":{Tags:["ham"],chefsdreamfood:1},food:{nutrition:3,saturation:6,can_always_eat:1,is_meat:1},custom_model_data:2370011,custom_name:'[{"text":"Ham","italic":false}]'}}
+data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,sort=nearest,limit=1] item set value {id:"minecraft:cookie",count:1,components:{"minecraft:custom_data":{Tags:["ham"],chefsdreamfood:1},food:{nutrition:3,saturation:6,can_always_eat:1,is_meat:1},item_model:"chefsdream:ham",custom_name:'[{"text":"Ham","italic":false}]'}}
 playsound ui.stonecutter.take_result master @a[distance=..20] ~ ~ ~
 particle crit ~ ~-0.3 ~ 0.3 0.1 0.3 0 10

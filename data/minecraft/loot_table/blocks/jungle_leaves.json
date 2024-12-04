@@ -142,7 +142,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 2370054,
+                  "minecraft:item_model": "chefsdream:banana",
                   "minecraft:custom_name": "[{\"text\":\"Banana\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["banana"]

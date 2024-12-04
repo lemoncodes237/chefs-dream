@@ -139,7 +139,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 2370047,
+                  "minecraft:item_model": "chefsdream:onion",
                   "minecraft:custom_name": "[{\"text\":\"Onion\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["onion"]
@@ -206,7 +206,7 @@
                   {
                     "function": "minecraft:set_components",
                     "components": {
-                      "minecraft:custom_model_data": 2370049,
+                      "minecraft:item_model": "chefsdream:lettuce",
                       "minecraft:custom_name": "[{\"text\":\"Lettuce\",\"italic\":false}]",
                       "minecraft:custom_data": {
                         "Tags": ["lettuce"]
@@ -273,7 +273,7 @@
                   {
                     "function": "minecraft:set_components",
                     "components": {
-                      "minecraft:custom_model_data": 2370148,
+                      "minecraft:item_model": "chefsdream:beans",
                       "minecraft:custom_name": "[{\"text\":\"Beans\",\"italic\":false}]",
                       "minecraft:custom_data": {
                         "Tags": ["beans"]

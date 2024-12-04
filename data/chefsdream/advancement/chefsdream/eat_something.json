@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data":2370025
+              "minecraft:item_model": "chefsdream:spicy_ramen"
             }
           },
         "title": "Delicious!",

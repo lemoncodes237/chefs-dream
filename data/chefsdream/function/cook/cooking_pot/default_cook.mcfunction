@@ -1,3 +1,3 @@
-execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ingredients matches 1.. run give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:2,saturation:4,can_always_eat:1},custom_name='[{"text":"Interesting Dish","italic":false}]',custom_model_data=2370061]
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] ingredients matches 1.. run give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:2,saturation:4,can_always_eat:1},custom_name='[{"text":"Interesting Dish","italic":false}]',item_model="chefsdream:interesting_dish"]
 scoreboard players remove @s food_cooked 1
 execute as @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] run function chefsdream:cook/cooking_pot/reset

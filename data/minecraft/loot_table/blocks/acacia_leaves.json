@@ -141,7 +141,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 2370062,
+                  "minecraft:item_model": "chefsdream:orange",
                   "minecraft:custom_name": "[{\"text\":\"Orange\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["orange"]

@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370003
+              "minecraft:item_model": "chefsdream:cheese_pizza"
             }
           },
       "title": "Principle of Inclusion Exclusion",

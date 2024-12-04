@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370090
+              "minecraft:item_model": "chefsdream:neapolitan_ice_cream"
             }
           },
       "title": "I Want Them All",

@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:item_frame",
             "components": {
-              "minecraft:custom_model_data": 3737001
+              "minecraft:item_model": "chefsdream:sweet_berry_cake"
             }
           },
       "title": "Does This Lie?",

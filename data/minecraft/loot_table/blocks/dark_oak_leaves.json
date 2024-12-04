@@ -141,7 +141,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_model_data": 2370204,
+                  "minecraft:item_model": "chefsdream:mango",
                   "minecraft:custom_name": "[{\"text\":\"Mango\",\"italic\":false}]",
                   "minecraft:custom_data": {
                     "Tags": ["mango"]

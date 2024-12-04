@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:magenta_dye",
             "components": {
-              "minecraft:custom_model_data": 2300009
+              "minecraft:item_model": "chefsdream:cooking_oil"
             }
           },
       "title": "Frying Time!",

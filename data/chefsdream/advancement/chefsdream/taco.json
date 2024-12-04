@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370197
+              "minecraft:item_model": "chefsdream:beef_taco"
             }
           },
       "title": "Taco Mia!",

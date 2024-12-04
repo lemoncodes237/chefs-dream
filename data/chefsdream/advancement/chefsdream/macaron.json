@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:custom_model_data": 2370233
+              "minecraft:item_model": "chefsdream:vanilla_macaron"
             }
           },
       "title": "Rice Over Almonds",
