@@ -1,9 +1,9 @@
 execute on target run effect give @s saturation 1 1 true
 
-execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=1}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"cheesecake_slice1"}}}
-execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=2}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"cheesecake_slice2"}}}
-execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=3}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"cheesecake_slice3"}}}
-execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=4}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"cheesecake_slice4"}}}
-execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=5}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"cheesecake_slice5"}}}
-execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=6}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"cheesecake_slice6"}}}
+execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=1}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"chefsdream:block/cheesecake_slice1"}}}
+execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=2}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"chefsdream:block/cheesecake_slice2"}}}
+execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=3}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"chefsdream:block/cheesecake_slice3"}}}
+execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=4}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"chefsdream:block/cheesecake_slice4"}}}
+execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=5}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"chefsdream:block/cheesecake_slice5"}}}
+execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=6}] at @s run data merge entity @e[type=item_display,sort=nearest,limit=1] {item:{id:"minecraft:command_block",count:1,components:{"minecraft:item_model":"chefsdream:block/cheesecake_slice6"}}}
 execute as @s[tag=chefsdream_cheesecake,scores={chefsdreambites=7..}] at @s run function chefsdream:fun/cake/delete
