@@ -1,14 +1,16 @@
 # Chef's Dream Changelog
 
-## v4.0: Whee Update
+## v4.0: Compatibility
 
 12/4/2024
 
 - Made the datapack compatible with Minecraft 1.21.4
-    - THe legacy version for 1.21.2 and 1.21.3 will be linked in the description on PMC
+    - The legacy version for 1.21.2 and 1.21.3 will be linked in the description on PMC
+
+- Unfortunately, as a result of changes to 1.21.4, all foods will have to be reacquired or recrafted in existing worlds.
 
 - Fixed BUG 16
-    - This comes at the cost of stopping two cooking stations from being stacked on each other. In other words, you cannot have a barrel and another barrel right on top of it.
+    - This comes at the cost of stopping two cooking stations from being stacked on each other. For example, you cannot have a barrel and another barrel right on top of it
 
 - Fixed the cookbook recipe for Korean Curry Rice, Sweet Berry Bubble Tea, and Lemon Bubble Tea
 
