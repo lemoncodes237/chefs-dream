@@ -1,5 +1,14 @@
 # Chef's Dream Changelog
 
+## v4.1: TBD
+
+Some date
+
+- Added this many more foods
+    - Added Chicken Nuggets, Beef Wellington, Banana Cream Pie, Fish and Chips, Salad, and Mashed Potatoes
+
+- Fixed BUG 17
+
 ## v4.0: Compatibility
 
 12/4/2024

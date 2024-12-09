@@ -3,16 +3,16 @@
         "icon": {
             "id": "minecraft:cookie",
             "components": {
-              "minecraft:item_model": "chefsdream:garnished_hotdog"
+              "minecraft:item_model": "chefsdream:beef_wellington"
             }
           },
-      "title": "Hot Diggity Dog",
-      "description": "Make a garnished hotdog",
+      "title": "British Dream",
+      "description": "Make a beef wellington",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "chefsdream:chefsdream/fryer",
+    "parent": "chefsdream:chefsdream/oven",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

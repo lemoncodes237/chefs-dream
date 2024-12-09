@@ -14,15 +14,13 @@ Status: Unsure how to fix
 
 --------------------------------
 
-### BUG 16
+### BUG 17
 
-Having two ovens stacked on top of each other causes bugs
+Cod Stew gives 3 hunger instead of 16
 
-Affected Versions: v1.0 - v3.0
+Affected Versions: v1.0 - v4.0
 
-Fix: Stop cooking stations from being created if there is a cooking station beneath it. This will cause some friction while playing, as stacked barrels and stacked ovens can make sense, but it does not make sense for most cooking stations and this is more of a pain to fix without massively breaking other things. The cause for this is the 0.55 y-level raise that occurs in right-click and left-click checks. I am unsure of why, but this allows us to differentiate between two cooking stations that are right next to each other. Hence, it is required and will be kept as detecting which cooking station is being used is always a pain to implement.
-
-Fixed: v3.1
+Fixed: v4.1, Future Update
 
 ## Fixed Bugs
 
@@ -166,4 +164,14 @@ Affected Versions: v1.0 - v2.3.2
 
 Fixed: v3.0
 
+--------------------------------
 
+### BUG 16
+
+Having two ovens stacked on top of each other causes bugs
+
+Affected Versions: v1.0 - v3.0
+
+Fix: Stop cooking stations from being created if there is a cooking station beneath it. This will cause some friction while playing, as stacked barrels and stacked ovens can make sense, but it does not make sense for most cooking stations and this is more of a pain to fix without massively breaking other things. The cause for this is the 0.55 y-level raise that occurs in right-click and left-click checks. I am unsure of why, but this allows us to differentiate between two cooking stations that are right next to each other. Hence, it is required and will be kept as detecting which cooking station is being used is always a pain to implement.
+
+Fixed: v4.0

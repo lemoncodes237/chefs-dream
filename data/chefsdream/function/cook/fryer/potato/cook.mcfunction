@@ -4,6 +4,7 @@ execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_beetroot matches 1.. run return run function chefsdream:cook/fryer/potato/beetroot/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_porkchop matches 1.. run return run function chefsdream:cook/fryer/potato/porkchop/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_beef matches 1.. run return run function chefsdream:cook/fryer/potato/beef/cook
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_cod matches 1.. run return run function chefsdream:cook/fryer/potato/cod/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_salmon matches 1.. run return run function chefsdream:cook/fryer/potato/salmon/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_salt matches 1.. run return run function chefsdream:cook/fryer/potato/salt/cook
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_dough matches 1.. run return run function chefsdream:cook/fryer/potato/dough/cook

@@ -9,6 +9,7 @@ execute if predicate chefsdream:hold_shovel run return run function chefsdream:c
 execute if score @e[type=interaction,tag=fryer,sort=nearest,limit=1,distance=..1] ingredients matches 9.. run return run title @s actionbar "This fryer is full of ingredients!"
 
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:bread"}}] run return run function chefsdream:ingredients/fryer/add_bread
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:cod"}}] run return run function chefsdream:ingredients/fryer/add_cod
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:chicken"}}] run return run function chefsdream:ingredients/fryer/add_chicken
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:sugar"}}] run return run function chefsdream:ingredients/fryer/add_sugar
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot"}}] run return run function chefsdream:ingredients/fryer/add_carrot

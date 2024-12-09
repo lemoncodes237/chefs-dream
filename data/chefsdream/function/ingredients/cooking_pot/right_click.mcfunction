@@ -22,6 +22,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:pumpkin"}}] run return run
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:mutton"}}] run return run function chefsdream:ingredients/cooking_pot/add_mutton
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:sea_pickle"}}] run return run function chefsdream:ingredients/cooking_pot/add_sea_pickle
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:sugar"}}] run return run function chefsdream:ingredients/cooking_pot/add_sugar
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:milk_bucket"}}] run return run function chefsdream:ingredients/cooking_pot/add_milk
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["noodles"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_noodles
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_salt
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["paprika"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_paprika
