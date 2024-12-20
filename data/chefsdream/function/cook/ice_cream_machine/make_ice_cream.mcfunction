@@ -15,8 +15,6 @@ function chefsdream:cook/give_back_honey
 advancement grant @s only chefsdream:chefsdream/ice_cream_machine
 particle item_snowball ~ ~0.2 ~ 0.25 0.2 0.25 0 30
 
-item modify entity @s weapon.mainhand chefsdream:decrease_count
-
 scoreboard players add @s food_cooked 1
 
 execute if score @e[type=interaction,tag=ice_cream_machine,sort=nearest,distance=..1,limit=1] ing_apple matches 1.. run return run function chefsdream:cook/ice_cream_machine/apple/cook

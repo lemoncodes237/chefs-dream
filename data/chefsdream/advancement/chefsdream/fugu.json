@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:item_model": "chefsdream:fugu"
+            }
+          },
+        "title": "Poisonous? No Problem!",
+        "description": "Successfully extract the edible parts of a pufferfish by cutting it on a preparation board.",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+      },
+      "parent": "chefsdream:chefsdream/secret",
+      "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "chefsdream:fun/give_fugu_certification"
+    }
+  }
+  

@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Chef's Dream v4.0","bold":true,"color":"dark_aqua"},"\n",{"text":"Datapack by YJMinecraft","color":"yellow"},"\n",{"text":"Resourcepack by masterliv531 and YJMinecraft","color":"aqua"}]
+tellraw @a ["",{"text":"Chef's Dream v4.1","bold":true,"color":"dark_aqua"},"\n",{"text":"Datapack by YJMinecraft","color":"yellow"},"\n",{"text":"Resourcepack by masterliv531 and YJMinecraft","color":"aqua"}]
 scoreboard objectives add tick_time dummy
 scoreboard objectives add universal_time dummy
 scoreboard objectives add var dummy
@@ -70,11 +70,16 @@ scoreboard objectives add ing_mustard dummy
 # Used for cakes
 scoreboard objectives add chefsdreambites dummy
 
+# Used for something...
+scoreboard objectives add cut_pufferfish dummy
+
 scoreboard objectives add start_cooking trigger
 scoreboard players enable @a start_cooking
 
 scoreboard objectives add get_guide trigger
 scoreboard players enable @a get_guide
+
+scoreboard objectives add get_fugu_certification trigger
 
 scoreboard objectives add food_cooked dummy
 

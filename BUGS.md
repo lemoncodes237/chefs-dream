@@ -22,6 +22,26 @@ Affected Versions: v1.0 - v4.0
 
 Fixed: v4.1, Future Update
 
+--------------------------------
+
+### BUG 18
+
+Ice Cream Machines cannot be created next to Preparation Boards
+
+Affected Versions: v1.1 - v4.0
+
+Fixed: v4.1, Future Update
+
+--------------------------------
+
+### BUG 19
+
+Ice Cream Machines give Bowl versions rather than Cone versions if the player uses it with exactly one waffle cone in their hand
+
+Affected Versions: v2.3 - v4.0
+
+Fixed: v4.1, Future Update
+
 ## Fixed Bugs
 
 ### BUG 1

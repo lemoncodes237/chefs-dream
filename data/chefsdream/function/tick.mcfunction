@@ -18,6 +18,7 @@ execute as @e[type=interaction,tag=cooking_station] run data remove entity @s at
 
 execute as @e if score @s start_cooking matches 1.. run function chefsdream:give_station_maker
 execute as @e if score @s get_guide matches 1.. run function chefsdream:give_guide
+execute as @e if score @s get_fugu_certification matches 1.. run function chefsdream:fun/give_fugu_certification
 
 execute as @e[type=interaction,tag=plate] at @s unless block ~ ~0.1 ~ heavy_weighted_pressure_plate run function chefsdream:station_maker/force_delete
 execute as @e[type=interaction,tag=preparation_board] at @s unless block ~ ~0.1 ~ #wooden_pressure_plates run function chefsdream:station_maker/force_delete
