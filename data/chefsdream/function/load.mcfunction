@@ -66,6 +66,8 @@ scoreboard objectives add ing_boba dummy
 scoreboard objectives add ing_leaves dummy
 scoreboard objectives add ing_ketchup dummy
 scoreboard objectives add ing_mustard dummy
+# SECRET
+scoreboard objectives add ing_dragon dummy
 
 # Used for cakes
 scoreboard objectives add chefsdreambites dummy

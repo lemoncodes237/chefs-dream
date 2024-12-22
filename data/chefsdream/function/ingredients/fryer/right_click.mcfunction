@@ -53,3 +53,4 @@ execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tag
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["noodles"]}}}}] run return run function chefsdream:ingredients/fryer/add_noodles
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cream_cheese"]}}}}] run return run function chefsdream:ingredients/fryer/add_cream_cheese
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["mango"]}}}}] run return run function chefsdream:ingredients/fryer/add_mango
+execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["dragon_meat"]}}}}] run return run function chefsdream:ingredients/fryer/add_dragon

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:cookie",
+            "components": {
+              "minecraft:item_model": "chefsdream:kingdom_of_dragons"
+            }
+          },
+      "title": "Apotheosis",
+      "description": "Cook Kingdom of Dragons and cement yourself as a legend of cooking.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "chefsdream:chefsdream/dragon_meat",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  
+

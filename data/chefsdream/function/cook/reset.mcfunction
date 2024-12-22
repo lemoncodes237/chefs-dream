@@ -60,3 +60,4 @@ scoreboard players set @s ing_boba 0
 scoreboard players set @s ing_leaves 0
 scoreboard players set @s ing_ketchup 0
 scoreboard players set @s ing_mustard 0
+scoreboard players set @s ing_dragon 0

@@ -7,7 +7,7 @@
             }
           },
       "title": "Meat from Another Dimension",
-      "description": "Acquire Dragon Meat after killing the Ender Dragon",
+      "description": "Acquire Dragon Meat after killing the Ender Dragon. Perhaps you should try frying it with onion, carrot, potato, salt, paprika, garlic, rice, and beetroot...",
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

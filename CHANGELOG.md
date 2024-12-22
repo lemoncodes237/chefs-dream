@@ -1,11 +1,13 @@
 # Chef's Dream Changelog
 
-## v4.1: TBD
+## v4.1: Secret Update
 
 Some date
 
 - Added this many more foods
-    - Added Chicken Nuggets, Beef Wellington, Banana Cream Pie, Fish and Chips, Salad, and Mashed Potatoes
+    - Added Chicken Nuggets, Beef Wellington, Banana Cream Pie, Fish and Chips, Salad, Mashed Potatoes, and Mac and Cheese
+
+- Added secret advancements and two secret recipes. Have fun finding them!
 
 - Fixed BUG 17
 
