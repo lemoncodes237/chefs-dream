@@ -19,6 +19,7 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:honey_bottle"}}] run retur
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot"}}] run return run function chefsdream:ingredients/oven/add_carrot
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:beef"}}] run return run function chefsdream:ingredients/oven/add_beef
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:cocoa_beans"}}] run return run function chefsdream:ingredients/oven/add_cocoa_beans
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:bread"}}] run return run function chefsdream:ingredients/oven/add_bread
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["dough"]}}}}] run return run function chefsdream:ingredients/oven/add_dough
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["tomato"]}}}}] run return run function chefsdream:ingredients/oven/add_tomato
 execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}}] run return run function chefsdream:ingredients/oven/add_cheese

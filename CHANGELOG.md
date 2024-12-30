@@ -2,10 +2,10 @@
 
 ## v4.1: Secret Update
 
-Some date
+12/30/2024
 
 - Added this many more foods
-    - Added Chicken Nuggets, Beef Wellington, Banana Cream Pie, Fish and Chips, Salad, Mashed Potatoes, and Mac and Cheese
+    - Added Chicken Nuggets, Beef Wellington, Banana Cream Pie, Fish and Chips, Salad, Mashed Potatoes, Fish Taco, Chili, Garlic Bread, and Mac and Cheese
 
 - Added secret advancements and two secret recipes. Have fun finding them!
 

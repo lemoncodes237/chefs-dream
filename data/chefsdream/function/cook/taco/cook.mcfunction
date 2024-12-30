@@ -16,6 +16,7 @@ execute if score @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1]
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1] ing_porkchop matches 1.. run return run function chefsdream:cook/taco/porkchop/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1] ing_beef matches 1.. run return run function chefsdream:cook/taco/beef/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1] ing_chicken matches 1.. run return run function chefsdream:cook/taco/chicken/cook
+execute if score @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1] ing_cod matches 1.. run return run function chefsdream:cook/taco/cod/cook
 execute if score @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1] ing_tomato matches 1.. run return run function chefsdream:cook/taco/tomato/cook
 
 function chefsdream:cook/taco/default_cook
