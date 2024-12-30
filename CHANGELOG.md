@@ -9,7 +9,7 @@
 
 - Added secret advancements and two secret recipes. Have fun finding them!
 
-- Fixed BUG 17
+- Fixed BUG 17, 18, 19
 
 ## v4.0: Compatibility
 
