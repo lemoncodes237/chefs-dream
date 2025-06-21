@@ -1,4 +1,0 @@
-give @s cookie[custom_data={Tags:["lemon"]},food={nutrition:2,saturation:2.4,can_always_eat:1},custom_name='[{"text":"Lemon","italic":false}]',item_model="chefsdream:lemon"]
-give @s cookie[custom_data={Tags:["banana"]},food={nutrition:2,saturation:2.4,can_always_eat:1},custom_name='[{"text":"Banana","italic":false}]',item_model="chefsdream:banana"]
-give @s cookie[custom_data={Tags:["orange"]},food={nutrition:2,saturation:2.4,can_always_eat:1},custom_name='[{"text":"Orange","italic":false}]',item_model="chefsdream:orange"]
-give @s cookie[custom_data={Tags:["mango"]},food={nutrition:2,saturation:2.4,can_always_eat:1},custom_name='[{"text":"Mango","italic":false}]',item_model="chefsdream:mango"]

@@ -1,0 +1,1 @@
+give @s cookie[custom_data={chefsdreamfood:1,glow_berry_yogurt:1}, food={nutrition:5,saturation:10,can_always_eat:1b}, item_name={"translate": "item.chefsdream.glow_berry_yogurt"},item_model="chefsdream:glow_berry_yogurt",consumable={on_consume_effects:[{type:"apply_effects",effects:[{id:"minecraft:glowing",duration:200,amplifier:0,show_particles:false,show_icon:true}]}]}]

@@ -1,0 +1,1 @@
+give @s cookie[custom_data={chefsdreamfood:1,spaghetti_with_meatballs:1}, food={nutrition:16,saturation:32,can_always_eat:1b}, item_name={"translate": "item.chefsdream.spaghetti_with_meatballs"},item_model="chefsdream:spaghetti_with_meatballs"]

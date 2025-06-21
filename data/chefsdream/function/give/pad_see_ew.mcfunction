@@ -1,0 +1,1 @@
+give @s cookie[custom_data={chefsdreamfood:1,pad_see_ew:1}, food={nutrition:20,saturation:40,can_always_eat:1b}, item_name={"translate": "item.chefsdream.pad_see_ew"},item_model="chefsdream:pad_see_ew",consumable={on_consume_effects:[{type:"apply_effects",effects:[{id:"minecraft:saturation",duration:1200,amplifier:2,show_particles:false,show_icon:true}]}]}]

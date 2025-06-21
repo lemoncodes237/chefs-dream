@@ -1,2 +1,2 @@
-give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:3,saturation:3,can_always_eat:1},custom_name='[{"text":"Taco","italic":false}]',item_model="chefsdream:taco"]
+give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:3,saturation:3,can_always_eat:1},item_name={"translate":"item.chefsdream.taco"},item_model="chefsdream:taco"]
 execute as @e[type=interaction,limit=1,sort=nearest,tag=taco,distance=..1] run function chefsdream:cook/taco/reset

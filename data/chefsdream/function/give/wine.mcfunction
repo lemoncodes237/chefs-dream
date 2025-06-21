@@ -1,0 +1,1 @@
+give @s cookie[custom_data={chefsdreamfood:1,wine:1}, food={nutrition:2,saturation:4,can_always_eat:1b}, item_name={"translate": "item.chefsdream.wine"},item_model="chefsdream:wine",consumable={on_consume_effects:[{type:"apply_effects",effects:[{id:"minecraft:nausea",duration:200,amplifier:0,show_particles:false,show_icon:true}]}],sound:{sound_id:"entity.generic.drink"}}]

@@ -10,9 +10,9 @@ execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer
 execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ingredients run return run function chefsdream:cook/fryer/default_cook
 
 # Correct recipe - Bagel
-execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sugar matches 1 run give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:6,saturation:12,can_always_eat:1},custom_name='[{"text":"Bagel","italic":false}]',item_model="chefsdream:bagel"]
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sugar matches 1 run function chefsdream:give/bagel
 
 # Correct recipe - Glazed Donut
-execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sugar matches 2.. run give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:7,saturation:14,can_always_eat:1},custom_name='[{"text":"Glazed Donut","italic":false}]',item_model="chefsdream:glazed_donut"]
+execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=fryer] ing_sugar matches 2.. run function chefsdream:give/glazed_donut
 
 execute as @e[type=interaction,limit=1,sort=nearest,tag=fryer,distance=..1] run function chefsdream:cook/fryer/reset

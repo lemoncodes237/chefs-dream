@@ -4,6 +4,5 @@ scoreboard players operation @s check += @e[type=interaction,distance=..1,limit=
 execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=cooking_pot] ingredients run return run function chefsdream:cook/cooking_pot/default_cook
 
 # Correct recipe - Spaghetti with Meatballs
-give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:16,saturation:32,can_always_eat:1},custom_name='[{"text":"Spaghetti with Meatballs","italic":false}]',item_model="chefsdream:spaghetti_with_meatballs"]
-
+function chefsdream:give/spaghetti_with_meatballs
 execute as @e[type=interaction,limit=1,sort=nearest,tag=cooking_pot,distance=..1] run function chefsdream:cook/cooking_pot/reset

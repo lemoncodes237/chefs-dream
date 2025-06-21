@@ -1,0 +1,1 @@
+give @s cookie[custom_data={chefsdreamfood:1,korean_curry_rice:1}, food={nutrition:20,saturation:40,can_always_eat:1b}, item_name={"translate": "item.chefsdream.korean_curry_rice"},item_model="chefsdream:korean_curry_rice",consumable={on_consume_effects:[{type:"apply_effects",effects:[{id:"minecraft:saturation",duration:1200,amplifier:0,show_particles:false,show_icon:true}]}]}]

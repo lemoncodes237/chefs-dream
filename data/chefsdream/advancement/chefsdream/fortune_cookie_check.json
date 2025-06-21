@@ -6,7 +6,7 @@
           "item": {
             "items": "minecraft:cookie",
             "predicates": {
-              "minecraft:custom_data": "{fortunecookie:1}"
+              "minecraft:custom_data": "{fortune_cookie:1}"
             }
           }
         }

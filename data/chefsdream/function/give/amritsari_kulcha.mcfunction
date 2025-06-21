@@ -1,0 +1,1 @@
+give @s cookie[custom_data={chefsdreamfood:1,amritsari_kulcha:1}, food={nutrition:14,saturation:28,can_always_eat:1b}, item_name={"translate": "item.chefsdream.amritsari_kulcha"},item_model="chefsdream:amritsari_kulcha"]
