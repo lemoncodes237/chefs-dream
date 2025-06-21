@@ -22,7 +22,7 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:custom_name": "{\"text\":\"Fugu Chef Certification\",\"italic\":false}",
+                  "minecraft:item_name": {"translate": "item.chefsdream.fugu_certification"},
                   "minecraft:enchantments": {
                     "levels": {}
                   }

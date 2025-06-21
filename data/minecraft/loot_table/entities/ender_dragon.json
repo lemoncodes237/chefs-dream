@@ -20,14 +20,15 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:item_model": "chefsdream:dragon_meat",
-                  "minecraft:custom_name": "[{\"text\":\"Dragon Meat\",\"italic\":false}]",
+                  "minecraft:item_name": {"translate": "item.chefsdream.dragon_meat"},
                   "minecraft:food": {
                     "nutrition": 4,
-                    "saturation": 4,
+                    "saturation": 8,
                     "can_always_eat": true
                   },
                   "minecraft:custom_data": {
-                    "Tags": ["dragon_meat"]
+                    "dragon_meat":1,
+                    "chefsdreamfood":1
                   }
                 }
               }

@@ -1,3 +1,3 @@
-data merge entity @e[type=item_display,distance=..1,tag=grill_display,limit=1] {item:{id:"cookie",count:1,components:{"minecraft:item_model":"chefsdream:sausage","minecraft:food":{saturation:6,nutrition:3,can_always_eat:1},"minecraft:custom_name":'{"italic":false,"text":"Sausage"}',"minecraft:custom_data":{chefsdreamfood:1,Tags:["sausage"]}}}}
+data merge entity @e[type=item_display,distance=..1,tag=grill_display,limit=1] {item:{id:"cookie",count:1,components:{"minecraft:item_model":"chefsdream:sausage","minecraft:food":{saturation:6,nutrition:3,can_always_eat:1},"minecraft:item_name":{"translate":"item.chefsdream.sausage"},"minecraft:custom_data":{chefsdreamfood:1,sausage:1}}}}
 scoreboard players set GrillTime var 20
 function chefsdream:ingredients/grill/prep_before_cooking

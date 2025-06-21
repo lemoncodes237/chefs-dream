@@ -9,10 +9,10 @@ execute if items entity @s weapon.mainhand cooked_porkchop run return run functi
 execute if items entity @s weapon.mainhand cooked_rabbit run return run function chefsdream:ingredients/preparation_board/taco/add_rabbit
 execute if items entity @s weapon.mainhand cooked_mutton run return run function chefsdream:ingredients/preparation_board/taco/add_mutton
 execute if items entity @s weapon.mainhand cooked_cod run return run function chefsdream:ingredients/preparation_board/taco/add_cod
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["lettuce"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_lettuce
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["tomato"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_tomato
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["onion"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_onion
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["cheese"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_cheese
-execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["rice"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_rice
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["beans"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_beans
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["mango"]}] run return run function chefsdream:ingredients/preparation_board/taco/add_mango
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{lettuce:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_lettuce
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{tomato:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_tomato
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{onion:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_onion
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{cheese:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_cheese
+execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{rice:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_rice
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{beans:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_beans
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{mango:1}] run return run function chefsdream:ingredients/preparation_board/taco/add_mango

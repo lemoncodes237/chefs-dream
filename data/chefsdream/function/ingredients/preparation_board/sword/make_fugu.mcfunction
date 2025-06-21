@@ -8,4 +8,4 @@ execute unless score @s cut_pufferfish matches 64.. run return run function chef
 execute if score @s cut_pufferfish matches 64 run tellraw @s "You did it! You are now a certified fugu chef!"
 execute if score @s cut_pufferfish matches 64 run advancement grant @s only chefsdream:chefsdream/fugu
 
-data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,sort=nearest,limit=1] item set value {id:"minecraft:cookie",count:1,components:{"minecraft:custom_data":{Tags:["fugu"],chefsdreamfood:1},food:{nutrition:6,saturation:12,can_always_eat:1},item_model:"chefsdream:fugu",custom_name:'[{"text":"Fugu","italic":false}]'}}
+data modify entity @e[type=item_display,tag=preparation_board_display,distance=..1,sort=nearest,limit=1] item set value {id:"minecraft:cookie",count:1,components:{"minecraft:custom_data":{fugu:1,chefsdreamfood:1},food:{nutrition:6,saturation:12,can_always_eat:1},item_model:"chefsdream:fugu",item_name:{"translate":"item.chefsdream.fugu"}}}

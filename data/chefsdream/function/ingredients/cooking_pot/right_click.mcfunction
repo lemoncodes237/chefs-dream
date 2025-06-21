@@ -6,38 +6,38 @@ execute if entity @s[nbt=!{SelectedItem:{}}] run return run function chefsdream:
 
 execute if predicate chefsdream:hold_shovel run return run function chefsdream:cook/cooking_pot/start_cooking
 
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:potato"}}] run return run function chefsdream:ingredients/cooking_pot/add_potato
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:beetroot"}}] run return run function chefsdream:ingredients/cooking_pot/add_beetroot
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:porkchop"}}] run return run function chefsdream:ingredients/cooking_pot/add_porkchop
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:chicken"}}] run return run function chefsdream:ingredients/cooking_pot/add_chicken
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:egg"}}] run return run function chefsdream:ingredients/cooking_pot/add_egg
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:brown_mushroom"}}] run return run function chefsdream:ingredients/cooking_pot/add_mushroom
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:red_mushroom"}}] run return run function chefsdream:ingredients/cooking_pot/add_mushroom
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:rabbit"}}] run return run function chefsdream:ingredients/cooking_pot/add_rabbit
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot"}}] run return run function chefsdream:ingredients/cooking_pot/add_carrot
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:beef"}}] run return run function chefsdream:ingredients/cooking_pot/add_beef
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:cod"}}] run return run function chefsdream:ingredients/cooking_pot/add_cod
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:dried_kelp"}}] run return run function chefsdream:ingredients/cooking_pot/add_dried_kelp
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:pumpkin"}}] run return run function chefsdream:ingredients/cooking_pot/add_pumpkin
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:mutton"}}] run return run function chefsdream:ingredients/cooking_pot/add_mutton
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:sea_pickle"}}] run return run function chefsdream:ingredients/cooking_pot/add_sea_pickle
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:sugar"}}] run return run function chefsdream:ingredients/cooking_pot/add_sugar
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:milk_bucket"}}] run return run function chefsdream:ingredients/cooking_pot/add_milk
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["noodles"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_noodles
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["salt"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_salt
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["paprika"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_paprika
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["curry_powder"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_curry_powder
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["rice"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_rice
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["onion"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_onion
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["tomato"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_tomato
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["garlic"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_garlic
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["dough"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_dough
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["kimchi"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_kimchi
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["tofu"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_tofu
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["soy_sauce"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_soy_sauce
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["lettuce"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_lettuce
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["gochujang"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_gochujang
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["beans"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_beans
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["yogurt"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_yogurt
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["cheese"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_cheese
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{Tags:["mango"]}}}}] run return run function chefsdream:ingredients/cooking_pot/add_mango
+execute if items entity @s weapon.mainhand potato run return run function chefsdream:ingredients/cooking_pot/add_potato
+execute if items entity @s weapon.mainhand beetroot run return run function chefsdream:ingredients/cooking_pot/add_beetroot
+execute if items entity @s weapon.mainhand porkchop run return run function chefsdream:ingredients/cooking_pot/add_porkchop
+execute if items entity @s weapon.mainhand chicken run return run function chefsdream:ingredients/cooking_pot/add_chicken
+execute if items entity @s weapon.mainhand egg run return run function chefsdream:ingredients/cooking_pot/add_egg
+execute if items entity @s weapon.mainhand brown_mushroom run return run function chefsdream:ingredients/cooking_pot/add_mushroom
+execute if items entity @s weapon.mainhand red_mushroom run return run function chefsdream:ingredients/cooking_pot/add_mushroom
+execute if items entity @s weapon.mainhand rabbit run return run function chefsdream:ingredients/cooking_pot/add_rabbit
+execute if items entity @s weapon.mainhand carrot run return run function chefsdream:ingredients/cooking_pot/add_carrot
+execute if items entity @s weapon.mainhand beef run return run function chefsdream:ingredients/cooking_pot/add_beef
+execute if items entity @s weapon.mainhand cod run return run function chefsdream:ingredients/cooking_pot/add_cod
+execute if items entity @s weapon.mainhand dried_kelp run return run function chefsdream:ingredients/cooking_pot/add_dried_kelp
+execute if items entity @s weapon.mainhand pumpkin run return run function chefsdream:ingredients/cooking_pot/add_pumpkin
+execute if items entity @s weapon.mainhand mutton run return run function chefsdream:ingredients/cooking_pot/add_mutton
+execute if items entity @s weapon.mainhand sea_pickle run return run function chefsdream:ingredients/cooking_pot/add_sea_pickle
+execute if items entity @s weapon.mainhand sugar run return run function chefsdream:ingredients/cooking_pot/add_sugar
+execute if items entity @s weapon.mainhand milk_bucket run return run function chefsdream:ingredients/cooking_pot/add_milk
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{noodles:1}] run return run function chefsdream:ingredients/cooking_pot/add_noodles
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{salt:1}] run return run function chefsdream:ingredients/cooking_pot/add_salt
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{paprika:1}] run return run function chefsdream:ingredients/cooking_pot/add_paprika
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{curry_powder:1}] run return run function chefsdream:ingredients/cooking_pot/add_curry_powder
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{rice:1}] run return run function chefsdream:ingredients/cooking_pot/add_rice
+execute if items entity @s weapon.mainhand cookie[custom_data~{onion:1}] run return run function chefsdream:ingredients/cooking_pot/add_onion
+execute if items entity @s weapon.mainhand cookie[custom_data~{tomato:1}] run return run function chefsdream:ingredients/cooking_pot/add_tomato
+execute if items entity @s weapon.mainhand cookie[custom_data~{garlic:1}] run return run function chefsdream:ingredients/cooking_pot/add_garlic
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{dough:1}] run return run function chefsdream:ingredients/cooking_pot/add_dough
+execute if items entity @s weapon.mainhand cookie[custom_data~{kimchi:1}] run return run function chefsdream:ingredients/cooking_pot/add_kimchi
+execute if items entity @s weapon.mainhand cookie[custom_data~{tofu:1}] run return run function chefsdream:ingredients/cooking_pot/add_tofu
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{soy_sauce:1}] run return run function chefsdream:ingredients/cooking_pot/add_soy_sauce
+execute if items entity @s weapon.mainhand cookie[custom_data~{lettuce:1}] run return run function chefsdream:ingredients/cooking_pot/add_lettuce
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{gochujang:1}] run return run function chefsdream:ingredients/cooking_pot/add_gochujang
+execute if items entity @s weapon.mainhand cookie[custom_data~{beans:1}] run return run function chefsdream:ingredients/cooking_pot/add_beans
+execute if items entity @s weapon.mainhand cookie[custom_data~{yogurt:1}] run return run function chefsdream:ingredients/cooking_pot/add_yogurt
+execute if items entity @s weapon.mainhand cookie[custom_data~{cheese:1}] run return run function chefsdream:ingredients/cooking_pot/add_cheese
+execute if items entity @s weapon.mainhand cookie[custom_data~{mango:1}] run return run function chefsdream:ingredients/cooking_pot/add_mango

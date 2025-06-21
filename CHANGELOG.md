@@ -1,5 +1,20 @@
 # Chef's Dream Changelog
 
+## v5.0: 1.21.6 Compatibility
+
+6/22/2025
+
+- Made the datapack compatible with Minecraft 1.21.6
+    - The legacy version for 1.21.4 will be linked in the description on PMC
+
+- Added give commands for all foods that can be accessed via `/function chefsdream:give/FOOD_NAME`.
+
+- Made the datapack easier to add translations. If you would like to help add translations, join the Discord and let me know!
+
+- Better utilize custom data rather than using a Tags custom data.
+
+- Use `execute if items` rather than `execute if entity` for all detection of ingredients.
+
 ## v4.1: Secret Update
 
 12/30/2024

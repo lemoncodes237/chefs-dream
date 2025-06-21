@@ -12,8 +12,8 @@ execute if items entity @s weapon.mainhand salmon run return run function chefsd
 execute if items entity @s weapon.mainhand pufferfish run return run function chefsdream:ingredients/preparation_board/sushi/add_pufferfish
 execute if items entity @s weapon.mainhand tropical_fish run return run function chefsdream:ingredients/preparation_board/sushi/add_tropical_fish
 execute if items entity @s weapon.mainhand sea_pickle run return run function chefsdream:ingredients/preparation_board/sushi/add_sea_pickle
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["lettuce"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_lettuce
-execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["paprika"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_paprika
-execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{Tags:["cream_cheese"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_cream_cheese
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["ham"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_ham
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["mango"]}] run return run function chefsdream:ingredients/preparation_board/sushi/add_mango
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{lettuce:1}] run return run function chefsdream:ingredients/preparation_board/sushi/add_lettuce
+execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{paprika:1}] run return run function chefsdream:ingredients/preparation_board/sushi/add_paprika
+execute if items entity @s weapon.mainhand magenta_dye[minecraft:custom_data~{cream_cheese:1}] run return run function chefsdream:ingredients/preparation_board/sushi/add_cream_cheese
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{ham:1}] run return run function chefsdream:ingredients/preparation_board/sushi/add_ham
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{mango:1}] run return run function chefsdream:ingredients/preparation_board/sushi/add_mango

@@ -55,20 +55,21 @@
             "name": "minecraft:cookie",
             "functions": [
               {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_model": "chefsdream:onion",
-                  "minecraft:custom_name": "[{\"text\":\"Onion\",\"italic\":false}]",
-                  "minecraft:custom_data": {
-                    "Tags": ["onion"]
-                  },
-                  "minecraft:food": {
-                    "nutrition": 2,
-                    "saturation": 2.4,
-                    "can_always_eat": true
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_model": "chefsdream:onion",
+                    "minecraft:item_name": { "translate": "item.chefsdream.onion" },
+                    "minecraft:custom_data": {
+                      "onion":1,
+                      "chefsdreamfood":1
+                    },
+                    "minecraft:food": {
+                      "nutrition": 2,
+                      "saturation": 4,
+                      "can_always_eat": true
+                    }
                   }
                 }
-              }
             ],
             "conditions": [
                 {
@@ -122,20 +123,21 @@
                 "name": "minecraft:cookie",
                 "functions": [
                   {
-                    "function": "minecraft:set_components",
-                    "components": {
-                      "minecraft:item_model": "chefsdream:lettuce",
-                      "minecraft:custom_name": "[{\"text\":\"Lettuce\",\"italic\":false}]",
-                      "minecraft:custom_data": {
-                        "Tags": ["lettuce"]
-                      },
-                      "minecraft:food": {
-                        "nutrition": 2,
-                        "saturation": 2.4,
-                        "can_always_eat": true
-                      }
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_model": "chefsdream:lettuce",
+                    "minecraft:item_name": { "translate": "item.chefsdream.lettuce" },
+                    "minecraft:custom_data": {
+                      "lettuce":1,
+                      "chefsdreamfood":1
+                    },
+                    "minecraft:food": {
+                      "nutrition": 2,
+                      "saturation": 4,
+                      "can_always_eat": true
                     }
                   }
+                }
                 ],
                 "conditions": [
                     {
@@ -189,20 +191,21 @@
                 "name": "minecraft:cookie",
                 "functions": [
                   {
-                    "function": "minecraft:set_components",
-                    "components": {
-                      "minecraft:item_model": "chefsdream:beans",
-                      "minecraft:custom_name": "[{\"text\":\"Beans\",\"italic\":false}]",
-                      "minecraft:custom_data": {
-                        "Tags": ["beans"]
-                      },
-                      "minecraft:food": {
-                        "nutrition": 2,
-                        "saturation": 2.4,
-                        "can_always_eat": true
-                      }
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:item_model": "chefsdream:beans",
+                    "minecraft:item_name": { "translate": "item.chefsdream.beans" },
+                    "minecraft:custom_data": {
+                      "beans":1,
+                      "chefsdreamfood":1
+                    },
+                    "minecraft:food": {
+                      "nutrition": 2,
+                      "saturation": 4,
+                      "can_always_eat": true
                     }
                   }
+                }
                 ],
                 "conditions": [
                     {

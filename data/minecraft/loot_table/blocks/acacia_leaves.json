@@ -142,13 +142,14 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:item_model": "chefsdream:orange",
-                  "minecraft:custom_name": "[{\"text\":\"Orange\",\"italic\":false}]",
+                  "minecraft:item_name": { "translate": "item.chefsdream.orange" },
                   "minecraft:custom_data": {
-                    "Tags": ["orange"]
+                    "orange":1,
+                    "chefsdreamfood":1
                   },
                   "minecraft:food": {
                     "nutrition": 2,
-                    "saturation": 2.4,
+                    "saturation": 4,
                     "can_always_eat": true
                   }
                 }
