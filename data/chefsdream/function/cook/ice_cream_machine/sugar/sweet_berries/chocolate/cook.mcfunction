@@ -7,8 +7,8 @@ execute unless score @s check = @e[type=interaction,distance=..1,limit=1,sort=ne
 execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=ice_cream_machine] ing_sugar matches 1 run return run function chefsdream:cook/ice_cream_machine/default_cook
 
 # Correct recipe - Neapolitan Ice Cream
-execute unless items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["waffle_cone"]}] run execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=ice_cream_machine] ing_sugar matches 2.. run give @s cookie[custom_data={chefsdreamfood:1,icecream:1},food={nutrition:12,saturation:24,can_always_eat:1},custom_name='[{"text":"Neapolitan Ice Cream","italic":false}]',item_model="chefsdream:neapolitan_ice_cream"]
-execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{Tags:["waffle_cone"]}] run execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=ice_cream_machine] ing_sugar matches 2.. run give @s cookie[custom_data={chefsdreamfood:1},food={nutrition:14,saturation:28,can_always_eat:1},custom_name='[{"text":"Neapolitan Ice Cream","italic":false}]',item_model="chefsdream:neapolitan_ice_cream_cone"]
+execute unless items entity @s weapon.mainhand cookie[minecraft:custom_data~{waffle_cone:1}] run execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=ice_cream_machine] ing_sugar matches 2.. run function chefsdream:give/neapolitan_ice_cream
+execute if items entity @s weapon.mainhand cookie[minecraft:custom_data~{waffle_cone:1}] run execute if score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=ice_cream_machine] ing_sugar matches 2.. run function chefsdream:give/neapolitan_ice_cream_cone
 
 advancement grant @s only chefsdream:chefsdream/neapolitan
 

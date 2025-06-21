@@ -1,3 +1,5 @@
+
+
 advancement revoke @s only chefsdream:chefsdream/place_cake
 tag @s add chefsdream_cake_maker
 

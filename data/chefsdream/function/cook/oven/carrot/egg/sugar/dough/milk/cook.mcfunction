@@ -8,6 +8,6 @@ execute unless score @e[type=interaction,distance=..1,limit=1,sort=nearest,tag=o
 
 advancement grant @s only chefsdream:chefsdream/cake
 # Correct recipe - Carrot Cake
-give @s item_frame[custom_name={'[{"text":"Carrot Cake","italic":false}]'},item_model="chefsdream:carrot_cake",entity_data={id:"item_frame",Invisible:1b,Tags:["chefsdreamcake","cd_carrot_cake_frame"]},custom_data={chefsdreamcake:1}] 1
+function chefsdream:give/carrot_cake
 
 execute as @e[type=interaction,limit=1,sort=nearest,tag=oven,distance=..1] run function chefsdream:cook/oven/reset

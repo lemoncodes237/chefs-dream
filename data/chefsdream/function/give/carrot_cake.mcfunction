@@ -1,1 +1,1 @@
-give @s cookie[custom_data={chefsdreamfood:1,carrot_cake:1}, food={nutrition:21,saturation:42,can_always_eat:1b}, item_name={"translate": "item.chefsdream.carrot_cake"},item_model="chefsdream:carrot_cake"]
+give @s item_frame[item_name={"translate":"item.chefsdream.carrot_cake"},item_model="chefsdream:carrot_cake",entity_data={id:"item_frame",Invisible:1b,Tags:["chefsdreamcake","cd_carrot_cake_frame"]},custom_data={chefsdreamcake:1}] 1

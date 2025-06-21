@@ -10,22 +10,19 @@
               {
                 "function": "minecraft:set_lore",
                 "entity": "this",
-                "lore": [
-                  "This certification is awarded to",
+                "lore": [[
+                  "This certification is awarded to ",
                   {
                     "selector": "@s"
                   },
-                  "to show that they can safely prepare fugu."
-                ],
+                  " to show that they can safely prepare fugu."
+                ]],
                 "mode": "insert"
               },
               {
                 "function": "minecraft:set_components",
                 "components": {
-                  "minecraft:item_name": {"translate": "item.chefsdream.fugu_certification"},
-                  "minecraft:enchantments": {
-                    "levels": {}
-                  }
+                  "minecraft:item_name": {"translate": "item.chefsdream.fugu_certification"}
                 }
               }
             ],
