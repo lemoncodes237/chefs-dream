@@ -33,7 +33,7 @@ execute if items entity @s weapon.mainhand cookie[custom_data~{tomato:1}] run re
 execute if items entity @s weapon.mainhand cookie[custom_data~{garlic:1}] run return run function chefsdream:ingredients/cooking_pot/add_garlic
 execute if items entity @s weapon.mainhand magenta_dye[custom_data~{dough:1}] run return run function chefsdream:ingredients/cooking_pot/add_dough
 execute if items entity @s weapon.mainhand cookie[custom_data~{kimchi:1}] run return run function chefsdream:ingredients/cooking_pot/add_kimchi
-execute if items entity @s weapon.mainhand cookie[custom_data~{tofu:1}] run return run function chefsdream:ingredients/cooking_pot/add_tofu
+execute if items entity @s weapon.mainhand magenta_dye[custom_data~{tofu:1}] run return run function chefsdream:ingredients/cooking_pot/add_tofu
 execute if items entity @s weapon.mainhand magenta_dye[custom_data~{soy_sauce:1}] run return run function chefsdream:ingredients/cooking_pot/add_soy_sauce
 execute if items entity @s weapon.mainhand cookie[custom_data~{lettuce:1}] run return run function chefsdream:ingredients/cooking_pot/add_lettuce
 execute if items entity @s weapon.mainhand magenta_dye[custom_data~{gochujang:1}] run return run function chefsdream:ingredients/cooking_pot/add_gochujang

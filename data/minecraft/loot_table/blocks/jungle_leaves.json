@@ -144,10 +144,7 @@
                 "components": {
                   "minecraft:item_model": "chefsdream:banana",
                   "minecraft:item_name": { "translate": "item.chefsdream.banana" },
-                  "minecraft:custom_data": {
-                    "banana":1,
-                    "chefsdreamfood":1
-                  },
+                  "minecraft:custom_data": "{banana:1,chefsdreamfood:1}",
                   "minecraft:food": {
                     "nutrition": 2,
                     "saturation": 4,

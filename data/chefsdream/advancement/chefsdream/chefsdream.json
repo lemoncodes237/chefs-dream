@@ -7,7 +7,7 @@
         }
       },
       "title": "Chef's Dream",
-      "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+      "background": "minecraft:block/spruce_planks",
       "description": "Install and load the Chef's Dream datapack",
       "show_toast": true,
       "announce_to_chat": true,

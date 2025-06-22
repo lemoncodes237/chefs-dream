@@ -141,10 +141,7 @@
                   "components": {
                     "minecraft:item_model": "chefsdream:onion",
                     "minecraft:item_name": { "translate": "item.chefsdream.onion" },
-                    "minecraft:custom_data": {
-                      "onion":1,
-                      "chefsdreamfood":1
-                    },
+                  "minecraft:custom_data": "{onion:1,chefsdreamfood:1}",
                     "minecraft:food": {
                       "nutrition": 2,
                       "saturation": 4,
@@ -209,10 +206,7 @@
                   "components": {
                     "minecraft:item_model": "chefsdream:lettuce",
                     "minecraft:item_name": { "translate": "item.chefsdream.lettuce" },
-                    "minecraft:custom_data": {
-                      "lettuce":1,
-                      "chefsdreamfood":1
-                    },
+                  "minecraft:custom_data": "{lettuce:1,chefsdreamfood:1}",
                     "minecraft:food": {
                       "nutrition": 2,
                       "saturation": 4,
@@ -277,10 +271,7 @@
                   "components": {
                     "minecraft:item_model": "chefsdream:beans",
                     "minecraft:item_name": { "translate": "item.chefsdream.beans" },
-                    "minecraft:custom_data": {
-                      "beans":1,
-                      "chefsdreamfood":1
-                    },
+                  "minecraft:custom_data": "{beans:1,chefsdreamfood:1}",
                     "minecraft:food": {
                       "nutrition": 2,
                       "saturation": 4,

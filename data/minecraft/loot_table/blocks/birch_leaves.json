@@ -143,10 +143,7 @@
                 "components": {
                   "minecraft:item_model": "chefsdream:lemon",
                   "minecraft:item_name": { "translate": "item.chefsdream.lemon" },
-                  "minecraft:custom_data": {
-                    "lemon":1,
-                    "chefsdreamfood":1
-                  },
+                  "minecraft:custom_data": "{lemon:1,chefsdreamfood:1}",
                   "minecraft:food": {
                     "nutrition": 2,
                     "saturation": 4,

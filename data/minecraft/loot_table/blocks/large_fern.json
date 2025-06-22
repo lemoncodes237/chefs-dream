@@ -141,10 +141,7 @@
                   "components": {
                     "minecraft:item_model": "chefsdream:tomato",
                     "minecraft:item_name": { "translate": "item.chefsdream.tomato" },
-                    "minecraft:custom_data": {
-                      "tomato":1,
-                      "chefsdreamfood":1
-                    },
+                  "minecraft:custom_data": "{tomato:1,chefsdreamfood:1}",
                     "minecraft:food": {
                       "nutrition": 2,
                       "saturation": 4,
@@ -209,10 +206,7 @@
                   "components": {
                     "minecraft:item_model": "chefsdream:garlic",
                     "minecraft:item_name": { "translate": "item.chefsdream.garlic" },
-                    "minecraft:custom_data": {
-                      "garlic":1,
-                      "chefsdreamfood":1
-                    },
+                  "minecraft:custom_data": "{garlic:1,chefsdreamfood:1}",
                     "minecraft:food": {
                       "nutrition": 2,
                       "saturation": 4,

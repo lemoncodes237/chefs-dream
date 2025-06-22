@@ -17,7 +17,7 @@
           "item": {
             "items": "minecraft:cookie",
             "predicates": {
-              "minecraft:custom_data": "{meatstuffed:1}"
+              "minecraft:custom_data": "{meat_stuffed_taco:1}"
             }
           }
         }

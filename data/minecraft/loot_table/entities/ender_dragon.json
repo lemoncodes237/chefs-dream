@@ -26,10 +26,7 @@
                     "saturation": 8,
                     "can_always_eat": true
                   },
-                  "minecraft:custom_data": {
-                    "dragon_meat":1,
-                    "chefsdreamfood":1
-                  }
+                  "minecraft:custom_data": "{dragon_meat:1,chefsdreamfood:1}"
                 }
               }
             ]
