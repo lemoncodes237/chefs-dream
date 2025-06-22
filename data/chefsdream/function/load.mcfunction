@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Chef's Dream v4.1","bold":true,"color":"dark_aqua"},"\n",{"text":"Datapack by YJMinecraft","color":"yellow"},"\n",{"text":"Resourcepack by masterliv531 and YJMinecraft","color":"aqua"}]
+tellraw @a ["",{"text":"Chef's Dream v5.0","bold":true,"color":"dark_aqua"},"\n",{"text":"Datapack by YJMinecraft","color":"yellow"},"\n",{"text":"Resourcepack by masterliv531 and YJMinecraft","color":"aqua"}]
 scoreboard objectives add tick_time dummy
 scoreboard objectives add universal_time dummy
 scoreboard objectives add var dummy

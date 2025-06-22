@@ -2,7 +2,7 @@
 
 ## v5.0: 1.21.6 Compatibility
 
-6/22/2025
+6/21/2025
 
 - Made the datapack compatible with Minecraft 1.21.6
     - The legacy version for 1.21.4 will be linked in the description on PMC
